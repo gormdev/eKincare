@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="@dimen/margin_8"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/google_fit_check_before_layout"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:paddingTop="@dimen/margin_8"
+        android:layout_height="wrap_content">
+
+        <com.ekincare.util.RobotoTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:padding="@dimen/margin_8"
+            android:textColor="@color/card_first"
+            android:layout_weight="0.5"
+            android:text="@string/google_fit_image_title"
+            android:textSize="@dimen/font_24"
+            fab:typeface="roboto_medium" />
+
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/textview_google_fit_unconnected_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_weight="0.5"
+            android:padding="@dimen/margin_8"
+            android:textColor="@color/card_second"
+            android:text="@string/google_fit_image_body_text"
+            android:textSize="@dimen/textsize_14"
+            fab:typeface="roboto_regular" />
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/connet_to_google_fit_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:layout_marginBottom="@dimen/margin_8"
+            android:layout_marginRight="@dimen/margin_8"
+            android:padding="@dimen/margin_8"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_gravity="right"
+            android:background="?attr/selectableItemBackground"
+            android:singleLine="true"
+            style="@style/TvBlack16"
+            android:textColor="@color/colorPrimary"
+            android:text="CONNECT"
+            android:textAllCaps="true"
+            fab:typeface="roboto_medium" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/google_fit_data_layout"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:paddingTop="@dimen/margin_8"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.ekincare.util.RobotoTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:padding="@dimen/margin_8"
+                android:textColor="@color/card_first"
+                android:layout_weight="0.5"
+                android:text="Moves"
+                android:textSize="@dimen/textsize_16"
+                fab:typeface="roboto_medium" />
+
+            <ImageView
+                android:id="@+id/refresh_google_fitData"
+                android:layout_width="@dimen/margin_40"
+                android:layout_height="@dimen/margin_40"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitXY"
+                android:padding="@dimen/margin_8"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:tint="@color/card_first"
+                android:layout_marginRight="@dimen/margin_8"
+                android:src="@drawable/ic_refresh_24px" />
+        </LinearLayout>
+
+        <com.ekincare.util.RobotoTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_weight="0.5"
+            android:padding="@dimen/margin_8"
+            android:textColor="@color/card_second"
+            android:text="@string/google_fit_connected_body_text"
+            android:textSize="@dimen/textsize_14"
+            fab:typeface="roboto_regular" />
+
+        <View
+            android:background="@color/cement_color"
+            android:layout_height="@dimen/margin_1"
+            android:layout_width="match_parent"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/setp_layout_bar"
+            android:paddingTop="@dimen/margin_8"
+            android:paddingBottom="@dimen/margin_8"
+            android:paddingLeft="@dimen/margin_8"
+            android:paddingRight="@dimen/margin_8"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <com.ekincare.util.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center"
+                    android:singleLine="true"
+                    android:layout_weight="0.5"
+                    android:textColor="@color/card_first"
+                    android:text="@string/today_steps"
+                    android:textSize="@dimen/font_24"
+                    fab:typeface="roboto_regular" />
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/chart1_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                >
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/chart1"
+                    android:layout_width="@dimen/margin_120"
+                    android:visibility="invisible"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/today_steps_count_value"
+                    style="@style/TvBlack22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end|bottom"
+                    android:singleLine="true"
+                    android:textColor="@color/card_first"
+                    android:text="0"
+                    fab:typeface="roboto_regular" />
+                <com.ekincare.util.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end|bottom"
+                    android:singleLine="true"
+                    android:text="@string/today_steps"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:textColor="@color/card_second"
+                    android:textSize="@dimen/textsize_12"
+                    fab:typeface="roboto_light" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:background="@color/cement_color"
+            android:layout_height="@dimen/margin_1"
+            android:layout_width="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/calories_layout_bar"
+            android:paddingTop="@dimen/margin_8"
+            android:paddingBottom="@dimen/margin_8"
+            android:paddingLeft="@dimen/margin_8"
+            android:paddingRight="@dimen/margin_8"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <com.ekincare.util.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center"
+                    android:singleLine="true"
+                    android:layout_weight="0.5"
+                    android:textSize="@dimen/font_24"
+                    android:textColor="@color/card_first"
+                    android:text="@string/today_calories_burned"
+                    fab:typeface="roboto_regular" />
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/chart2_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                >
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/chart2"
+                    android:layout_width="@dimen/margin_120"
+                    android:visibility="invisible"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/today_calories_burned_value"
+                    style="@style/TvBlack22"
+                    android:text="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end|bottom"
+                    android:singleLine="true"
+                    android:textColor="@color/card_first"
+                    fab:typeface="roboto_regular" />
+
+                <com.ekincare.util.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end|bottom"
+                    android:singleLine="true"
+                    android:textSize="@dimen/textsize_12"
+                    android:text="@string/today_calories_burned"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:textColor="@color/card_second"
+                    fab:typeface="roboto_light" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

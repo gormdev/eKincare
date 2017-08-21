@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">eKincare</string>
+    <string name="facebook_app_id">296885943832017</string>
+    <string name="no_data_document_message">You can upload diagnostic reports,medicine prescriptions,discharge case sheets etc.</string>
+    <string name="no_data_assessment_message">Please upload your diagnostic reports, medicine prescriptions,discharge case sheets etc.</string>
+    <string name="no_data_allergie_message">No Allergies.</string>
+    <string name="no_data_medication_message">You do not have any \n medication yet.</string>
+    <string name="no_slots_message">No slots available.\n Please select another date.</string>
+    <string name="no_notification">We will notify you as soon as you have\n a new notification</string>
+    <string name="action_settings">Settings</string>
+    <string name="tools">Request Blood</string>
+    <string name="dataUsage">Data usage</string>
+    <string name="wifiOnlySetting">Alert me if wifi is off</string>
+    <string name="signOut">Sign Out</string>
+    <string name="refresh">Refresh</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="bp_family">Update blood pressure</string>
+    <string name="bg_family">Update random blood glucose</string>
+    <string name="ok">Ok</string>
+    <string name="requiredMobileOTP">Please enter your mobile number and OTP!</string>
+    <string name="requiredMobileName">Please enter your mobile number</string>
+    <string name="error">Error</string>
+    <string name="networkloss">There was a problem connecting to the server.Please check your connectivity and try again.</string>
+    <string name="otherformatsnotsupport">Current version of the application only supports images and pdf</string>
+    <string name="notsupport">Current version of application does not support uploading of documents from google drive. Sorry for inconvenience provided.</string>
+    <string name="occasional">Occasionally</string>
+    <string name="often">Frequently</string>
+    <string name="never">Never</string>
+    <string name="ekinCare">eKincare</string>
+    <string name="last_updated">Last updated  </string>
+    <string name="weight_validation_msg">Hey! You missed giving the weight value. Please enter it before filling next vitals</string>
+    <string name="height_validation_msg">Hey! You missed giving the feet and inch values. Please enter it before filling next vitals</string>
+    <string name="bp_validation_msg">Hey! You misses giving the systolic or diastolic values.</string>
+    <string name="done">Done</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="hypertension">Hypertension</string>
+    <string name="diabetes">Diabetes</string>
+    <string name="cancer">Cancer</string>
+    <string name="cardioDisease">Cardio disease</string>
+    <string name="none">None</string>
+    <string name="dashboard_page1"> INDIA\'S FIRST HEALTH CHAT BOT</string>
+    <string name="dashboard_page2"> TRACK YOUR HEALTH</string>
+    <string name="dashboard_page3"> GET INSIGHTS</string>
+
+    <string name="smart">DIGITIZE YOUR HEALTH RECORDS</string>
+    <string name="forgotPassword">Forgot password?</string>
+    <string name="verify_and_continues">VERIFY &amp; CONTINUE</string>
+    <string name="mm_hg">mmHg</string>
+    <string name="mm_dl">mm/dL</string>
+    <string name="RewardsReferrals">Rewards &amp; Referrals</string>
+    <string name="blood_pressure">Blood Pressure</string>
+    <string name="risk_captiontext">WELLNESS SCORE</string>
+    <string name="waist_error">Please enter waist value</string>
+    <string name="waist_error1">Please enter bloodgroup value</string>
+    <string name="risk_diabetes_caption"> The eKincare wellness score is a single score representative of your overall health. Wellness score helps you get actionable insights on the areas you need to focus on, to improve your health.</string>
+    <string name="edit">Edit</string>
+    <string name="trends">Trends</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="blood_sos">Blood SOS</string>
+    <string name="packages">Packages</string>
+    <string name="resend_code_msg"><![CDATA[ If you`ve not received the code, <b><font color=#428BCA> <u>Click here</u></b> to receive]]></string>
+    <string name="bloodsos_info">Blood SOS maps and sends out an SMS seeking donation from matching blood groups within 10KM distance when you are in need.</string>
+    <string-array name="water_benefits" formatted="false">
+        <item>Staying hydrated can reduce risk of colon cancer by 45% and bladder cancer by 50%.</item>
+        <item>If you don\'t drink water,you will die.It\'s that important. We can live only a few days without water ;maybe a week.</item>
+        <item>Dehydration can affect your mood and make you grumpy and confused.Think clearer and be happier by drinking more water.</item>
+        <item>Drinking water contributes to increased athletic performance. Water composes 75% of our muscle tissue!</item>
+        <item>Digestive system needs water to flush out waste in the form of urine and sweat</item>
+        <item>Sometimes headaches can be caused by dehydration. Next time your head hurts,try drinking water first.</item>
+        <item>Regular water consumption can improve the color and texture of your skin by keeping it building new cells properly.</item>
+        <item>Drinking water helps the skin, the largest organ in the body, to do it\'s job of regulating the body\'s temperature through sweating.</item>
+        <item>Water is essential for the proper circulation of nutrients in the body. Drink water,Stay Hydrated.</item>
+        <item>Drinking water can reduce pain in your joints by keeping the cartilage soft and hydrated.</item>
+        <item>Drinking Adequate water keeps things flowing along your gastrointestinal tract and prevents constipation. Water Helps Maintain Normal Bowel Function.</item>
+        <item>If you\'re feeling drained and depleted, get a pick-me-up with water. Dehydration makes you feel tired.</item>
+        <item>Drinking water helps prevent muscle cramping and lubricates joints in the body.When you\'re well hydrated, you can exercise longer and stronger.</item>
+        <item>People aren\'t drinking enough water leading in the rise of kidney stones.Kidney stones can\'t form in diluted urine, so reduce your risk with plenty of water!</item>
+        <item>Waters ability to release heat from the body when sweat evaporates from the surface of the skin greatly helps maintain an even body temperature.</item>
+        <item>Drinking water is an effective way to get rid of hangover. Alcohol dehydrates the body.Water helps rehydrate the body and speed up recovery.</item>
+        <item>Bad breath is a clear sign that you aren\’t drinking enough water.It keeps your mouth moist,washes and dilutes the smelly compounds that oral bacteria create.</item>
+        <item>Drinking warm water every morning is very beneficial for women as it can prevent premature aging.</item>
+        <item>Drinking hot water is an excellent natural remedy for colds,coughs and sore throat.It relieves sore throat and also helps in clearing nasal congestion.</item>
+        <item>Drinking water cleanses your body and eliminates the root causes of acne-related infections.</item>
+        <item>Drinking hot water is also good for obtaining soft, shiny hair. It energizes the nerve endings in your hair roots and makes them active.</item>
+        <item>Drinking water along with lemon helps fight viral infection.</item>
+        <item>Good hydration can prevent arthritis. With plenty of water in your body, there is less friction in your joints, thus less chance of developing arthritis.</item>
+        <item>Drinking water develops and supports healthy brain cells. </item>
+        <item>Drinking water improves concentration and maintains memory function.</item>
+        <item>Water contains minerals like calcium and magnesium which is necessary for the body.</item>
+        <item>By the time you feel thirsty, your body has lost more than 1 percent of its total water – so let\’s not feel thirst. Take a break right now and have a glass of water.</item>
+        <item>Water is in lymph, a fluid that is part of your immune system, which helps you fight off illness.</item>
+        <item>Drink Water as 2% drop in body water can cause fuzzy short-term memory,trouble with basic math and difficulty focusing on the computer screen or a printed page.</item>
+        <item>One glass of water shuts down midnight hunger pangs for almost 100% of the dieters investigated in a University of Washington study.</item>
+        <item>Drink water because even MILD dehydration will slow down one\'s metabolism as much as 3%.</item>
+        <item>Lack of water is the no. 1 trigger of daytime fatigue. Stay fit, Drink Water.</item>
+        <item>Good water intake prevents the skin from sagging. Drink water for a healthy skin.</item>
+        <item>Drink water because A 2% reduction of water levels in the body can lead to a 20% decrease in mental and physical performance.</item>
+        <item>Drink water.Not drinking water will lead to muscle spasms</item>
+        <item>study shows that drinking a half litre of water half an hour before meals helps people eat fewer calories and lose 44% more weight.</item>
+        <item>Drink water as lack of water causes mood swings</item>
+        <item>Not drinking enough water increases the probability of you having health problems. </item>
+        <item>Drinking water carries heat away from the internal organs hence protecting you from heat stroke.</item>
+        <item>Water is one of the best cure for hangovers as it nullifies dehydration caused by alcohol.</item>
+        <item>Drinking ice-cold water before and during exercise can improve endurance by 23 % as it forces the body to expend calories warming it up.</item>
+    </string-array>
+    <string-array name="relations" formatted="false">
+        <item>Spouse</item>
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Sibling</item>
+        <item>Child</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="internet_not_available">Internet Not Available!</string>
+    <string name="appointment">Appointment History</string>
+    <string name="settings">Settings</string>
+    <string name="information">INFORMATION</string>
+    <string name="bloodlbl">Your current health status</string>
+    <string name="timely_remind">RECEIVE TIMELY REMINDERS</string>
+    <string name="add_family_member">ADD FAMILY MEMBERS</string>
+    <string name="health_checkup">SCHEDULE HEALTH CHECKUPS</string>
+    <string name="track_records">TRACK YOUR HEALTH</string>
+    <string name="sign_in_text">Sign In</string>
+    <string name="register_text">Register</string>
+    <string name="sign_up_text">Signup</string>
+    <string name="project_number">1006237285130</string>
+    <string name="notification_number">1337</string>
+
+    <!-- Expert Opinion -->
+    <item name="position" type="id" />
+    <item name="outoftotal" type="id" />
+
+
+    <!--Blood SOS Dialog-->
+    <string name="blood_sos_request">Blood SOS Request</string>
+    <string name="blood_sos_which_blood_group">Which blood group are you looking for</string>
+
+    <!-- Notification Get-->
+    <string name="notification_wizard">Complete profile</string>
+    <string name="notification_vaccation">Vaccination Reminder</string>
+    <string name="notification_assessment">Health check Reminder</string>
+    <string name="notification_appointment">Appointment Reminder</string>
+    <string name="notification_medication">Medication Reminder</string>
+
+    <!--Google Fit-->
+    <string name="today_steps">Steps</string>
+    <string name="today_calories_burned">Calories</string>
+    <string name="today_distance_travell">Distance</string>
+    <string name="activity_details">Moves</string>
+    <string name="otp_verification">OTP Verification </string>
+
+
+    <!--PackagesInfo-->
+    <string name="lab_test">Lab Tests </string>
+    <string name="home_care">Home Care </string>
+    <string name="health_checks">Packages</string>
+    <string name="health_coach">Health Coach</string>
+    <string name="Coming_Soon">Doctors </string>
+    <string name="Coming_Soon_Medicines">Medicines Coming soon</string>
+    <string name="vacination_text">Vaccinations</string>
+    <string name="search_hint_package">Search for diabetes, weight loss, physiotherapy...</string>
+    <string name="search_address">Search location...</string>
+    <string name="viewmore"><u>View More </u></string>
+    <string name="viewless"><u>View Less </u></string>
+    <string name="Rs">\u20B9</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_Home">Dashboard</string>
+    <string name="title_Overview">My Profile</string>
+    <string name="title_medical_history">Medical History</string>
+    <string name="title_vaccaniation">Vaccinations</string>
+    <string name="title_appointment">Health Checks</string>
+    <string name="title_document">Documents</string>
+    <string name="title_edocshare">eDocshare</string>
+
+
+    <!--All Custom Notification Code -->
+    <string name="custom_blood_sos_feature">Blood SOS feature</string>
+    <string name="custom_blood_sos_message">in case of emergency reach out \n to eKincare\&apos;s database of matching \nblood donors who are within 10km radius.</string>
+    <string name="custom_add_family_members">Add family members</string>
+    <string name="custom_Upload_records_title">Old records? Upload them</string>
+    <string name="custom_Upload_records_title_message">Keep all of your and your \n family\&apos;s health records at one place \n and it will come handy when you are visiting a doctor.</string>
+    <string name="custom_hyderocare_title">Track water consumption</string>
+    <string name="custom_hyderocare_title_message">Stay fit Drink water.Hydrocare is a \n personal assistant that ensures you to stay \n hydrated whole day to beat daytime fatigue.</string>
+
+    <!--DashBoard-->
+    <string name="tell_us_day">How did you do today?</string>
+    <string name="record_digitization_title">Records digitized</string>
+    <string name="record_digitization_body_text">Your records has been digitized \nsuccessfully</string>
+    <string name="google_fit_image_title">Track steps with google fit</string>
+    <string name="google_fit_image_body_text">Sync with Google fit to update your steps and calories.</string>
+    <string name="google_fit_connected_body_text">Here are your activities.</string>
+    <string name="google_fit_not_connected_body_text">You have declined the google fit access. </string>
+    <string name="water_card_message">"Drink 5 glasses (2500ml) of water every day."</string>
+    <string name="no_insights">"You have no insights yet.\n Check in later."</string>
+    <string name="upload_card_title">"Upload your old medical records"</string>
+    <string name="upload_card_message">"Keep all your medical history in one place"</string>
+    <string name="book_card_title">"Book a health check"</string>
+    <string name="book_card_message">"Book lab tests, packages, home care services, doctor consultations, weight loss programs in one place"</string>
+    <string name="view_profile_title">" Track your family members"</string>
+    <string name="view_profile_message">"Track health of your loved ones"</string>
+    <string name="add_profile_title">"Add family members"</string>
+    <string name="add_profile_message">"Track health of your loved ones"</string>
+    <string name="how_are_you_feeling_today">"How are you feeling today?"</string>
+    <string name="we_will_use_insights">"We will use this information to generate insights and suggestions about your health."</string>
+    <string name="we_will_use_insightss">"This data helps to provide you better health suggestions"</string>
+    <string name="reminder_me_everyday">"Remind me everyday"</string>
+    <string name="had_coffee_today">"I skipped a meal today"</string>
+    <string name="had_alcohol_today">"I had alcohol today"</string>
+    <string name="had_smoke_today">"I smoked today"</string>
+    <string name="had_ate_late_today">"I had breakfast today"</string>
+    <string name="had_less_sleep_today">"I had good sleep today"</string>
+    <string name="text_activate_medication">Activate</string>
+    <string name="text_add_more_medication">Add More</string>
+    <string name="text_done">Done</string>
+
+    <!--dialog_edoc_share -->
+    <string name="share_your_profile_with_a_doctor">Share your profile with a doctor</string>
+    <string name="enter_doctor_name">Enter Doctor Name</string>
+    <string name="enter_doctor_mobile_number">Enter Doctor Mobile Number</string>
+    <string name="enter_doctor_email">Enter Doctor email</string>
+
+    <!--Signup-->
+    <string name="i_am_male">I\'m male</string>
+    <string name="i_am_female">I\'m female</string>
+    <string name="what_is_your_gender">What is your\ngender?</string>
+    <string name="what_do_we_call_you">What do we\ncall you?</string>
+    <string name="what_is_your_email">What\'s your email?</string>
+    <string name="how_old_are_you">When were you\nborn?</string>
+    <string name="where_do_we_contacct_you">Enter your\nmobile number</string>
+    <string name="validate_your_number">We are sending an otp to validate \n your mobile number. Hang on!</string>
+    <string name="login_label_string">It takes less than 2 minutes \n to activate your profile.</string>
+    <string name="login_label_welcome_back">Welcome Back,</string>
+    <string name="login_label_string2">Login to your account</string>
+    <string name="enter_otp">Enter otp</string>
+    <string name="did_not_receive_otp">Did not receive OTP?</string>
+    <string name="resend_otp_to_verify_number">Resend otp to verify number</string>
+    <string name="resend">Resend Code</string>
+    <string name="resend_sms">Sms</string>
+    <string name="auto_detect_sms">Waiting to automatically detect an sms sent to number</string>
+    <string name="you_are_almost_done">You are\nalmost done.</string>
+    <string name="completing_hra_will_health_risks">Completing a health risk assessment will\nlet us Know your health risks.</string>
+    <string name="how_much_do_you_weight">How much do you weigh?</string>
+    <string name="what_your_height">What\'s your height?</string>
+    <string name="what_your_waist_size">What\'s your waist size?</string>
+    <string name="what_your_blood_group">What\'s your blood group?</string>
+    <string name="little_about_your_lifestyle">A little about your lifestyle</string>
+    <string name="exercise_wizard">Exercise</string>
+    <string name="smoking_wizard">Smoking</string>
+    <string name="alcohol_wizard">Alcohol</string>
+    <string name="family_history">Family history</string>
+    <string name="height_weight_recommended">Your weight and height help us calculate your BMI</string>
+    <string name="blood_recommended">This helps us to give you a good estimate of your body fat</string>
+    <string name="life_style_recommended">Lifestyle inputs help us recommend you relevant health tips and challenges</string>
+    <string name="family_history_recommended">Genetic profile helps to forecast your exposure to health risks</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="confirm_title">Confirm</string>
+    <string name="confirm_delete_text">Do you want to delete this image?</string>
+    <string name="answer_yes">Yes</string>
+    <string name="answer_no">No</string>
+    <string name="autoMode">Automatic Mode</string>
+    <string name="manualMode">Manual Mode</string>
+    <string name="filterModeOn">Image Processor On</string>
+    <string name="filterModeOff">Image Processor Off</string>
+    <string name="instruction_page1_title">Instructions.</string>
+    <string name="instruction_page1_message">To get the best experience keep these points in mind.\n
+                                            1.Place the camera parallel to document on a horizontal surface.\n
+                                            2.Adjust the camera for the best perspective of document.\n
+                                            3.Make sure the background have contrast color(White document on black background surface).\n
+                                            4.Click the capture button at the bottom of the screen.</string>
+    <string name="instruction_page2_title">Features</string>
+    <string name="instruction_page2_message">To enhance the capture process you can use one of the following.\n
+                                            1.Place the camera parallel to document on a horizontal surface.\n
+                                            2.Adjust the camera for the best perspective of document.\n
+                                            3.Make sure the background have contrast color(White document on black background surface).\n
+                                            4.Picture will be taken when user clicks the capture icon..</string>
+
+
+    <!-- Date -->
+    <string name="date_now">Just now</string>
+    <string name="date_a_minute_ago">1 minute ago</string>
+    <string name="date_minutes_ago">minutes ago</string>
+    <string name="date_yesterday">Yesterday</string>
+
+
+    <string name="some_thing_you_can_ask_me">Some things you\ncan ask me:</string>
+
+    <string name="place_details">&lt;b&gt;%1$s&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Place Id: %2$s&lt;/i&gt;&lt;br/&gt;Address: %3$s&lt;br/&gt;Phone: %4$s&lt;br/&gt;Website: %5$s</string>
+
+
+    <string name="insight_personal_health_score">Personal Health Score</string>
+    <string name="insight_personal_health_score_message">Top 5 health risks based on our user base matching your demographic profile. </string>
+    <string name="insight_behaviour_percentile">Behaviour Percentile</string>
+    <string name="insight_behaviour_percentile_description">Based on your responses this is where you stand when compared with our user base.</string>
+    <string name="insight_Life_style">LifeStyle</string>
+    <string name="insight_diet">Diet</string>
+    <string name="insight_stress">Stress</string>
+    <string name="insight_health_risk_title">Top 5 Health Risks</string>
+    <string name="insight_health_risk_title_description">Below are the most prevailing health risks amongst our users whose profiles are similar to yours.</string>
+
+
+    <string name="insight_bmi_title">Body Mass Index Trends</string>
+    <string name="insight_bmi_title_description">Average BMIs across different age groups of our user base</string>
+    <string name="insight_waist_title">Waist Trends</string>
+    <string name="insight_waist_title_description">Average waist size across different age groups of our user base.</string>
+    <string name="insight_health_title">Health Score</string>
+    <string name="insight_health_title_description">Projected Score for your next five years. Score you get if you improve your lifestyle vs continue current lifestyle.</string>
+
+<!--Askquery -->
+
+    <string name="ask_select_a_specialization">We have over 80 specialities. Select a speciality so that we can narrow down the search for you.</string>
+    <string name="ask_how_to_ask_query">How do you want to communicate with the doctor?</string>
+    <string name="ask_enter_your_query_message_two">Start typing your question below and press send when you complete.</string>
+
+    <string name="ask_enter_your_query">Explain your health condition to the doctor and ask any specific questions.</string>
+    <string name="ask_book_available_date">When would you like to go for the appointment?</string>
+    <string name="ask_select_a_time">Select a time</string>
+    <string name="ask_would_you_like_to_share_profile">Would you like to share profile?</string>
+    <string name="ask_would_you_like_to_share_profile_description"> Do you want to share your profile with the doctor?
+        Doctor will be able to see your medical history and vitals like height,
+        weight, blood glucose values etc. He/she will be able to enter comments directly against your profile.
+        Don\'t worry the access will be revoked after 48 hours.</string>
+
+
+    <!-- Book Package-->
+    <string name="book_sure_i_am">Sure,I am on it.</string>
+    <string name="whom_do_you_want_book_appointment">Whom would you like to book the health check for?</string>
+
+    <string name="book_what_kind_of_help">Use the search bar below to search for packages. You can add multiple packages.</string>
+    <string name="book_Would_add_more">Would you like to add more packages?</string>
+    <string name="book_here_are_your_requested_packages">Here are the packages you requested</string>
+    <string name="book_select_location">Please select your location, so that I can look for diagnostic centers close to you.</string>
+    <string name="book_i_am_at_the_location">I am at this location </string>
+    <string name="book_i_am_at_the_address">No address found, please select the loaction again.</string>
+    <string name="book_select_diagnostic_center">Based on your location, I found these diagnostic centers close to you. Select a diagnostic center.</string>
+    <string name="book_no_select_diagnostic_center">Based on your location, We are not  found any diagnostic centers. Please select any other location.</string>
+
+    <string name="book_select_a_date">When would you like to go for the appointment?</string>
+    <string name="book_select_a_time">Select a time</string>
+    <string name="book_would_you_like_to_change_location">Would you like to change location?</string>
+
+
+
+
+    <!--Add familyMember-->
+
+    <string name="add_family_What_is_your">What\'s your</string>
+    <string name="add_family_What_is">What\'s </string>
+    <string name="add_family_complet_hra_message">Completing health risk questionnaire will tell you the health risks.
+                         Do you want to take the health risk assessment now?</string>
+    <string name="add_family_hra_yes">This is an important step in assessing your current health risks.</string>
+
+    <string name="add_family_lifestyle_second">Lifestyle inputs help us recommend you relevant health tips and challenges</string>
+    <string name="add_family_history">Family History</string>
+
+    <string name="add_family_history_second">Genetic profile helps to forecast your exposure to health risks</string>
+
+    <string name="add_family_history_father_condition">father had any of the following conditions? Select all that apply.</string>
+    <string name="add_family_history_mother_condition">mother had any of the following conditions? Select all that apply.</string>
+    <string name="add_family_current_health_status">Your current health status</string>
+    <string name="add_family_current_health_status_second">The following readings help in calculating your wellness score accurately and risk of chronic diseases</string>
+    <string name="add_family_ever_been">Are you being treated for any of the following conditions?</string>
+
+
+
+    <string name="payment_succes_text_message">Your appointment is booked. You will receive response from doctor with in 1-2 days.</string>
+
+    <string name="payment_succes_text_audio">Your appointment is booked. You will receive a call from the doctor at the appointment time.</string>
+
+    <string name="payment_succes_text_video">Your appointment is booked. You will receive a email containing the instructions to start the video call at the appointment time.</string>
+    <string name="load_more_message">Loading more messages</string>
+    <string name="hra_completion">Awesome!\nYou have successfully completed the health risk assessment.</string>
+    <string name="hra_message">Based on your responses to the health risk assessment, we have calculated the health score which is indicator to the cardiovascular health.</string>
+
+    <string name="hra_age_query">I just love birthdays, What\'s yours?.</string>
+    <string name="hra_gender_query">What\'s your gender.</string>
+    <string name="hra_missing">Please fill the health risk assessment to activate profile.</string>
+
+</resources>

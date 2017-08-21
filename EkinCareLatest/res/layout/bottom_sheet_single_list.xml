@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button_list_done"
+        android:layout_width="@dimen/margin_25"
+        android:layout_height="@dimen/margin_25"
+        app:fab_size="mini"
+        app:fab_colorNormal="@color/color_medicine"
+        app:fab_colorPressed="@color/color_medical_history"
+        app:fab_icon="@drawable/ic_done_white_24dp"
+        app:fab_title="Done"
+        android:layout_gravity="bottom|right"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:overScrollMode="ifContentScrolls"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/allergy_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/margin_16"
+    android:paddingTop="@dimen/margin_16"
+    android:paddingBottom="@dimen/margin_16"
+    android:paddingRight="@dimen/margin_8"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_56"
+        android:layout_marginRight="@dimen/margin_50"
+        android:gravity="center">
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/allergies_name"
+            style="@style/TvBlack16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_4"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/card_first"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:singleLine="true"
+            fab:typeface="roboto_regular" />
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/allergies_reaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:singleLine="false"
+            android:maxLines="2"
+            android:textColor="@color/grey"
+            style="@style/TvBlack14"
+            fab:typeface="roboto_regular" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_for_notification_type"
+        android:layout_width="@dimen/margin_40"
+        android:layout_height="@dimen/margin_40"
+        android:src="@drawable/allergy_icon" />
+
+    <ImageView
+        android:id="@+id/image_menu"
+        android:layout_width="@dimen/margin_40"
+        android:layout_height="@dimen/margin_40"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/margin_8"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/ic_more_vert_black_48dp" />
+
+</RelativeLayout>

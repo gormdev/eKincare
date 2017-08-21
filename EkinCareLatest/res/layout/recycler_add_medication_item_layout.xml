@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/container_medication"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:minWidth="@dimen/margin_60"
+    android:padding="@dimen/margin_12"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_row"
+    xmlns:fab="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/image_medication"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/capsule" />
+
+    <com.ekincare.util.RobotoTextView
+        android:id="@+id/text_medication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capsule"
+        android:gravity="center"
+        android:paddingTop="@dimen/margin_8"
+        android:textSize="@dimen/textsize_12"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:ems="4"
+        fab:typeface="roboto_regular" />
+</LinearLayout>

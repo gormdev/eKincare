@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center|top"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_1">
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/textview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_16"
+            android:gravity="center"
+            android:text="@string/validate_your_number"
+            android:textColor="@color/card_first"
+            android:textSize="@dimen/textsize_20"
+            android:adjustViewBounds="true"
+            fab:typeface="roboto_regular" />
+
+        <com.ekincare.util.RalewayEditTextLight
+            android:id="@+id/otp_value_enter"
+            android:layout_width="@dimen/margin_150"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:layout_below="@+id/textview_title"
+            android:gravity="center"
+            android:imeActionLabel="Done"
+            android:imeOptions="actionDone"
+            android:inputType="phone"
+            android:maxLength="6"
+            android:textSize="@dimen/textsize_25"
+            android:textStyle="normal"
+            android:textColor="@color/card_second"
+            fab:ralewaytypeface="raleway_bold"/>
+
+        <View
+            android:id="@+id/UnderLine"
+            android:layout_width="@dimen/margin_150"
+            android:layout_height="@dimen/margin_1"
+            android:layout_below="@+id/otp_value_enter"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:background="@color/card_first" />
+
+    </RelativeLayout>
+
+    <com.ekincare.util.RobotoTextView
+        android:id="@+id/timer_for_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_5"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/card_second"
+        android:textSize="@dimen/textsize_14"
+        fab:typeface="roboto_regular" />
+
+    <com.ekincare.util.RobotoTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_35"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/did_not_receive_otp"
+        android:textColor="@color/card_first"
+        android:textSize="@dimen/textsize_12"
+        fab:typeface="roboto_regular" />
+
+    <LinearLayout
+        android:id="@+id/hide_sms_time_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_margin="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_5"
+        android:orientation="horizontal">
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/resend_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/margin_5"
+            android:drawablePadding="@dimen/margin_8"
+            android:gravity="center|left"
+            android:layout_weight="1"
+            android:text="@string/resend_sms"
+            android:textColor="@color/card_second"
+            android:textSize="@dimen/textsize_14"
+            android:layout_marginRight="@dimen/margin_8"
+            fab:typeface="roboto_regular" />
+
+        <com.ekincare.util.RobotoTextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/margin_5"
+            android:gravity="center|right"
+            android:textColor="@color/card_second"
+            android:textSize="@dimen/textsize_14"
+            fab:typeface="roboto_regular" />
+
+    </LinearLayout>
+
+    <com.ekincare.util.RobotoTextView
+        android:id="@+id/resend_otp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="@dimen/margin_4"
+        android:background="@drawable/past_date_bg"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_5"
+        android:gravity="center|center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="@dimen/margin_25"
+        android:paddingRight="@dimen/margin_25"
+        android:text="@string/resend"
+        android:textSize="@dimen/textsize_12"
+        android:visibility="visible"
+        fab:typeface="roboto_regular" />
+
+    <com.ekincare.util.RobotoTextView
+        android:id="@+id/resend_otp_message"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_5"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="@dimen/margin_25"
+        android:paddingRight="@dimen/margin_25"
+        android:text="@string/resend_otp_to_verify_number"
+        android:textColor="@color/card_second"
+        android:textSize="@dimen/textsize_14"
+        fab:typeface="roboto_regular" />
+
+
+</LinearLayout>

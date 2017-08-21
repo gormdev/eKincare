@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/wizard_bg"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/app_bar_height"
+        android:elevation="@dimen/margin_3"
+        android:background="@color/blue" >
+
+        <ImageView
+            android:id="@+id/expertopBack"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_30"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/margin_15"
+            android:paddingLeft="@dimen/margin_15"
+            android:src="@drawable/ic_arrow_back_white_48dp" />
+
+        <com.ekincare.util.RalewayTextViewMedium
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/expertopBack"
+            android:paddingLeft="16dp"
+            android:gravity="center|left"
+            android:text="@string/activity_details"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_20"
+            fab:ralewaytypeface="raleway_bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_gravity="center_vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin_7"
+                android:orientation="vertical">
+                <android.support.v7.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardElevation="1dp"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:layout_marginTop="@dimen/margin_10"
+                    fab:cardBackgroundColor="@color/white"
+                    fab:cardCornerRadius="@dimen/margin_1" >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/setp_layout_bar"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:padding="@dimen/margin_8"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="@dimen/margin_30"
+                                    android:layout_height="@dimen/margin_30"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/ic_google_fit_steps_icon"
+                                    android:id="@+id/type_image"
+                                    />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="@dimen/margin_8"
+                                android:orientation="vertical">
+
+
+                                <com.ekincare.util.RalewayTextViewMedium
+                                    android:id="@+id/title_hearder_graph"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="left|bottom"
+                                    android:singleLine="true"
+                                    android:paddingTop="@dimen/margin_3"
+                                    android:paddingLeft="@dimen/margin_3"
+                                    android:layout_weight="0.5"
+                                    android:text="@string/today_steps"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/light_gray"
+                                    fab:ralewaytypeface="raleway_medium" />
+                                <com.ekincare.util.RobotoTextView
+                                    android:id="@+id/title_value_graph"
+                                    style="@style/TvBlack22"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="right|top"
+                                    android:singleLine="true"
+                                    android:paddingLeft="@dimen/margin_3"
+                                    android:textColor="#000"
+                                    fab:typeface="roboto_regular" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/seperator2"
+                            style="@style/ImgSeperatorGray"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:layout_height="@dimen/margin_1"
+                            />
+
+
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/chart_steps"
+                            android:layout_width="match_parent"
+                            android:layout_margin="20dp"
+                            android:visibility="gone"
+                            android:layout_height="@dimen/margin_200" />
+                        <com.github.mikephil.charting.charts.BarChart
+                            android:id="@+id/chart_steps_bar"
+                            android:layout_width="match_parent"
+                            android:layout_margin="20dp"
+                            android:layout_height="@dimen/margin_200" />
+                    </LinearLayout>
+
+
+
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardElevation="1dp"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_marginBottom="@dimen/margin_10"
+                    fab:cardBackgroundColor="@color/white"
+                    fab:cardCornerRadius="@dimen/margin_1" >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:padding="@dimen/margin_8"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="@dimen/margin_30"
+                                    android:layout_height="@dimen/margin_30"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/ic_google_fit_calories_icon"
+                                    android:id="@+id/type_image_calories"
+                                    />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="@dimen/margin_8"
+                                android:orientation="vertical">
+
+
+                                <com.ekincare.util.RalewayTextViewMedium
+                                    android:id="@+id/title_hearder_graph_calories"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="left|bottom"
+                                    android:singleLine="true"
+                                    android:paddingTop="@dimen/margin_3"
+                                    android:paddingLeft="@dimen/margin_3"
+                                    android:layout_weight="0.5"
+                                    android:text="@string/today_calories_burned"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/light_gray"
+                                    fab:ralewaytypeface="raleway_medium" />
+                                <com.ekincare.util.RobotoTextView
+                                    android:id="@+id/title_value_graph_calories"
+                                    style="@style/TvBlack22"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="right|top"
+                                    android:singleLine="true"
+                                    android:paddingLeft="@dimen/margin_3"
+                                    android:textColor="#000"
+                                    fab:typeface="roboto_regular" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+                        <ImageView
+                            style="@style/ImgSeperatorGray"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:layout_height="@dimen/margin_1"
+                            />
+
+                        <LinearLayout
+                            android:id="@+id/chart_calories"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_200"
+                            android:layout_margin="20dp"
+                            android:visibility="gone"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/btn_chart"
+                            tools:ignore="Orientation" >
+
+                        </LinearLayout>
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/chart_calories_weekly"
+                            android:layout_width="match_parent"
+                            android:layout_margin="20dp"
+                            android:layout_height="@dimen/margin_200" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

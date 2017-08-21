@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:isScrollContainer="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_medication_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:fitsSystemWindows="true"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:minHeight="@dimen/margin_80"
+            android:visibility="visible"
+            fab:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <ImageView style="@style/ImgSeperatorGray" />
+
+
+
+
+        <FrameLayout
+            android:id="@+id/frame_container"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent">
+
+            <LinearLayout
+                android:id="@+id/layout_empty_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/margin_16"
+                    android:layout_marginTop="@dimen/margin_40"
+                    android:src="@drawable/add_medication_image" />
+
+
+                <com.ekincare.util.RobotoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:gravity="center"
+                    android:text="Select the medicine type you want to add."
+                    android:textSize="@dimen/textsize_16"
+                    fab:typeface="roboto_regular" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_data_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <com.ekincare.util.RobotoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:layout_marginBottom="@dimen/margin_8"
+                    android:gravity="left"
+                    android:paddingLeft="@dimen/margin_16"
+                    android:text="Medicine Detail"
+                    android:textColor="@color/card_first"
+                    android:textSize="@dimen/textsize_16"
+                    fab:typeface="roboto_medium" />
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/floating_capsule_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_16"
+                    android:layout_marginLeft="@dimen/margin_16">
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/edit_text_capsule_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Capsule name"
+                        android:imeOptions="actionNext"
+                        android:inputType="text|textCapWords"
+                        android:maxLength="40"
+                        android:maxLines="1"
+                        android:textColor="@color/card_second"
+                        android:textColorHint="@color/card_second"
+                        android:textCursorDrawable="@null"
+                        android:textIsSelectable="false"
+                        android:textSize="@dimen/textsize_14" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/floating_strenght"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_16"
+                    android:layout_marginLeft="@dimen/margin_16">
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/edit_text_strength"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Strength"
+                        android:imeOptions="actionDone"
+                        android:inputType="text"
+                        android:maxLength="5"
+                        android:maxLines="1"
+                        android:textColor="@color/card_second"
+                        android:textColorHint="@color/card_second"
+                        android:textCursorDrawable="@null"
+                        android:textIsSelectable="false"
+                        android:textSize="@dimen/textsize_14"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageView
+                    style="@style/ImgSeperatorGray"
+                    android:layout_marginBottom="@dimen/margin_8"
+                    android:layout_marginTop="@dimen/margin_8" />
+
+                <com.ekincare.util.RobotoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingLeft="@dimen/margin_16"
+                    android:text="Medicine Schedule"
+                    android:textSize="@dimen/textsize_16"
+                    android:textColor="@color/card_first"
+                    fab:typeface="roboto_medium" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_morning_label"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:gravity="center"
+                            android:textColor="@color/card_second"
+                            android:text="Morning"
+                            android:textSize="@dimen/textsize_14"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_morning_add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_morning_label"
+                            android:layout_centerHorizontal="true"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:minEms="3"
+                            android:padding="@dimen/margin_8"
+                            android:text="+"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/textsize_20"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_morning_capsule_quantity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_morning_add"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/rounded_rectangle_shape_medicine_blue"
+                            android:gravity="center"
+                            android:minEms="3"
+                            android:paddingBottom="@dimen/margin_8"
+                            android:paddingLeft="@dimen/margin_18"
+                            android:paddingRight="@dimen/margin_18"
+                            android:paddingTop="@dimen/margin_8"
+                            android:text="0"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize_20"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_morning_capsule_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_morning_capsule_quantity"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="capsule"
+                            android:visibility="gone"
+                            android:textSize="@dimen/textsize_12"
+                            fab:typeface="roboto_regular" />
+
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/image_morning_sub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_morning_capsule_label"
+                            android:layout_centerHorizontal="true"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:minEms="3"
+                            android:padding="@dimen/margin_12"
+                            android:text="-"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/textsize_20"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_before_breakfast_label"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/image_morning_sub"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:padding="@dimen/margin_8"
+                            android:text="Empty Stomach"
+                            android:textColor="@color/grey_medication"
+                            android:textSize="@dimen/textsize_14"
+                            android:visibility="gone"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_after_breakfast_label"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_before_breakfast_label"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:padding="@dimen/margin_8"
+                            android:text="After Breakfast"
+                            android:textColor="@color/grey_medication"
+                            android:textSize="@dimen/textsize_14"
+                            android:visibility="gone"
+                            fab:typeface="roboto_regular" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_noon_label"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:gravity="center"
+                            android:textColor="@color/card_second"
+                            android:text="Afternoon"
+                            android:textSize="@dimen/textsize_14"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_noon_add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_noon_label"
+                            android:layout_centerHorizontal="true"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:minEms="3"
+                            android:padding="@dimen/margin_8"
+                            android:text="+"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/textsize_20"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_noon_capsule_quantity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_noon_add"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/rounded_rectangle_shape_medicine_blue"
+                            android:gravity="center"
+                            android:minEms="3"
+                            android:paddingBottom="@dimen/margin_8"
+                            android:paddingLeft="@dimen/margin_18"
+                            android:paddingRight="@dimen/margin_18"
+                            android:paddingTop="@dimen/margin_8"
+                            android:text="0"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize_20"
+
+                            fab:typeface="roboto_regular" />
+
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_noon_capsule_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_noon_capsule_quantity"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="capsule"
+                            android:visibility="gone"
+                            android:textSize="@dimen/textsize_12"
+                            fab:typeface="roboto_regular" />
+
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/image_noon_sub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_noon_capsule_label"
+                            android:layout_centerHorizontal="true"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:minEms="3"
+                            android:padding="@dimen/margin_12"
+                            android:text="-"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/textsize_20"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_before_lunch_label"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/image_noon_sub"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:padding="@dimen/margin_8"
+                            android:text="Before Meal"
+                            android:textColor="@color/grey_medication"
+                            android:textSize="@dimen/textsize_14"
+                            android:visibility="gone"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_after_lunch_label"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_before_lunch_label"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:padding="@dimen/margin_8"
+                            android:text="After Meal"
+                            android:textColor="@color/grey_medication"
+                            android:textSize="@dimen/textsize_14"
+                            android:visibility="gone"
+                            fab:typeface="roboto_regular" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_evening_label"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:gravity="center"
+                            android:text="Night"
+                            android:textColor="@color/card_second"
+                            android:textSize="@dimen/textsize_14"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_evening_add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_evening_label"
+                            android:layout_centerHorizontal="true"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:minEms="3"
+                            android:padding="@dimen/margin_8"
+                            android:text="+"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/textsize_20"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_evening_capsule_quantity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_evening_add"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/rounded_rectangle_shape_medicine_blue"
+                            android:gravity="center"
+                            android:minEms="3"
+                            android:paddingBottom="@dimen/margin_8"
+                            android:paddingLeft="@dimen/margin_18"
+                            android:paddingRight="@dimen/margin_18"
+                            android:paddingTop="@dimen/margin_8"
+                            android:text="0"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize_20"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_evening_capsule_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_evening_capsule_quantity"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="capsule"
+                            android:visibility="gone"
+                            android:textSize="@dimen/textsize_12"
+                            fab:typeface="roboto_regular" />
+
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/image_evening_sub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_evening_capsule_label"
+                            android:layout_centerHorizontal="true"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:minEms="3"
+                            android:padding="@dimen/margin_12"
+                            android:text="-"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/textsize_20"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_before_teatime_label"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/image_evening_sub"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:padding="@dimen/margin_8"
+                            android:text="Before Meal"
+                            android:textColor="@color/grey_medication"
+                            android:textSize="@dimen/textsize_14"
+                            android:visibility="gone"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/text_after_teatime_label"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text_before_teatime_label"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:padding="@dimen/margin_8"
+                            android:text="After Meal"
+                            android:textColor="@color/grey_medication"
+                            android:textSize="@dimen/textsize_14"
+                            android:visibility="gone"
+                            fab:typeface="roboto_regular" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/margin_8">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_before_meal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/margin_16"
+                        android:contextClickable="true"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:textSize="@dimen/textsize_14"
+                        android:padding="@dimen/margin_8"
+                        android:text="Before Meal"
+                        android:textColor="@color/card_second"
+                        android:textAllCaps="false"
+                        android:textIsSelectable="false" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_after_meal"
+                        android:textSize="@dimen/textsize_14"
+                        android:textColor="@color/card_second"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:contextClickable="true"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:padding="@dimen/margin_8"
+                        android:text="After Meal"
+                        android:textAllCaps="false"
+                        android:textIsSelectable="false" />
+
+                </LinearLayout>
+
+                <ImageView
+                    style="@style/ImgSeperatorGray"
+                    android:layout_marginBottom="@dimen/margin_8" />
+
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/text_day_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingLeft="@dimen/margin_16"
+                    android:text="Number of Days"
+                    android:textColor="@color/card_first"
+                    android:textSize="@dimen/textsize_16"
+                    fab:typeface="roboto_medium" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_marginRight="@dimen/margin_16"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:layout_marginBottom="@dimen/margin_8"
+                    android:paddingLeft="@dimen/margin_16"
+                    android:paddingRight="@dimen/margin_16">
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/text_day_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:minEms="3"
+                        android:padding="@dimen/margin_8"
+                        android:text="+"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/textsize_20"
+                        fab:typeface="roboto_regular" />
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/text_day_capsule_quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text_day_add"
+                        android:background="@drawable/rounded_rectangle_shape_medicine_blue"
+                        android:gravity="center"
+                        android:minEms="3"
+                        android:maxLength="3"
+                        android:paddingBottom="@dimen/margin_8"
+                        android:paddingLeft="@dimen/margin_18"
+                        android:paddingRight="@dimen/margin_18"
+                        android:paddingTop="@dimen/margin_8"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize_20"
+                        fab:typeface="roboto_regular" />
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/text_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text_day_capsule_quantity"
+                        android:layout_alignLeft="@id/text_day_capsule_quantity"
+                        android:layout_alignRight="@id/text_day_capsule_quantity"
+                        android:gravity="center"
+                        android:text="Day"
+                        android:textSize="@dimen/textsize_12"
+                        fab:typeface="roboto_regular" />
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/text_day_sub"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text_day"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:minEms="3"
+                        android:padding="@dimen/margin_12"
+                        android:text="-"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/textsize_20"
+                        fab:typeface="roboto_regular" />
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/label_or"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_toRightOf="@id/text_day_capsule_quantity"
+                        android:layout_alignBaseline="@id/text_day_capsule_quantity"
+                        android:padding="@dimen/margin_8"
+                        android:text="- or -"
+                        android:layout_margin="@dimen/margin_16"
+                        android:textSize="@dimen/textsize_14"
+                        fab:typeface="roboto_bold" />
+
+
+                    <CheckBox
+                        android:id="@+id/checkbox_daily"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:contextClickable="true"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:textColor="@color/card_second"
+                        android:layout_alignBaseline="@id/label_or"
+                        android:padding="@dimen/margin_8"
+                        android:layout_toRightOf="@id/label_or"
+                        android:text="Daily"
+                        android:textSize="@dimen/textsize_14"
+                        android:textAllCaps="false"
+                        android:textIsSelectable="false" />
+
+                </RelativeLayout>
+
+
+
+                <ImageView
+                    style="@style/ImgSeperatorGray"
+                    android:layout_marginBottom="@dimen/margin_8" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/button_activate_medication"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_16"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_rectangle_shape_green"
+                    android:gravity="center"
+                    android:padding="@dimen/margin_12"
+                    android:text="@string/text_done"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_16"
+                    fab:typeface="roboto_regular" />
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+</ScrollView>

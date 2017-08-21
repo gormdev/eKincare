@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="header_title">#232323</color>
+    <color name="light_black">#404040</color>
+    <color name="light_gray">#999</color>
+    <color name="chart_border_lines">#ebebeb</color>
+    <!--  <color name="wizard_bg">#F2F2F2</color>  -->
+    <color name="wizard_bg">#EDF0F1</color>
+    <color name="wizard_edittext_boarder">#b3b5b8</color>
+    <color name="wizard_subtitle">#8f8f8f</color>
+    <color name="wizard_seperatore">#e7e7e7</color>
+    <!--     <color name="themeColor">#428BCA</color> -->
+	<color name="themeColor">#1682C2</color>
+    <color name="action_button_blue_pressed_family">#3648ae</color>
+
+    <color name="action_button_blue">#F0428BCA</color>
+    <color name="action_button_blue_pressed">#F0367DBA</color>
+    <color name="white">#ffffff</color>
+    <color name="card_background_first">#f3f3f3</color>
+    <color name="card_background_second">#ececec</color>
+
+
+    <color name="black">#000000</color>
+    <color name="teal">#009688</color>
+    <color name="gray_semi_transparent">#dbdbdb</color>
+    <color name="black_semi_transparent">#A3000000</color>
+    <color name="transparent_light_bg">#30000000</color>
+    <color name="secondary_text_color">#FF5D5D5D</color>
+    <color name="title_textcolor">#535353</color>
+    <color name="title_textcolor_black_opacity_ninty">#e6000000</color>
+    <color name="grey">#bababa</color>
+    <color name="darkGrey">#848484</color>
+    <color name="cement_color">#cccccc</color>
+    <color name="grey_medication">#b2b2b2</color>
+<!--     <color name="yellow">#fcc633</color> -->
+    <color name="yellow">#fcc633</color>
+    <color name="wizard_weel_floating">#edecec</color>
+
+    <color name="light_green">#43A047</color>
+    <color name="red">#F44336</color>
+    <color name="header_text_color">#9e9595</color>
+    <color name="green">#4CAF50</color>
+    <!-- 27AE60 -->
+    <bool name="default_circle_indicator_centered">true</bool>
+
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+
+    <integer name="default_circle_indicator_orientation">0</integer>
+
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+
+    <bool name="default_circle_indicator_snap">false</bool>
+
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+
+    <color name="colorPrimaryDark">#0d47a1</color>
+    <color name="colorPrimary">#317af2</color>
+    <color name="login_page_background">#2196F3</color>
+    <color name="chat_bar_line_color">#d3dceb</color>
+
+    <!--<color name="blue">#ff59a9ff</color>-->
+    <color name="blue">#317af2</color>
+    <color name="graph_blue">#2392C8</color>
+    <color name="steps_graph_color">#FFC107</color>
+    <color name="bottom_background_color">#ffc4c2bc</color>
+    <color name="transparent">#00000000</color>
+    <color name="steps_color">#34c8ed</color>
+    <color name="steps_fill_color">#BFE9F4</color>
+    <color name="calories_color">#f7cf6e</color>
+    <color name="calories_fill_color">#F9E1A8</color>
+
+
+    <color name="card_first">#4a4a4a</color>
+    <color name="card_second">#7a7a7a </color>
+    <color name="card_third">#ababab</color>
+    <color name="card_four">#9a9a9a</color>
+    <color name="card_divider">#1E000000</color>
+
+
+    <color name="blood_sos_bg">#f44336</color>
+    <color name="blood_sos_status_bar">#d32f2f</color>
+
+    <color name="add_family_bg">#009688</color>
+    <color name="add_family_status_bar">#00695c</color>
+
+    <color name="records_bg">#f3a049</color>
+    <color name="records_status_bar">#f28d23</color>
+
+    <color name="water_bg">#01cbeb</color>
+    <color name="water_status_bar">#159bb8</color>
+
+    <color name="color_b">#00897b</color>
+
+    <color name="color_member_profile_main">#352B60</color>
+
+    <color name="color_primary_family_member">#3f51b5</color>
+
+
+    <color name="color_profile_edit">#2196F3</color>
+    <color name="color_medical_history">#1E88E5</color>
+    <color name="color_medicine">#1976D2</color>
+    <color name="color_document">#1565C0</color>
+
+
+    <color name="background_black">#000000</color>
+    <color name="background_gray_lightest">#F3F3F9</color>
+    <color name="background_gray_light">#BFBFBF</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_navy">#353556</color>
+    <color name="background_gray">#BDBDBD</color>
+    <color name="background_blue">#202089</color>
+    <color name="background_gray_darkest">#82898D</color>
+    <color name="stroke_blue_lightest">#E8E8F3</color>
+    <color name="selector_black_pressed">#1F000000</color>
+    <color name="text_navy">#353556</color>
+    <color name="text_navy_transparent_50">#80353556</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_gray_darkest">#82898D</color>
+    <color name="text_black">#000000</color>
+    <color name="text_pink">#F21E75</color>
+    <color name="text_blue">#202089</color>
+    <color name="text_blue_lightest">#AAAAFF</color>
+    <color name="chat_box_solid">#ECECEC</color>
+    <color name="chat_box_border">#bababa</color>
+    <color name="progress_first">#fb8b85</color>
+    <color name="progress_second">#fdc080</color>
+    <color name="progress_three">#7dd196</color>
+
+    <color name="local_family_color">#009688</color>
+    <color name="local_upload_color">#f3a049</color>
+    <color name="local_weight_color">#01cbeb</color>
+
+<color name="opacity">#F4F7F7</color>
+    <color name="chat_box_enter_text_main_bg">#F8F8F8</color>
+</resources>

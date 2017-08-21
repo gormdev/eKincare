@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="@dimen/margin_4"
+    android:layout_marginRight="4dp"
+    android:layout_marginBottom="@dimen/margin_4"
+    android:id="@+id/container_layout"
+    android:gravity="center_horizontal"
+    android:background="@drawable/selector_bottom_sheet_row">
+
+    <TextView
+        android:id="@+id/text_view_message_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:padding="8dp"
+        android:textColor="@drawable/selector_bottom_sheet_text_row"
+        android:textStyle="normal"
+        android:ellipsize="end"
+        android:maxLength="1"
+        android:textSize="@dimen/textsize_16"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/text_view_message_list_item_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:ellipsize="end"
+        android:maxLength="1"
+        android:textColor="@drawable/selector_bottom_sheet_text_row"
+        android:textStyle="normal"
+        android:textSize="@dimen/textsize_14"
+        android:textAlignment="center" />
+
+</LinearLayout>

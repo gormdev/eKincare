@@ -1,0 +1,928 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:2:1-317:12
+	package
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:3:5-27
+		INJECTED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml
+		INJECTED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml
+	android:versionName
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:5:5-30
+		INJECTED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml
+		INJECTED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:4:5-29
+		INJECTED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml
+		INJECTED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] /Users/lionking/.android/build-cache/9c9ce87360508f7d3d9869102a896205b5f4a15b/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services:9.2.0] /Users/lionking/.android/build-cache/d99028fa6e5e72649a2f560f19ee6f59954bcf55/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.2.0] /Users/lionking/.android/build-cache/491c27062d45f9f6913327838744f9f432535f2c/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.2.0] /Users/lionking/.android/build-cache/fd372c8326788d37f1b7cb5215e8a8e05335846f/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:9.2.0] /Users/lionking/.android/build-cache/981e80d1ef115973c5d931f26ad1e1b662777308/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast:9.2.0] /Users/lionking/.android/build-cache/0a048f0ea2fd6df7ecda0982940f71363b56ba76/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/lionking/.android/build-cache/b19294ec567512f06d6fcadca125617d63b62214/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-config:9.2.0] /Users/lionking/.android/build-cache/0b00ba11ce04d3803214f2bc8723557ff551e8a9/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-contextmanager:9.2.0] /Users/lionking/.android/build-cache/3c1b98eea3557b8a064cebbb70b0f6968d8a1a36/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-crash:9.2.0] /Users/lionking/.android/build-cache/0f219da2d850da34194634f885308011681fef1f/output/AndroidManifest.xml:22:5-42
+MERGED from [com.google.firebase:firebase-auth:9.2.0] /Users/lionking/.android/build-cache/c85f6110bbb475e69635e1a4634fc2f915398443/output/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.2.0] /Users/lionking/.android/build-cache/8c05e8f01374753573386aba7971c27f99df4931/output/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.2.0] /Users/lionking/.android/build-cache/71d42de80538c5eda53aa41e9d33fc709d9895d0/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database:9.2.0] /Users/lionking/.android/build-cache/e5f9033d6652435dda6f5bffe2525e9f0adb92f0/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.2.0] /Users/lionking/.android/build-cache/7af6c909735b899338e02dccd0b9105389c4ec0a/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-messaging:9.2.0] /Users/lionking/.android/build-cache/794316f9b565f9984678005530db6f81706f155a/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-storage:9.2.0] /Users/lionking/.android/build-cache/d58a2d69c7a2fe7224fece32306799c0663a1ffb/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage-common:9.2.0] /Users/lionking/.android/build-cache/08f0cce0159d8d1049697d3f82f78f3c5df48a7c/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-games:9.2.0] /Users/lionking/.android/build-cache/2053414445a15832879a4a48a78ea3901a3333be/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.2.0] /Users/lionking/.android/build-cache/6139af34438da93b2678701a73da7102f3d8a891/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.2.0] /Users/lionking/.android/build-cache/0819670bf0f013656159fb89bd9a118d9ea22fc9/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.2.0] /Users/lionking/.android/build-cache/68eb42fd066a5e2a01720655123ec0bce0516494/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-panorama:9.2.0] /Users/lionking/.android/build-cache/55a8f328a3b26232656fd6975b6a3c61f46f5845/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.2.0] /Users/lionking/.android/build-cache/21c303cc5cedb6f1ae08405bb1bede6e8f67a18a/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.2.0] /Users/lionking/.android/build-cache/1fa8f71c3943c262093d848e5a1b6eedb41f4693/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:9.2.0] /Users/lionking/.android/build-cache/9233559e4d4e95648f27abdcb722fa07d57d319f/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:9.2.0] /Users/lionking/.android/build-cache/ef0e97853fedb5cd2296aa7ffc3155f0b003a46c/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.0] /Users/lionking/.android/build-cache/4ca95dd4ca463900b7c6a6c4139988bb49b96f77/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] /Users/lionking/.android/build-cache/2f2a778eb7bb2dcb466b5babf65834670330e7d3/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/lionking/.android/build-cache/e18c71d518068dd755f8ec35ba290124ad639b15/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.2.0] /Users/lionking/.android/build-cache/1ebb2d4c8ff525ec1687a79408ea57fb05cb28c6/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision:9.2.0] /Users/lionking/.android/build-cache/717aa8d94cd89d9c3d7691a2e1d3ec7052025892/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.2.0] /Users/lionking/.android/build-cache/dc431e70abcc847d2234325d76d2c33d6cda076c/output/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.2.0] /Users/lionking/.android/build-cache/ab1308edb1fbedd63cbd38b0d6aaf826d7f053ff/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wearable:9.2.0] /Users/lionking/.android/build-cache/595641619950e59a05c45351df957930a622190b/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.2.0] /Users/lionking/.android/build-cache/c57c2455bfe0cc3d5cd73c0310c518490862b0cc/output/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.0] /Users/lionking/.android/build-cache/767bcbc050ef1128e3888d59ea7a8c5d508c54b0/output/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:9.2.0] /Users/lionking/.android/build-cache/6585c6c0d5493dd59d010c581a4fe8fcf40271cc/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.2.0] /Users/lionking/.android/build-cache/3c3073a8aa00dfe199ff96a59e369623810c8fa4/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.2.0] /Users/lionking/.android/build-cache/75840007d4949595181451c6a1d233cad20c419b/output/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:9.2.0] /Users/lionking/.android/build-cache/9e10e3901c95e49dce28384dac32c8973aeaa7b6/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-gcm:9.2.0] /Users/lionking/.android/build-cache/0009c66ddc832b3c2afc40376f308499907782c2/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.2.0] /Users/lionking/.android/build-cache/f7a66a2609fa0a2e46a5836450e16711e57fae46/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:9.2.0] /Users/lionking/.android/build-cache/ef8a99977960e4d9e8de823760decebc348e2183/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.2.0] /Users/lionking/.android/build-cache/95cdba642fd5be2caf21030368146ee55099ac41/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /Users/lionking/.android/build-cache/4cd0bcac301ab2a1d4771e40b9553611a2698b54/output/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /Users/lionking/.android/build-cache/c881b689cf7b6897225378608b8c13915a0c5a91/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /Users/lionking/.android/build-cache/5d22acf7b5811a1c05a25a758fa499b8ab141189/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /Users/lionking/.android/build-cache/a1bcc299c96bb87d75c7d7024b3e481a95eca458/output/AndroidManifest.xml:18:5-42
+MERGED from [com.mixpanel.android:mixpanel-android:4.9.2] /Users/lionking/.android/build-cache/d35568e3a13e5a450d1ba1df8baffb98ccdf6721/output/AndroidManifest.xml:11:5-13:41
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /Users/lionking/.android/build-cache/519c62a1f48b3d1c400c6968b579953872de7a33/output/AndroidManifest.xml:3:5-72
+MERGED from [com.lsjwzh:materialloadingprogressbar:0.5.8-RELEASE] /Users/lionking/.android/build-cache/39da49003a58ef8ee174f584a72bdec70b3b1b00/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:23.0.1] /Users/lionking/.android/build-cache/280eaa0d0bff9a9fe8a0dd3195ba695f3f85ed74/output/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.0.0] /Users/lionking/.android/build-cache/5d6e611d9fd2e2690db1a385f0a78cc7af06fd7a/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.robinhood.spark:spark:1.1.2] /Users/lionking/.android/build-cache/ed0df6bbd11427fc89dc7955a24b95a84ee631b8/output/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.ganfra:material-spinner:1.1.1] /Users/lionking/.android/build-cache/2cc4a91070c1e1b9b35e18efe0d5b29de9d495ca/output/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:23.1.0] /Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.0] /Users/lionking/.android/build-cache/0a04945c9a68bbee9601f711e8e348862e47ac3c/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:24.2.0] /Users/lionking/.android/build-cache/fd0f9e19c915f1ecc1712f2ed0324f77a1104760/output/AndroidManifest.xml:20:5-43
+MERGED from [uk.co.samuelwall:material-tap-target-prompt:1.4.3] /Users/lionking/.android/build-cache/37e6884fb97c43ecacd05a062eb7d302d0e3fa67/output/AndroidManifest.xml:23:5-25:41
+MERGED from [com.wx.wheelview:wheelview:1.3.3] /Users/lionking/.android/build-cache/046c7016896043cf73b008bb98c6ce89d1eb9a34/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.makeramen:roundedimageview:2.2.1] /Users/lionking/.android/build-cache/f255f65216e11041e91551d6966fa5daf70b68a8/output/AndroidManifest.xml:7:5-43
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/lionking/.android/build-cache/cf377bd35fbf86f3d93b634a99305e5bb00bedb3/output/AndroidManifest.xml:5:5-7:41
+MERGED from [net.frakbot:jumpingbeans:1.3.0] /Users/lionking/.android/build-cache/575430d30cf1f2dcfaf2b1012c8df467b6638592/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.razorpay:checkout:1.2.0] /Users/lionking/.android/build-cache/b7bc4cb8fc5e8e276e2ad8597096be853d8aeb8b/output/AndroidManifest.xml:5:5-7:41
+MERGED from [android-new:openCVLibrary310:unspecified] /Volumes/Work/Upwork/2017.04/PortApp/android-new/openCVLibrary310/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ozodrukh:CircularReveal:1.1.1] /Users/lionking/.android/build-cache/28e97f9b8151657867394c9bb94070f316713405/output/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /Users/lionking/.android/build-cache/969272715e2380882278fc4b0a80b3c9092616ad/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.test.espresso:espresso-core:2.2.2] /Users/lionking/.android/build-cache/ccec4f61e61e03bad58724967e2473c32d1875a9/output/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test:rules:0.5] /Users/lionking/.android/build-cache/f8795a5ada2cbaf3923478e441c050fdd562b368/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.test:runner:0.5] /Users/lionking/.android/build-cache/9452a521c11347bfab878da46a9e6dfe11d353fe/output/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test:exposed-instrumentation-api-publish:0.5] /Users/lionking/.android/build-cache/e2ffd5bec2a457ea28608f4bebf0b687dfdaf595/output/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test.espresso:espresso-idling-resource:2.2.2] /Users/lionking/.android/build-cache/5c5d3b9032e0dde6d8c3198dc88c002f9707685f/output/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:9:9-38
+		INJECTED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml
+		INJECTED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:8:9-35
+		INJECTED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml
+		INJECTED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml
+supports-screens
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:11:5-15:39
+	android:largeScreens
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:13:9-36
+	android:smallScreens
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:15:9-36
+	android:normalScreens
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:14:9-37
+	android:anyDensity
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:12:9-34
+uses-feature#android.hardware.camera
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:17:5-19:35
+	android:required
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:19:9-32
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:18:9-47
+permission#com.ekincare.permission.MAPS_RECEIVE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:21:5-23:47
+	android:protectionLevel
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:23:9-44
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:22:9-60
+uses-permission#com.ekincare.permission.MAPS_RECEIVE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:25:5-76
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:25:22-73
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:26:5-98
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:26:22-95
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.2.0] /Users/lionking/.android/build-cache/491c27062d45f9f6913327838744f9f432535f2c/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:9.2.0] /Users/lionking/.android/build-cache/68eb42fd066a5e2a01720655123ec0bce0516494/output/AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.0] /Users/lionking/.android/build-cache/4ca95dd4ca463900b7c6a6c4139988bb49b96f77/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] /Users/lionking/.android/build-cache/2f2a778eb7bb2dcb466b5babf65834670330e7d3/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/lionking/.android/build-cache/e18c71d518068dd755f8ec35ba290124ad639b15/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.0] /Users/lionking/.android/build-cache/767bcbc050ef1128e3888d59ea7a8c5d508c54b0/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /Users/lionking/.android/build-cache/4cd0bcac301ab2a1d4771e40b9553611a2698b54/output/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:27:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:28:5-67
+MERGED from [com.google.android.gms:play-services-analytics:9.2.0] /Users/lionking/.android/build-cache/491c27062d45f9f6913327838744f9f432535f2c/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:9.2.0] /Users/lionking/.android/build-cache/fd372c8326788d37f1b7cb5215e8a8e05335846f/output/AndroidManifest.xml:19:5-67
+MERGED from [com.google.firebase:firebase-crash:9.2.0] /Users/lionking/.android/build-cache/0f219da2d850da34194634f885308011681fef1f/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.0] /Users/lionking/.android/build-cache/4ca95dd4ca463900b7c6a6c4139988bb49b96f77/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] /Users/lionking/.android/build-cache/2f2a778eb7bb2dcb466b5babf65834670330e7d3/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/lionking/.android/build-cache/e18c71d518068dd755f8ec35ba290124ad639b15/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.0] /Users/lionking/.android/build-cache/767bcbc050ef1128e3888d59ea7a8c5d508c54b0/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.2.0] /Users/lionking/.android/build-cache/0009c66ddc832b3c2afc40376f308499907782c2/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.2.0] /Users/lionking/.android/build-cache/f7a66a2609fa0a2e46a5836450e16711e57fae46/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /Users/lionking/.android/build-cache/4cd0bcac301ab2a1d4771e40b9553611a2698b54/output/AndroidManifest.xml:21:5-66
+MERGED from [com.mixpanel.android:mixpanel-android:4.9.2] /Users/lionking/.android/build-cache/d35568e3a13e5a450d1ba1df8baffb98ccdf6721/output/AndroidManifest.xml:16:5-67
+MERGED from [com.razorpay:checkout:1.2.0] /Users/lionking/.android/build-cache/b7bc4cb8fc5e8e276e2ad8597096be853d8aeb8b/output/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:28:22-64
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:29:5-68
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:29:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:30:22-73
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:31:5-77
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:31:22-74
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:32:5-78
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:32:22-75
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:33:5-80
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:33:22-77
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:35:5-71
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:35:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:36:5-80
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:36:22-77
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:37:5-70
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:37:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:38:5-67
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:38:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:39:5-81
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:39:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:41:5-81
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:41:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:42:5-79
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:42:22-76
+uses-permission#android.permission.PHONE_CALL
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:43:5-69
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:43:22-66
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:44:5-69
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:44:22-66
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:45:5-75
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:45:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:46:5-68
+MERGED from [com.google.android.gms:play-services-analytics:9.2.0] /Users/lionking/.android/build-cache/491c27062d45f9f6913327838744f9f432535f2c/output/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.0] /Users/lionking/.android/build-cache/4ca95dd4ca463900b7c6a6c4139988bb49b96f77/output/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] /Users/lionking/.android/build-cache/2f2a778eb7bb2dcb466b5babf65834670330e7d3/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/lionking/.android/build-cache/e18c71d518068dd755f8ec35ba290124ad639b15/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:46:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:48:5-82
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-gcm:9.2.0] /Users/lionking/.android/build-cache/0009c66ddc832b3c2afc40376f308499907782c2/output/AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-iid:9.2.0] /Users/lionking/.android/build-cache/f7a66a2609fa0a2e46a5836450e16711e57fae46/output/AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:48:22-79
+uses-permission#com.google.android.c2dm.permission.REGISTER
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:49:5-83
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:49:22-80
+uses-permission#com.ekincare.receiver.permission.C2D_MESSAGE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:50:5-84
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:50:22-81
+uses-permission#android.permission.CAMERA
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:51:5-65
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:51:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:52:5-81
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:52:22-78
+permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:54:5-74
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:54:17-71
+permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:55:5-76
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:55:17-73
+permission#android.permission.CALL_PHONE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:56:5-64
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:56:17-61
+permission#android.permission.READ_PHONE_STATE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:57:5-70
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:57:17-67
+permission#android.permission.CAMERA
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:58:5-60
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:58:17-57
+permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:59:5-75
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:59:17-72
+permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:60:5-76
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:60:17-73
+permission#android.permission.RECEIVE_SMS
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:61:5-65
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:61:17-62
+permission#android.permission.READ_SMS
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:62:5-62
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:62:17-59
+permission#com.ekincare.receiver.permission.C2D_MESSAGE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:66:5-68:47
+	android:protectionLevel
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:68:9-44
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:67:9-68
+uses-feature#0x00020000
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:70:5-72:35
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /Users/lionking/.android/build-cache/4cd0bcac301ab2a1d4771e40b9553611a2698b54/output/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:71:9-41
+	android:required
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:72:9-32
+application
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:74:5-315:19
+MERGED from [com.google.android.gms:play-services:9.2.0] /Users/lionking/.android/build-cache/d99028fa6e5e72649a2f560f19ee6f59954bcf55/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics:9.2.0] /Users/lionking/.android/build-cache/491c27062d45f9f6913327838744f9f432535f2c/output/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:9.2.0] /Users/lionking/.android/build-cache/fd372c8326788d37f1b7cb5215e8a8e05335846f/output/AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-cast-framework:9.2.0] /Users/lionking/.android/build-cache/981e80d1ef115973c5d931f26ad1e1b662777308/output/AndroidManifest.xml:5:5-9:19
+MERGED from [com.google.android.gms:play-services-cast:9.2.0] /Users/lionking/.android/build-cache/0a048f0ea2fd6df7ecda0982940f71363b56ba76/output/AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/lionking/.android/build-cache/b19294ec567512f06d6fcadca125617d63b62214/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-config:9.2.0] /Users/lionking/.android/build-cache/0b00ba11ce04d3803214f2bc8723557ff551e8a9/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-contextmanager:9.2.0] /Users/lionking/.android/build-cache/3c1b98eea3557b8a064cebbb70b0f6968d8a1a36/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-crash:9.2.0] /Users/lionking/.android/build-cache/0f219da2d850da34194634f885308011681fef1f/output/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-auth:9.2.0] /Users/lionking/.android/build-cache/c85f6110bbb475e69635e1a4634fc2f915398443/output/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.2.0] /Users/lionking/.android/build-cache/8c05e8f01374753573386aba7971c27f99df4931/output/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-messaging:9.2.0] /Users/lionking/.android/build-cache/794316f9b565f9984678005530db6f81706f155a/output/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-games:9.2.0] /Users/lionking/.android/build-cache/2053414445a15832879a4a48a78ea3901a3333be/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:9.2.0] /Users/lionking/.android/build-cache/6139af34438da93b2678701a73da7102f3d8a891/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.2.0] /Users/lionking/.android/build-cache/0819670bf0f013656159fb89bd9a118d9ea22fc9/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-nearby:9.2.0] /Users/lionking/.android/build-cache/68eb42fd066a5e2a01720655123ec0bce0516494/output/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-panorama:9.2.0] /Users/lionking/.android/build-cache/55a8f328a3b26232656fd6975b6a3c61f46f5845/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.2.0] /Users/lionking/.android/build-cache/21c303cc5cedb6f1ae08405bb1bede6e8f67a18a/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:9.2.0] /Users/lionking/.android/build-cache/1fa8f71c3943c262093d848e5a1b6eedb41f4693/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:9.2.0] /Users/lionking/.android/build-cache/9233559e4d4e95648f27abdcb722fa07d57d319f/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.0] /Users/lionking/.android/build-cache/4ca95dd4ca463900b7c6a6c4139988bb49b96f77/output/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:24:5-38:19
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] /Users/lionking/.android/build-cache/2f2a778eb7bb2dcb466b5babf65834670330e7d3/output/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/lionking/.android/build-cache/e18c71d518068dd755f8ec35ba290124ad639b15/output/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.2.0] /Users/lionking/.android/build-cache/1ebb2d4c8ff525ec1687a79408ea57fb05cb28c6/output/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-vision:9.2.0] /Users/lionking/.android/build-cache/717aa8d94cd89d9c3d7691a2e1d3ec7052025892/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity:9.2.0] /Users/lionking/.android/build-cache/ab1308edb1fbedd63cbd38b0d6aaf826d7f053ff/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-wearable:9.2.0] /Users/lionking/.android/build-cache/595641619950e59a05c45351df957930a622190b/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.0] /Users/lionking/.android/build-cache/767bcbc050ef1128e3888d59ea7a8c5d508c54b0/output/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-clearcut:9.2.0] /Users/lionking/.android/build-cache/6585c6c0d5493dd59d010c581a4fe8fcf40271cc/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gass:9.2.0] /Users/lionking/.android/build-cache/3c3073a8aa00dfe199ff96a59e369623810c8fa4/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-auth:9.2.0] /Users/lionking/.android/build-cache/75840007d4949595181451c6a1d233cad20c419b/output/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-gcm:9.2.0] /Users/lionking/.android/build-cache/0009c66ddc832b3c2afc40376f308499907782c2/output/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.2.0] /Users/lionking/.android/build-cache/f7a66a2609fa0a2e46a5836450e16711e57fae46/output/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-fitness:9.2.0] /Users/lionking/.android/build-cache/ef8a99977960e4d9e8de823760decebc348e2183/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:9.2.0] /Users/lionking/.android/build-cache/95cdba642fd5be2caf21030368146ee55099ac41/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /Users/lionking/.android/build-cache/4cd0bcac301ab2a1d4771e40b9553611a2698b54/output/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /Users/lionking/.android/build-cache/c881b689cf7b6897225378608b8c13915a0c5a91/output/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /Users/lionking/.android/build-cache/5d22acf7b5811a1c05a25a758fa499b8ab141189/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /Users/lionking/.android/build-cache/a1bcc299c96bb87d75c7d7024b3e481a95eca458/output/AndroidManifest.xml:20:5-24:19
+MERGED from [com.mixpanel.android:mixpanel-android:4.9.2] /Users/lionking/.android/build-cache/d35568e3a13e5a450d1ba1df8baffb98ccdf6721/output/AndroidManifest.xml:42:5-122:19
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /Users/lionking/.android/build-cache/519c62a1f48b3d1c400c6968b579953872de7a33/output/AndroidManifest.xml:5:5-19
+MERGED from [com.lsjwzh:materialloadingprogressbar:0.5.8-RELEASE] /Users/lionking/.android/build-cache/39da49003a58ef8ee174f584a72bdec70b3b1b00/output/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:design:23.0.1] /Users/lionking/.android/build-cache/280eaa0d0bff9a9fe8a0dd3195ba695f3f85ed74/output/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.0.0] /Users/lionking/.android/build-cache/5d6e611d9fd2e2690db1a385f0a78cc7af06fd7a/output/AndroidManifest.xml:28:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.0] /Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:24.2.0] /Users/lionking/.android/build-cache/fd0f9e19c915f1ecc1712f2ed0324f77a1104760/output/AndroidManifest.xml:22:5-20
+MERGED from [com.wx.wheelview:wheelview:1.3.3] /Users/lionking/.android/build-cache/046c7016896043cf73b008bb98c6ce89d1eb9a34/output/AndroidManifest.xml:11:5-14:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/lionking/.android/build-cache/cf377bd35fbf86f3d93b634a99305e5bb00bedb3/output/AndroidManifest.xml:9:5-20
+MERGED from [net.frakbot:jumpingbeans:1.3.0] /Users/lionking/.android/build-cache/575430d30cf1f2dcfaf2b1012c8df467b6638592/output/AndroidManifest.xml:11:5-20
+MERGED from [com.razorpay:checkout:1.2.0] /Users/lionking/.android/build-cache/b7bc4cb8fc5e8e276e2ad8597096be853d8aeb8b/output/AndroidManifest.xml:11:5-24:19
+MERGED from [com.github.ozodrukh:CircularReveal:1.1.1] /Users/lionking/.android/build-cache/28e97f9b8151657867394c9bb94070f316713405/output/AndroidManifest.xml:10:5-20
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /Users/lionking/.android/build-cache/969272715e2380882278fc4b0a80b3c9092616ad/output/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support.test:runner:0.5] /Users/lionking/.android/build-cache/9452a521c11347bfab878da46a9e6dfe11d353fe/output/AndroidManifest.xml:24:5-20
+MERGED from [com.android.support.test:exposed-instrumentation-api-publish:0.5] /Users/lionking/.android/build-cache/e2ffd5bec2a457ea28608f4bebf0b687dfdaf595/output/AndroidManifest.xml:24:5-20
+MERGED from [com.android.support.test.espresso:espresso-idling-resource:2.2.2] /Users/lionking/.android/build-cache/5c5d3b9032e0dde6d8c3198dc88c002f9707685f/output/AndroidManifest.xml:24:5-20
+	android:label
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:79:9-41
+	android:supportsRtl
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:81:9-35
+	android:hardwareAccelerated
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:77:9-43
+	android:allowBackup
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:76:9-35
+	android:icon
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:78:9-45
+	android:largeHeap
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:80:9-33
+	android:theme
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:82:9-40
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:75:9-48
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:83:9-85:55
+	android:value
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:85:13-52
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:84:13-58
+activity#com.oneclick.ekincare.SplashScreenActivity
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:87:9-99:20
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:92:13-49
+	android:label
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:90:13-45
+	android:configChanges
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:89:13-48
+	android:theme
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:91:13-53
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:88:13-70
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:93:13-96:29
+action#android.intent.action.MAIN
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:94:17-69
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:94:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:95:17-77
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:95:27-74
+activity#com.oneclick.ekincare.ActivitySignUpTest
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:100:9-103:67
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:102:13-49
+	android:windowSoftInputMode
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:103:13-65
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:101:13-68
+activity#com.oneclick.ekincare.LoginActivity
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:104:9-107:67
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:106:13-49
+	android:windowSoftInputMode
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:107:13-65
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:105:13-63
+activity#com.mixpanel.android.surveys.SurveyActivity
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:109:9-110:78
+	android:theme
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:110:13-76
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:109:19-77
+activity#com.oneclick.ekincare.HowWasYourDayActivity
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:113:9-115:52
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:115:13-49
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:114:13-71
+activity#com.oneclick.ekincare.ActivitySetting
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:116:9-118:52
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:118:13-49
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:117:13-65
+activity#com.oneclick.ekincare.MainActivity
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:119:9-122:51
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:122:13-49
+	android:windowSoftInputMode
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:121:13-55
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:120:13-62
+activity#com.oneclick.ekincare.ActivityFamilyMemberSwitch
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:124:9-127:58
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:126:13-49
+	android:theme
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:127:13-55
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:125:13-76
+activity#com.oneclick.ekincare.ActivityNotificationList
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:129:9-132:16
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:131:13-49
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:130:13-74
+activity#com.oneclick.ekincare.ActivityFamilyMemberAddMedication
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:134:9-137:54
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:136:13-49
+	android:windowSoftInputMode
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:137:13-52
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:135:13-83
+activity#com.oneclick.ekincare.ActivityEditProfile
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:139:9-141:52
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:141:13-49
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:140:13-69
+activity#com.openNoteScanner.OpenNoteScannerActivity
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:143:9-145:52
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:145:13-49
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:144:13-71
+activity#com.openNoteScanner.FullScreenViewActivity
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:147:9-149:52
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:149:13-49
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:148:13-70
+activity#com.oneclick.ekincare.ActivityAssessmentMay
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:151:9-157:20
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:153:13-49
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:152:13-71
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:154:13-156:70
+	android:value
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:156:17-67
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:155:17-63
+activity#com.oneclick.ekincare.ActivityAssessmentGraphMay
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:159:9-165:20
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:161:13-49
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:160:13-76
+activity#com.ekincare.ui.fragment.WebViewActivity
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:168:9-172:52
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:172:13-49
+	android:label
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:171:13-45
+	android:configChanges
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:170:13-48
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:169:13-56
+activity#com.oneclick.ekincare.ReportsImageActivity
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:173:9-178:57
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:177:13-49
+	android:label
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:176:13-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:178:13-54
+	android:configChanges
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:175:13-48
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:174:13-70
+activity#com.oneclick.ekincare.AdultWizardActivity
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:181:9-183:52
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:183:13-49
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:182:13-69
+activity#com.oneclick.ekincare.PedometerGraph
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:185:9-187:52
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:187:13-49
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:186:13-64
+activity#com.oneclick.ekincare.ChildWizardActivity
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:189:9-191:52
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:191:13-49
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:190:13-69
+activity#com.oneclick.ekincare.MainActivity2
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:193:9-196:56
+	android:screenOrientation
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:195:13-49
+	android:theme
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:196:13-54
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:194:13-63
+service#com.ekincare.receiver.GCMNotificationIntentService
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:198:9-74
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:198:18-71
+receiver#com.appsflyer.MultipleInstallBroadcastReceiver
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:200:9-206:20
+	android:exported
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:202:13-36
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:201:13-74
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:203:13-205:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:204:17-79
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:204:25-76
+receiver#com.ekincare.receiver.GcmBroadcastReceiver
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:207:9-218:20
+	android:permission
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:209:13-73
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:208:13-58
+intent-filter#com.android.vending.INSTALL_REFERRER+com.ekincare.receiver+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTER+com.google.android.c2dm.intent.REGISTRATION
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:210:13-217:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:212:17-81
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:212:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:213:17-86
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:213:25-83
+action#com.google.android.c2dm.intent.REGISTER
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:214:17-82
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:214:25-79
+category#com.ekincare.receiver
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:216:17-66
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:216:27-63
+receiver#com.ekincare.receiver.HydroCareReceiver
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:220:9-225:20
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:220:19-61
+intent-filter#YES_ACTION+android.intent.action.BOOT_COMPLETED
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:221:13-224:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:222:17-79
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:222:25-76
+action#YES_ACTION
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:223:17-53
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:223:25-50
+receiver#com.ekincare.receiver.MidNightDailyUpdateReceiver
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:227:9-229:50
+	android:process
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:229:13-38
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:228:13-65
+receiver#com.ekincare.receiver.BootReceiver
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:233:9-240:20
+	android:enabled
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:235:13-35
+	android:exported
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:236:13-36
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:234:13-50
+intent-filter#android.intent.category.DEFAULT
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:237:13-239:29
+action#android.intent.category.DEFAULT
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:238:17-81
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:238:25-71
+receiver#com.ekincare.receiver.FamilyNotificationReciever
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:242:9-248:20
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:242:19-70
+intent-filter#SETTING_ACTION+YES_ACTION+android.intent.action.BOOT_COMPLETED
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:243:13-247:29
+action#SETTING_ACTION
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:246:17-57
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:246:25-54
+receiver#com.ekincare.receiver.TestReciever
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:249:9-255:20
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:249:19-56
+receiver#com.ekincare.receiver.RecordUploadNotificationReciever
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:256:9-262:20
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:256:19-76
+receiver#com.ekincare.receiver.WeightUpdateReceiver
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:263:9-269:20
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:263:19-64
+receiver#com.ekincare.receiver.ResetAllPreferenceNotificationReciever
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:270:9-276:20
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:270:19-82
+receiver#com.ekincare.receiver.ConnectivityReceiver
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:277:9-283:20
+	android:enabled
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:279:13-35
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:278:13-58
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:280:13-282:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:281:17-79
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:281:25-76
+service#com.ekincare.util.MidnightDailyUploadServiceService
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:285:9-75
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:285:18-72
+service#com.ekincare.util.SleepPatternService
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:286:9-288:45
+	android:process
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:288:13-42
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:287:13-53
+service#com.ekincare.util.DataUploadSyncService
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:290:9-63
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:290:18-60
+meta-data#com.google.android.gms.version
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:292:9-294:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /Users/lionking/.android/build-cache/a1bcc299c96bb87d75c7d7024b3e481a95eca458/output/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:294:13-66
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:293:13-58
+service#com.ekincare.util.HydrocareNotificationService
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:296:9-298:38
+	android:enabled
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:298:13-35
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:297:13-62
+service#com.oneclick.ekincare.utility.FetchAddressIntentService
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:299:9-301:40
+	android:exported
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:301:13-37
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:300:13-83
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:303:9-305:70
+	android:value
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:305:13-68
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:304:13-58
+meta-data#com.mixpanel.android.MPConfig.AutoShowMixpanelUpdates
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:307:9-308:37
+	android:value
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:308:13-34
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:307:20-88
+meta-data#com.razorpay.ApiKey
+ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:311:9-314:15
+	android:value
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:313:13-52
+	android:name
+		ADDED from /Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/AndroidManifest.xml:312:13-47
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:9.2.0] /Users/lionking/.android/build-cache/fd372c8326788d37f1b7cb5215e8a8e05335846f/output/AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:9.2.0] /Users/lionking/.android/build-cache/fd372c8326788d37f1b7cb5215e8a8e05335846f/output/AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:9.2.0] /Users/lionking/.android/build-cache/fd372c8326788d37f1b7cb5215e8a8e05335846f/output/AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.2.0] /Users/lionking/.android/build-cache/fd372c8326788d37f1b7cb5215e8a8e05335846f/output/AndroidManifest.xml:22:17-48
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.2.0] /Users/lionking/.android/build-cache/fd372c8326788d37f1b7cb5215e8a8e05335846f/output/AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.2.0] /Users/lionking/.android/build-cache/fd372c8326788d37f1b7cb5215e8a8e05335846f/output/AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.2.0] /Users/lionking/.android/build-cache/fd372c8326788d37f1b7cb5215e8a8e05335846f/output/AndroidManifest.xml:26:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:9.2.0] /Users/lionking/.android/build-cache/fd372c8326788d37f1b7cb5215e8a8e05335846f/output/AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.2.0] /Users/lionking/.android/build-cache/fd372c8326788d37f1b7cb5215e8a8e05335846f/output/AndroidManifest.xml:27:27-73
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:9.2.0] /Users/lionking/.android/build-cache/981e80d1ef115973c5d931f26ad1e1b662777308/output/AndroidManifest.xml:6:9-100
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.2.0] /Users/lionking/.android/build-cache/981e80d1ef115973c5d931f26ad1e1b662777308/output/AndroidManifest.xml:6:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.2.0] /Users/lionking/.android/build-cache/981e80d1ef115973c5d931f26ad1e1b662777308/output/AndroidManifest.xml:7:9-104
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.2.0] /Users/lionking/.android/build-cache/981e80d1ef115973c5d931f26ad1e1b662777308/output/AndroidManifest.xml:7:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.2.0] /Users/lionking/.android/build-cache/981e80d1ef115973c5d931f26ad1e1b662777308/output/AndroidManifest.xml:8:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.2.0] /Users/lionking/.android/build-cache/981e80d1ef115973c5d931f26ad1e1b662777308/output/AndroidManifest.xml:8:18-90
+service#com.google.firebase.crash.internal.service.FirebaseCrashReceiverService
+ADDED from [com.google.firebase:firebase-crash:9.2.0] /Users/lionking/.android/build-cache/0f219da2d850da34194634f885308011681fef1f/output/AndroidManifest.xml:26:9-27:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.2.0] /Users/lionking/.android/build-cache/0f219da2d850da34194634f885308011681fef1f/output/AndroidManifest.xml:27:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.2.0] /Users/lionking/.android/build-cache/0f219da2d850da34194634f885308011681fef1f/output/AndroidManifest.xml:26:18-79
+service#com.google.firebase.crash.internal.service.FirebaseCrashSenderService
+ADDED from [com.google.firebase:firebase-crash:9.2.0] /Users/lionking/.android/build-cache/0f219da2d850da34194634f885308011681fef1f/output/AndroidManifest.xml:29:9-30:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.2.0] /Users/lionking/.android/build-cache/0f219da2d850da34194634f885308011681fef1f/output/AndroidManifest.xml:30:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.2.0] /Users/lionking/.android/build-cache/0f219da2d850da34194634f885308011681fef1f/output/AndroidManifest.xml:29:18-77
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.2.0] /Users/lionking/.android/build-cache/794316f9b565f9984678005530db6f81706f155a/output/AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.2.0] /Users/lionking/.android/build-cache/794316f9b565f9984678005530db6f81706f155a/output/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.2.0] /Users/lionking/.android/build-cache/794316f9b565f9984678005530db6f81706f155a/output/AndroidManifest.xml:25:13-82
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.2.0] /Users/lionking/.android/build-cache/794316f9b565f9984678005530db6f81706f155a/output/AndroidManifest.xml:27:13-29:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:9.2.0] /Users/lionking/.android/build-cache/794316f9b565f9984678005530db6f81706f155a/output/AndroidManifest.xml:27:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.2.0] /Users/lionking/.android/build-cache/794316f9b565f9984678005530db6f81706f155a/output/AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.2.0] /Users/lionking/.android/build-cache/794316f9b565f9984678005530db6f81706f155a/output/AndroidManifest.xml:28:25-75
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:25:9-27:42
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:27:17-39
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:26:17-41
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:25:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:28:9-37:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:29:13-87
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:31:13-36:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:32:17-72
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:32:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:33:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.2.0] /Users/lionking/.android/build-cache/5bf9102a0bba4665c7daee0baed3a3c617a92e47/output/AndroidManifest.xml:35:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/lionking/.android/build-cache/2f2a778eb7bb2dcb466b5babf65834670330e7d3/output/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/lionking/.android/build-cache/e18c71d518068dd755f8ec35ba290124ad639b15/output/AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/lionking/.android/build-cache/2f2a778eb7bb2dcb466b5babf65834670330e7d3/output/AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/lionking/.android/build-cache/2f2a778eb7bb2dcb466b5babf65834670330e7d3/output/AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/lionking/.android/build-cache/2f2a778eb7bb2dcb466b5babf65834670330e7d3/output/AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/lionking/.android/build-cache/2f2a778eb7bb2dcb466b5babf65834670330e7d3/output/AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/lionking/.android/build-cache/2f2a778eb7bb2dcb466b5babf65834670330e7d3/output/AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/lionking/.android/build-cache/2f2a778eb7bb2dcb466b5babf65834670330e7d3/output/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/lionking/.android/build-cache/e18c71d518068dd755f8ec35ba290124ad639b15/output/AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/lionking/.android/build-cache/2f2a778eb7bb2dcb466b5babf65834670330e7d3/output/AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/lionking/.android/build-cache/2f2a778eb7bb2dcb466b5babf65834670330e7d3/output/AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/lionking/.android/build-cache/2f2a778eb7bb2dcb466b5babf65834670330e7d3/output/AndroidManifest.xml:37:11-82
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:36:13-40:29
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:52:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/lionking/.android/build-cache/80c26f5993fe3d1fd2d7e3df5bfb199be6b689db/output/AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.2.0] /Users/lionking/.android/build-cache/1ebb2d4c8ff525ec1687a79408ea57fb05cb28c6/output/AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.2.0] /Users/lionking/.android/build-cache/1ebb2d4c8ff525ec1687a79408ea57fb05cb28c6/output/AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.2.0] /Users/lionking/.android/build-cache/1ebb2d4c8ff525ec1687a79408ea57fb05cb28c6/output/AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.2.0] /Users/lionking/.android/build-cache/1ebb2d4c8ff525ec1687a79408ea57fb05cb28c6/output/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.2.0] /Users/lionking/.android/build-cache/1ebb2d4c8ff525ec1687a79408ea57fb05cb28c6/output/AndroidManifest.xml:9:13-58
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.2.0] /Users/lionking/.android/build-cache/767bcbc050ef1128e3888d59ea7a8c5d508c54b0/output/AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.0] /Users/lionking/.android/build-cache/767bcbc050ef1128e3888d59ea7a8c5d508c54b0/output/AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.0] /Users/lionking/.android/build-cache/767bcbc050ef1128e3888d59ea7a8c5d508c54b0/output/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.0] /Users/lionking/.android/build-cache/767bcbc050ef1128e3888d59ea7a8c5d508c54b0/output/AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.2.0] /Users/lionking/.android/build-cache/767bcbc050ef1128e3888d59ea7a8c5d508c54b0/output/AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.0] /Users/lionking/.android/build-cache/767bcbc050ef1128e3888d59ea7a8c5d508c54b0/output/AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.0] /Users/lionking/.android/build-cache/767bcbc050ef1128e3888d59ea7a8c5d508c54b0/output/AndroidManifest.xml:30:19-91
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:9.2.0] /Users/lionking/.android/build-cache/75840007d4949595181451c6a1d233cad20c419b/output/AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:9.2.0] /Users/lionking/.android/build-cache/75840007d4949595181451c6a1d233cad20c419b/output/AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.2.0] /Users/lionking/.android/build-cache/75840007d4949595181451c6a1d233cad20c419b/output/AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:9.2.0] /Users/lionking/.android/build-cache/75840007d4949595181451c6a1d233cad20c419b/output/AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.2.0] /Users/lionking/.android/build-cache/75840007d4949595181451c6a1d233cad20c419b/output/AndroidManifest.xml:21:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:9.2.0] /Users/lionking/.android/build-cache/75840007d4949595181451c6a1d233cad20c419b/output/AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.2.0] /Users/lionking/.android/build-cache/75840007d4949595181451c6a1d233cad20c419b/output/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:9.2.0] /Users/lionking/.android/build-cache/75840007d4949595181451c6a1d233cad20c419b/output/AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.2.0] /Users/lionking/.android/build-cache/75840007d4949595181451c6a1d233cad20c419b/output/AndroidManifest.xml:29:13-58
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.2.0] /Users/lionking/.android/build-cache/c881b689cf7b6897225378608b8c13915a0c5a91/output/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] /Users/lionking/.android/build-cache/c881b689cf7b6897225378608b8c13915a0c5a91/output/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] /Users/lionking/.android/build-cache/c881b689cf7b6897225378608b8c13915a0c5a91/output/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] /Users/lionking/.android/build-cache/c881b689cf7b6897225378608b8c13915a0c5a91/output/AndroidManifest.xml:20:19-85
+activity#com.razorpay.CheckoutActivity
+ADDED from [com.razorpay:checkout:1.2.0] /Users/lionking/.android/build-cache/b7bc4cb8fc5e8e276e2ad8597096be853d8aeb8b/output/AndroidManifest.xml:12:9-23:20
+	android:configChanges
+		ADDED from [com.razorpay:checkout:1.2.0] /Users/lionking/.android/build-cache/b7bc4cb8fc5e8e276e2ad8597096be853d8aeb8b/output/AndroidManifest.xml:14:13-83
+	android:theme
+		ADDED from [com.razorpay:checkout:1.2.0] /Users/lionking/.android/build-cache/b7bc4cb8fc5e8e276e2ad8597096be853d8aeb8b/output/AndroidManifest.xml:15:13-49
+	android:name
+		ADDED from [com.razorpay:checkout:1.2.0] /Users/lionking/.android/build-cache/b7bc4cb8fc5e8e276e2ad8597096be853d8aeb8b/output/AndroidManifest.xml:13:13-57
+intent-filter#android.intent.action.MAIN
+ADDED from [com.razorpay:checkout:1.2.0] /Users/lionking/.android/build-cache/b7bc4cb8fc5e8e276e2ad8597096be853d8aeb8b/output/AndroidManifest.xml:16:13-22:29

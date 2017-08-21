@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center|top"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+
+        <com.ekincare.util.RobotoTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:layout_marginRight="@dimen/margin_16"
+            android:textColor="@color/card_first"
+            android:textSize="@dimen/textsize_22"
+            android:text="@string/little_about_your_lifestyle"
+            android:gravity="center|left"
+            android:layout_marginTop="@dimen/margin_10"
+            fab:typeface="roboto_regular" />
+        <com.ekincare.util.RobotoTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:layout_marginRight="@dimen/margin_16"
+            android:textColor="@color/card_second"
+            android:textSize="@dimen/textsize_16"
+            android:text="@string/life_style_recommended"
+            android:gravity="center|left"
+            fab:typeface="roboto_regular" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+                <com.ekincare.util.RobotoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_marginRight="@dimen/margin_16"
+                    android:textColor="@color/card_first"
+                    android:textSize="@dimen/textsize_20"
+                    android:text="@string/exercise_wizard"
+                    android:gravity="center|left"
+                    android:layout_marginTop="@dimen/margin_10"
+                    fab:typeface="roboto_regular" />
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/exercies_seek_bar_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_marginRight="@dimen/margin_16"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/textsize_14"
+                    android:text="Never"
+                    android:gravity="center|left"
+                    fab:typeface="roboto_regular" />
+                <SeekBar
+                    android:id="@+id/seek_bar_exercise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_marginRight="@dimen/margin_16"
+                    android:layout_marginTop="@dimen/margin_15"
+                    android:thumb="@drawable/seekbar_thumb"
+                    android:layout_below="@+id/txtCaliculate"
+                    android:max="100"
+                    android:progressDrawable="@drawable/seekbar_bg_style"
+                    android:layout_marginBottom="@dimen/margin_5"
+                    android:paddingTop="0dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+                <com.ekincare.util.RobotoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_marginRight="@dimen/margin_16"
+                    android:textColor="@color/card_first"
+                    android:textSize="@dimen/textsize_20"
+                    android:text="@string/smoking_wizard"
+                    android:gravity="center|left"
+                    fab:typeface="roboto_regular" />
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/smoking_seek_bar_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_marginRight="@dimen/margin_16"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/textsize_14"
+                    android:text="Never"
+                    android:gravity="center|left"
+                    fab:typeface="roboto_regular" />
+                <SeekBar
+                    android:id="@+id/seek_bar_smoking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_marginRight="@dimen/margin_16"
+                    android:layout_marginTop="@dimen/margin_15"
+                    android:thumb="@drawable/seekbar_thumb"
+                    android:layout_below="@+id/txtCaliculate"
+                    android:max="100"
+                    android:progressDrawable="@drawable/seekbar_bg_style"
+                    android:layout_marginBottom="@dimen/margin_5"
+                    android:paddingTop="0dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+                <com.ekincare.util.RobotoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_marginRight="@dimen/margin_16"
+                    android:textColor="@color/card_first"
+                    android:textSize="@dimen/textsize_20"
+                    android:text="@string/alcohol_wizard"
+                    android:gravity="center|left"
+                    fab:typeface="roboto_regular" />
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/alcohol_seek_bar_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_marginRight="@dimen/margin_16"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/textsize_14"
+                    android:text="Never"
+                    android:gravity="center|left"
+                    fab:typeface="roboto_regular" />
+                <SeekBar
+                    android:id="@+id/seek_bar_alcohol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:layout_marginRight="@dimen/margin_16"
+                    android:layout_marginTop="@dimen/margin_15"
+                    android:thumb="@drawable/seekbar_thumb"
+                    android:layout_below="@+id/txtCaliculate"
+                    android:max="100"
+                    android:progressDrawable="@drawable/seekbar_bg_style"
+                    android:layout_marginBottom="@dimen/margin_5"
+                    android:paddingTop="0dp" />
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+

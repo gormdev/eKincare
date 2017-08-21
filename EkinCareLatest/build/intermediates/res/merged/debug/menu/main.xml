@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:contexts="com.app.ekincare.MainActivity">
+    <group android:id="@+id/settings">
+        <item
+            android:id="@+id/action_settings"
+            android:orderInCategory="100"
+            android:showAsAction="ifRoom"
+            android:title="@string/action_settings" />
+    </group>
+    <item
+        android:id="@+id/signOut"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/signOut" />
+
+</menu>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wizard_bg"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:gravity="center|left"
+            android:orientation="horizontal">
+
+
+
+            <com.ekincare.util.RalewayTextViewMedium
+                android:id="@+id/deletall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_16"
+                android:background="@drawable/notification_delete_bg"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Mark all as read"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_10"
+
+                fab:ralewaytypeface="raleway_bold" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/back_view"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_30"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/margin_15"
+            android:paddingLeft="@dimen/margin_15"
+            android:src="@drawable/ic_arrow_back_white_48dp" />
+
+        <com.ekincare.util.RalewayTextViewMedium
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:text="NOTIFICATIONS"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_20"
+            fab:ralewaytypeface="raleway_bold" />
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/wizard_seperatore"></View>
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/appointment_view_document"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_200"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_20"
+            android:src="@drawable/no_notification_icon" />
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/no_nf"
+            style="@style/TvBlack14"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/row_item_fragment_timeline_new_noasessment_text"
+            android:gravity="center"
+
+            android:text="@string/no_notification"
+            android:textColor="@color/card_second"
+            fab:typeface="roboto_regular" />
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/row_item_fragment_timeline_new_noasessment_text"
+            style="@style/TvBlack16"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/appointment_view_document"
+            android:layout_marginTop="@dimen/margin_30"
+            android:layout_marginBottom="@dimen/margin_8"
+            android:gravity="center"
+            android:text="No notifications"
+            android:textColor="@color/card_first"
+            fab:typeface="roboto_medium" />
+
+        <com.ekincare.util.RalewayTextViewMedium
+            android:id="@+id/row_item_fragment_timeline_new_noasessment_text1"
+            style="@style/TvBlack16"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/row_item_fragment_timeline_new_noasessment_text"
+            android:gravity="center"
+            android:text="@string/no_data_document_message"
+            android:textColor="@color/light_gray"
+            android:textSize="@dimen/textsize_14"
+            android:visibility="gone"
+            fab:ralewaytypeface="raleway_regular" />
+
+        <com.ekincare.util.RobotoButton
+            android:id="@+id/mTextNoData"
+            style="@style/loginButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/margin_15"
+            android:layout_marginTop="@dimen/margin_50"
+            android:text="GET STARTED"
+            android:visibility="gone"
+            card_view:ralewaytypeface="raleway_regular" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="1dp"
+            android:fastScrollEnabled="true">
+
+        </ListView>
+
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

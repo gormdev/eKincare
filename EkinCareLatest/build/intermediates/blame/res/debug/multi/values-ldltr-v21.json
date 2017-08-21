@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 298,
+                        "endColumn": 112,
+                        "endOffset": 406
+                    }
+                }
+            }
+        ]
+    }
+]

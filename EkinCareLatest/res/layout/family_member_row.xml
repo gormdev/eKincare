@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/popup_user_row_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/family_member_list_item_height"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground"
+    android:layout_centerVertical="true"
+    >
+
+    <ImageView
+        android:id="@+id/draw_image"
+        android:layout_width="@dimen/family_member_list_item_image_size"
+        android:layout_height="@dimen/family_member_list_item_image_size"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/family_member_list_item_margin"/>
+
+    <com.ekincare.ui.custom.RoundedImageView
+        android:id="@+id/imgProfile"
+        android:visibility="gone"
+        android:layout_width="@dimen/family_member_list_item_image_size"
+        android:layout_height="@dimen/family_member_list_item_image_size"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/margin_16"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_80"
+        android:layout_marginRight="@dimen/margin_16">
+
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/name"
+            android:textSize="@dimen/text_size_medium"
+            android:textColor="#424242"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:singleLine="true"
+            card_view:typeface="roboto_regular" />
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/emailAddress"
+            android:textSize="@dimen/text_size_minor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:singleLine="true"
+            card_view:typeface="roboto_regular" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1"
+        android:layout_alignParentBottom="true"
+        android:background="@color/wizard_seperatore"/>
+
+</RelativeLayout>

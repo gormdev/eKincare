@@ -1,0 +1,502 @@
+[
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_notifications_black_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_notifications_black_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_share_white_24dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_share_white_24dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_medicine_blue_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_medicine_blue_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_upload_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_upload_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_stat_more_icon.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_stat_more_icon.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_launcher.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_profile_gray_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_profile_gray_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_chaticon2.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_chaticon2.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_glucose_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_glucose_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_color6.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_color6.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_clear_mtrl_alpha.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_delete_white_24dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_delete_white_24dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_settings_icon.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_settings_icon.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_group_black_48dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_group_black_48dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_enter_otp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_enter_otp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_account_balance_wallet_black_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_account_balance_wallet_black_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_chat_bubble_outline_black_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_chat_bubble_outline_black_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_trending_up_white_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_trending_up_white_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_medication_file_white_24dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_medication_file_white_24dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/navagation_launch.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/navagation_launch.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_assessment_white_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_assessment_white_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_bloodglucose_popup.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_bloodglucose_popup.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_folder_white_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_folder_white_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_camera_alt_black_48dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_camera_alt_black_48dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_person_white_24dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_person_white_24dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_message_white_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_message_white_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_bug_report_white_24dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_bug_report_white_24dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_timeline_gray_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_timeline_gray_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_thum_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_thum_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_optimum_bar.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_optimum_bar.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/notifications_main_before.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/notifications_main_before.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_close_black_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_close_black_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_curve_file.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_curve_file.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_location_on_black_24dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_location_on_black_24dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_message_light_blue_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_message_light_blue_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_person_black_24dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_person_black_24dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_perm_identity_white_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_perm_identity_white_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_picture_as_pdf_black_48dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_picture_as_pdf_black_48dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_mic_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_mic_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_timeline_blue_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_timeline_blue_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_timeline_white_24dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_timeline_white_24dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_call_black_24dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_call_black_24dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_documents_blue_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_documents_blue_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_done_all_white_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_done_all_white_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_flash_on_24dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_flash_on_24dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_control_point_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_control_point_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_ask_query_doctor_popup.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_ask_query_doctor_popup.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/how_us_day_notification.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/how_us_day_notification.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_find_in_page.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_find_in_page.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_help_outline_white_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_help_outline_white_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_documents_gray_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_documents_gray_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/notification_large_record.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/notification_large_record.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_google_fit_calories_icon.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_google_fit_calories_icon.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_health_status_popup.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_health_status_popup.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_photo_camera_white_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_photo_camera_white_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_black_24dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_info_black_24dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_more_vert_black_48dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_more_vert_black_48dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/angle.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/angle.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_camera_green.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_camera_green.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_clear_white_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_clear_white_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_lifestyle_icon.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_lifestyle_icon.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_mode_edit_white_48dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_mode_edit_white_48dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_curve.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_curve.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_insert_drive_file_white_24dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_insert_drive_file_white_24dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_medicine_gray_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_medicine_gray_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_warning_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_warning_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/well_ness_score_bar.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/well_ness_score_bar.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_done_white_24dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_done_white_24dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_arrow_next_white_48dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_arrow_next_white_48dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_outline_white_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_info_outline_white_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_profile_blue_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_profile_blue_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_allergy_blue_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_allergy_blue_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_refresh_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_refresh_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_thum_blue_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_thum_blue_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_group_white_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_group_white_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/tab_vaccination.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/tab_vaccination.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_edit_black_18dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_edit_black_18dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_google_fit_steps_icon.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_google_fit_steps_icon.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_folder_black_48dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_folder_black_48dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_cloud_off_black_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_cloud_off_black_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_book_healthcheck_popup.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_book_healthcheck_popup.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_account_box_white_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_account_box_white_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_vaccination_gray_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_vaccination_gray_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_assessment_light_blue_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_assessment_light_blue_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_vaccination_blue_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_vaccination_blue_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_thumb_testttt_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_thumb_testttt_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_green_tick_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_green_tick_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_allergy_gray_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_allergy_gray_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_syrup_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_syrup_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_photo_filter_white_24dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_photo_filter_white_24dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_send_chat_message_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_send_chat_message_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_white_48dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_info_white_48dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_person_black_48dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_person_black_48dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/icons_chat_logo.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/icons_chat_logo.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_account_box_light_blue_24px.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_account_box_light_blue_24px.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_image_black_48dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_image_black_48dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_add_white_48dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_add_white_48dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_sendtips_popup.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_sendtips_popup.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/notification_family_large.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/notification_family_large.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_curve_file_sample.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_curve_file_sample.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/notifications_main.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/notifications_main.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_arrow_back_white_48dp.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/ic_arrow_back_white_48dp.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/notification_blood_sos.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/drawable-xxxhdpi/notification_blood_sos.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_abort_icon.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_abort_icon.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_more_vert.png",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_more_vert.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/drawable-xxxhdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+    }
+]

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chat_box_enter_text_main_bg"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.wx.wheelview.widget.WheelView
+            android:id="@+id/wheelview_weight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/weel_weight_floating"
+        android:layout_width="@dimen/margin_20"
+        android:layout_height="@dimen/margin_20"
+        fab:fab_colorNormal="@color/wizard_weel_floating"
+        fab:fab_colorPressed="@color/wizard_weel_floating"
+        fab:fab_icon="@drawable/tick_wizard"
+        fab:fab_title="Edit Profile"
+        app:fabSize="mini"
+        android:layout_margin="@dimen/margin_6"
+        android:clickable="true"
+        android:visibility="gone"
+        android:background="?attr/selectableItemBackground"
+        android:layout_gravity="top|right"
+        />
+</FrameLayout>

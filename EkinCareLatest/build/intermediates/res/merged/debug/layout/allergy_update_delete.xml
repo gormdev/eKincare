@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fab:cardBackgroundColor="@color/white"
+        fab:cardCornerRadius="@dimen/margin_3"
+        fab:cardElevation="@dimen/card_view_shadow_elvation">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:orientation="vertical">
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/allergy_update_list"
+                style="@style/EdtGray20"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15"
+                android:layout_marginStart="@dimen/margin_15"
+                android:background="@android:color/white"
+                android:hint="Allergy update"
+                android:gravity="center"
+                android:paddingBottom="@dimen/margin_5"
+                android:paddingTop="@dimen/margin_5"
+                android:singleLine="true"
+                android:textColor="#232323"
+                fab:typeface="roboto_regular" />
+
+            <ImageView
+                style="@style/ImgSeperatorGray"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:layout_marginTop="@dimen/margin_10" />
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/allergy_delete_list"
+                style="@style/EdtGray20"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15"
+                android:layout_marginStart="@dimen/margin_15"
+                android:background="@android:color/white"
+                android:hint="Allergy delete"
+                android:gravity="center"
+                android:paddingBottom="@dimen/margin_5"
+                android:paddingTop="@dimen/margin_5"
+                android:singleLine="true"
+                android:textColor="#232323"
+                fab:typeface="roboto_regular"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

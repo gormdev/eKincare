@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RalewayTextViewMedium">
+        <attr name="ralewaytypeface" />
+    </declare-styleable>
+    <declare-styleable name="AvenirTextView">
+        <attr name="avenirtypeface" />
+    </declare-styleable>
+    <declare-styleable name="RobotoTextView">
+        <attr name="typeface" />
+    </declare-styleable>
+    <declare-styleable name="CircularSeekBar">
+        <attr name="progress" format="integer"></attr>
+        <attr name="max" format="integer"></attr>
+        <attr name="move_outside_circle" format="boolean"></attr>
+        <attr name="maintain_equal_circle" format="boolean"></attr>
+        <attr name="use_custom_radii" format="boolean"></attr>
+        <attr name="lock_enabled" format="boolean"></attr>
+        <attr name="circle_x_radius" format="float" />
+        <attr name="circle_y_radius" format="float" />
+        <attr name="circle_stroke_width" format="float" />
+        <attr name="pointer_radius" format="float" />
+        <attr name="pointer_halo_width" format="float" />
+        <attr name="pointer_halo_border_width" format="float"></attr>
+        <attr name="circle_color" format="string"></attr>
+        <attr name="circle_progress_color" format="string"></attr>
+        <attr name="pointer_color" format="string"></attr>
+        <attr name="pointer_halo_color" format="string"></attr>
+        <attr name="pointer_halo_color_ontouch" format="string"></attr>
+        <attr name="pointer_alpha_ontouch" format="integer"></attr>
+        <attr name="start_angle" format="float"></attr>
+        <attr name="end_angle" format="float"></attr>
+        <attr name="circle_fill" format="string"></attr>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="ExpandableLayout">
+        <attr name="el_headerLayout" format="reference" />
+        <attr name="el_contentLayout" format="reference" />
+        <attr name="el_duration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+     <attr name="avenirtypeface" format="enum">
+        <enum name="avenir_black" value="0" />
+        <enum name="avenir_black_oblique" value="1" />
+        <enum name="avenir_book" value="2" />
+        <enum name="avenir_book_oblique" value="3" />
+        <enum name="avenir_heavy" value="4" />
+        <enum name="avenir_heavy_oblique" value="5" />
+        <enum name="avenir_light" value="6" />
+        <enum name="avenir_light_oblique" value="7" />
+        <enum name="avenir_medium" value="8" />
+        <enum name="avenir_medium_oblique" value="9" />
+        <enum name="avenir_oblique" value="10" />
+        <enum name="avenir_roman" value="11" />
+    </attr>
+
+    <attr name="ralewaytypeface" format="enum">
+        <enum name="raleway_bold" value="0" />
+        <enum name="raleway_extra_bold" value="1" />
+        <enum name="raleway_extra_light" value="2" />
+        <enum name="raleway_heavy" value="3" />
+        <enum name="raleway_light" value="4" />
+        <enum name="raleway_medium" value="5" />
+        <enum name="raleway_regular" value="6" />
+        <enum name="raleway_semi_bold" value="7" />
+        <enum name="raleway_thin" value="8" />
+    </attr>
+
+    <attr name="typeface" format="enum">
+        <enum name="roboto_thin" value="0" />
+        <enum name="roboto_thin_italic" value="1" />
+        <enum name="roboto_light" value="2" />
+        <enum name="roboto_light_italic" value="3" />
+        <enum name="roboto_regular" value="4" />
+        <enum name="roboto_italic" value="5" />
+        <enum name="roboto_medium" value="6" />
+        <enum name="roboto_medium_italic" value="7" />
+        <enum name="roboto_bold" value="8" />
+        <enum name="roboto_bold_italic" value="9" />
+        <enum name="roboto_black" value="10" />
+        <enum name="roboto_black_italic" value="11" />
+        <enum name="roboto_condensed" value="12" />
+        <enum name="roboto_condensed_italic" value="13" />
+        <enum name="roboto_condensed_bold" value="14" />
+        <enum name="roboto_condensed_bold_italic" value="15" />
+        <enum name="anton" value="16" />
+        <enum name="goutham_rounded" value="17" />
+        <enum name="goutham_rounded_bold" value="18" />
+        <enum name="goutham_rounded_bold_italic" value="19" />
+        <enum name="goutham_rounded_italic" value="20" />
+        <enum name="goutham_rounded_light" value="21" />
+        <enum name="goutham_rounded_light_italic" value="22" />
+        <enum name="goutham_rounded_medium" value="23" />
+        <enum name="goutham_rounded_medium_italic" value="24" />
+        <enum name="liberationmono_regular" value="25" />
+    </attr>
+    <attr name="centered" format="boolean" />
+    <attr name="selectedColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+    <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+   <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorPressed" format="color"/>
+        <attr name="fab_colorDisabled" format="color"/>
+        <attr name="fab_colorNormal" format="color"/>
+        <attr name="fab_icon" format="reference"/>
+        <attr name="fab_size" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="mini" value="1"/>
+        </attr>
+        <attr name="fab_title" format="string"/>
+        <attr name="fab_stroke_visible" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="AddFloatingActionButton">
+        <attr name="fab_plusIconColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="FloatingActionsMenu">
+        <attr name="fab_addButtonColorPressed" format="color"/>
+        <attr name="fab_addButtonColorNormal" format="color"/>
+        <attr name="fab_addButtonSize" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="mini" value="1"/>
+        </attr>
+        <attr name="fab_addButtonPlusIconColor" format="color"/>
+        <attr name="fab_addButtonStrokeVisible" format="boolean"/>
+        <attr name="fab_labelStyle" format="reference"/>
+        <attr name="fab_labelsPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr name="fab_expandDirection" format="enum">
+            <enum name="up" value="0"/>
+            <enum name="down" value="1"/>
+            <enum name="left" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ComboSeekBar">
+        <attr name="multiline" format="boolean" />
+        <attr name="myColor" format="color" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TagFlowLayout">
+        <attr name="auto_select_effect" format="boolean"></attr>
+        <attr name="max_select" format="integer"></attr>
+        <attr name="gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Theme">
+        <attr name="circularImageViewStyle" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="CircularImageView">
+        <attr name="border" format="boolean"/>
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color"/>
+        <attr name="shadow" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="FixedAspectRatioImageView">
+        <attr name="widthToHeightRatio" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="FixedAspectRatioRoundedImageView">
+        <attr name="roundedImageView_widthToHeightRatio" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleCheckbox">
+        <attr name="showOuterCircle" format="boolean" />
+        <attr name="tickColor" format="string"/>
+        <attr name="outerCircleColor" format="string"/>
+        <attr name="innerCircleColor" format="string"/>
+        <attr name="textColor" format="string"/>
+        <attr name="circleBorderColor" format="string"/>
+        <attr name="outerCircleRadius" format="dimension"/>
+        <attr name="innerCircleRadius" format="dimension"/>
+        <attr name="borderThickness" format="dimension"/>
+        <attr name="tickThickness" format="dimension"/>
+        <attr name="textLeftPadding" format="dimension"/>
+        <attr name="text" format="string"/>
+    </declare-styleable>
+
+
+
+</resources>

@@ -1,0 +1,10 @@
+#Mon May 22 12:02:19 CEST 2017
+renamed.2=classes.dex
+renamed.1=classes3.dex
+renamed.0=classes2.dex
+base.2=/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+base.1=/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+base.0=/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+file.2=/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.1=/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes3.dex
+file.0=/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes2.dex

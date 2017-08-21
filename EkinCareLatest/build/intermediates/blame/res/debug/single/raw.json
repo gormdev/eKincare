@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/raw/outgoing.mp3",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/raw/outgoing.mp3"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/Users/lionking/.android/build-cache/4ca95dd4ca463900b7c6a6c4139988bb49b96f77/output/res/raw/gtm_analytics"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/raw/incoming.mp3",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/raw/incoming.mp3"
+    }
+]

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowActionBar">false</item>
+
+        <item name="android:windowSharedElementsUseOverlay">true</item>
+        <item name="android:windowContentTransitions">true</item>
+
+    </style>
+
+
+    <style name="AppTheme.Main">
+        <item name="android:windowExitTransition">@transition/main_exit</item>
+        <item name="android:windowReenterTransition">@transition/main_reenter</item>
+    </style>
+
+    <style name="AppTheme.FamilyList">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowEnterTransition">@transition/family_list_enter</item>
+        <item name="android:windowExitTransition">@transition/family_list_exit</item>
+    </style>
+
+    <style name="AppTheme.FamilyMember">
+        <item name="colorPrimary">@color/color_member_profile_main</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:paddingRight="@dimen/margin_16"
+    android:paddingLeft="@dimen/margin_16"
+    android:paddingTop="@dimen/margin_8"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_info"
+        android:layout_width="@dimen/margin_24"
+        android:layout_height="@dimen/margin_24"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/margin_8"
+        android:layout_marginRight="@dimen/margin_8"
+        android:src="@drawable/ic_info_black_24dp"
+        />
+
+    <com.ekincare.util.RobotoTextView
+        android:id="@+id/textview_title"
+        android:textSize="@dimen/textsize_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/image_info"
+        android:layout_alignBaseline="@id/image_info"
+        android:ellipsize="end"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:maxLines="1"
+        android:text="Header"
+        android:textColor="#8a8a8a"
+        fab:typeface="roboto_medium" />
+
+    <com.ekincare.util.RobotoTextView
+        android:id="@+id/textview_test_number"
+        android:textSize="@dimen/textsize_12"
+        android:layout_width="match_parent"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_height="wrap_content"
+        android:text="asd"
+        android:layout_below="@id/textview_title"
+        android:textColor="@color/card_second"
+        fab:typeface="roboto_light" />
+
+
+
+    <LinearLayout
+        android:id="@+id/price_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_4"
+        android:layout_marginBottom="@dimen/margin_8"
+        android:layout_below="@id/textview_test_number"
+        android:background="@color/transparent"
+        android:orientation="horizontal">
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/textview_original"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Rs 231/-"
+            android:gravity="left"
+            android:textColor="@color/red"
+            android:textSize="@dimen/textsize_14"
+            fab:typeface="roboto_regular" />
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/textview_discounted"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:gravity="right"
+            android:text="Rs 231/-"
+            android:textColor="@color/green"
+            android:textSize="@dimen/textsize_14"
+            fab:typeface="roboto_regular" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:layout_below="@id/price_container"
+        android:background="#e2e2e2"
+        />
+</RelativeLayout>

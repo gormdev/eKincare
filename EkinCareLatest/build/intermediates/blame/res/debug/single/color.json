@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/lionking/.android/build-cache/c881b689cf7b6897225378608b8c13915a0c5a91/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
+        "source": "/Users/lionking/.android/build-cache/dc431e70abcc847d2234325d76d2c33d6cda076c/output/res/color/wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/lionking/.android/build-cache/c881b689cf7b6897225378608b8c13915a0c5a91/output/res/color/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/lionking/.android/build-cache/c881b689cf7b6897225378608b8c13915a0c5a91/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
+        "source": "/Users/lionking/.android/build-cache/dc431e70abcc847d2234325d76d2c33d6cda076c/output/res/color/wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/lionking/.android/build-cache/c881b689cf7b6897225378608b8c13915a0c5a91/output/res/color/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/lionking/.android/build-cache/985d43c2478f146bf5ec07107452b302887045b1/output/res/color/abc_secondary_text_material_dark.xml"
+    }
+]

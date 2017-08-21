@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:textColor="@color/black"
+        android:padding="@dimen/margin_10"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:id="@+id/textView3" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1"
+        android:background="@color/wizard_seperatore"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.ekincare.util.ExpandableHeightListView
+                android:id="@+id/out_of_zone_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/row_item_for_list"
+                android:layout_alignParentBottom="true"
+                android:cacheColorHint="#00000000"
+                android:divider="#d3d3d5"
+                android:dividerHeight="1dp"></com.ekincare.util.ExpandableHeightListView>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/wizard_seperatore"></View>
+
+    <com.ekincare.util.RalewayTextViewMedium
+        android:id="@+id/out_of_zone_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:gravity="center_horizontal|right"
+        android:padding="@dimen/margin_20"
+        android:text="CANCEL"
+        android:textColor="#8f8f8f"
+        fab:typeface="roboto_regular" />
+
+
+
+</LinearLayout>

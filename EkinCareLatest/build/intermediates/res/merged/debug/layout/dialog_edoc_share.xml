@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/dateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_24"
+        android:orientation="vertical" >
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/dialog_title"
+            style="@style/TvBlack20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:textSize="@dimen/font_20"
+            android:textColor="@color/black"
+            android:text="@string/share_your_profile_with_a_doctor"
+            fab:typeface="roboto_medium" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/floating_doctor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/expertopDoctorName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_doctor_name"
+                android:imeOptions="actionNext"
+                android:inputType="text|textCapWords"
+                android:maxLength="40"
+                android:maxLines="1"
+                android:textColor="@color/secondary_text_color"
+                android:textColorHint="@color/secondary_text_color"
+                android:textCursorDrawable="@null"
+                android:textIsSelectable="false"
+                android:textSize="@dimen/font_18" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/floating_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/expertopDoctorMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_doctor_mobile_number"
+                android:imeOptions="actionNext"
+                android:inputType="number|numberSigned"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:textColor="@color/secondary_text_color"
+                android:textColorHint="@color/secondary_text_color"
+                android:textCursorDrawable="@null"
+                android:textIsSelectable="false"
+                android:textSize="@dimen/font_18" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/floating_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/expertopDoctorEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_doctor_email"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress|textWebEmailAddress"
+                android:maxLength="40"
+                android:maxLines="1"
+                android:textColor="@color/secondary_text_color"
+                android:textColorHint="@color/secondary_text_color"
+                android:textCursorDrawable="@null"
+                android:textIsSelectable="false"
+                android:textSize="@dimen/font_18" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_8"
+        android:paddingRight="@dimen/margin_8"
+        android:paddingTop="@dimen/margin_8"
+        android:paddingLeft="@dimen/margin_24"
+        android:layout_below="@+id/dateLayout" >
+
+        <com.ekincare.util.RalewayTextViewMedium
+            android:id="@+id/expertopFAQ"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_35"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/margin_8"
+            android:text="FAQ"
+            android:layout_alignParentLeft="true"
+            android:padding="@dimen/margin_8"
+            android:textSize="@dimen/font_16"
+            android:textColor="@color/teal"
+            android:textAllCaps="true"
+            android:clickable="true"
+            fab:typeface="roboto_medium"
+            android:background="?attr/selectableItemBackground"  />
+
+        <com.ekincare.util.RalewayTextViewMedium
+            android:id="@+id/expertopSubmitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_35"
+            android:gravity="center"
+            android:padding="@dimen/margin_8"
+            android:textSize="@dimen/font_16"
+            android:text="Submit"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/margin_8"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackground"
+            android:textAllCaps="true"
+            fab:typeface="roboto_medium"
+            android:textColor="@color/teal" />
+
+        <com.ekincare.util.RalewayTextViewMedium
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_35"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/margin_8"
+            android:layout_toLeftOf="@id/expertopSubmitButton"
+            android:text="Dismiss"
+            android:padding="@dimen/margin_8"
+            android:textSize="@dimen/font_16"
+            android:textColor="@color/teal"
+            android:textAllCaps="true"
+            android:clickable="true"
+            android:layout_gravity="right"
+            fab:typeface="roboto_medium"
+            android:background="?attr/selectableItemBackground"  />
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

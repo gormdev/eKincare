@@ -1,0 +1,249 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentScrim="@color/blue"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:titleEnabled="false">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_65">
+
+                <RelativeLayout
+                    android:id="@+id/layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="?attr/actionBarSize"
+                    android:layout_marginLeft="@dimen/margin_48"
+                    android:layout_marginBottom="@dimen/margin_16"
+                    android:visibility="gone">
+
+                    <com.ekincare.util.RalewayTextViewMedium
+                        android:id="@+id/mTextNoData"
+                        style="@style/TvBlack22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fitsSystemWindows="true"
+                        android:paddingTop="@dimen/margin_8"
+                        android:gravity="left"
+                        android:textColor="@color/white"
+                        android:text="No Assessment Info Found"
+                        android:textSize="@dimen/margin_20"
+                        fab:ralewaytypeface="raleway_regular" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/fragment_assessment_new_linear_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:layout_marginTop="?attr/actionBarSize"
+                    android:layout_marginLeft="@dimen/margin_48"
+                    android:layout_marginBottom="@dimen/margin_16"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+                    <com.ekincare.util.RalewayTextViewMedium
+                        android:id="@+id/fragment_assessment_new_provider_name"
+                        android:layout_marginTop="@dimen/margin_16"
+                        style="@style/TvBlack22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="left"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/white"
+                        fab:ralewaytypeface="raleway_medium" />
+
+                    <com.ekincare.util.RalewayTextViewMedium
+                        android:id="@+id/fragment_assessment_new_date_text"
+                        style="@style/TvBlack14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        fab:ralewaytypeface="raleway_regular" />
+
+                    <com.ekincare.util.RalewayTextViewMedium
+                        android:id="@+id/fragment_assessment_new_doctor_name"
+                        style="@style/TvBlack14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/white"
+                        fab:ralewaytypeface="raleway_medium" />
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/fragment_assessment_new_assessment_id"
+                        style="@style/TvBlack12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fragment_assessment_new_doctor_name"
+                        android:layout_marginLeft="@dimen/margin_10"
+                        android:layout_marginTop="@dimen/margin_12"
+                        android:paddingBottom="@dimen/margin_12"
+                        android:textColor="@color/light_gray"
+                        android:visibility="gone"
+                        fab:typeface="roboto_regular" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:minHeight="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:behavior_overlapTop="@dimen/margin_65"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_assesment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_8"
+                android:visibility="visible"
+                fab:cardBackgroundColor="@color/white"
+                fab:cardCornerRadius="0dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_listview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <ListView
+                        android:id="@+id/mListAssessment"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/wizard_bg"
+                        android:divider="@color/transparent"
+                        android:dividerHeight="0dp"
+                        android:scrollbars="none"></ListView>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_doctor_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card_assesment"
+                android:layout_margin="@dimen/margin_8"
+                android:visibility="visible"
+                fab:cardBackgroundColor="@color/white"
+                fab:cardCornerRadius="0dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_doctor_comments"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/ll_listview"
+                    android:orientation="vertical">
+
+                    <ListView
+                        android:id="@+id/mListDoctorComments"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/wizard_bg"
+                        android:divider="@color/wizard_seperatore"
+                        android:dividerHeight="0dp"
+                        android:scrollbars="none" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/fragment_assessment_new_information_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_doctor_comment"
+                android:layout_margin="@dimen/margin_8"
+                android:visibility="gone"
+                fab:cardBackgroundColor="@color/white"
+                fab:cardCornerRadius="@dimen/margin_3">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/margin_80"
+                    android:paddingBottom="@dimen/margin_8">
+
+                    <com.ekincare.util.RalewayTextViewMedium
+                        android:id="@+id/fragment_assessment_new_information_title"
+                        style="@style/TvBlack18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_16"
+                        android:text="@string/information"
+                        android:visibility="gone"
+                        fab:ralewaytypeface="raleway_medium" />
+
+                    <com.ekincare.util.RalewayTextViewMedium
+                        android:id="@+id/fragment_assessment_new_description_title"
+                        style="@style/TvBlack18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_8"
+                        android:text="@string/information"
+                        android:textColor="@color/black"
+                        fab:ralewaytypeface="raleway_medium" />
+
+                    <com.ekincare.util.RalewayTextViewMedium
+                        android:id="@+id/fragment_assessment_new_description_text"
+                        style="@style/TvBlack14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fragment_assessment_new_description_title"
+                        android:layout_margin="@dimen/margin_8"
+                        fab:ralewaytypeface="raleway_medium" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

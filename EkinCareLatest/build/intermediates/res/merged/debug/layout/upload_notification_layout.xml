@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/records_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/records_bg"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/notification_record_bg"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.ekincare.util.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/custom_Upload_records_title"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/margin_15"
+                android:textSize="@dimen/textsize_25"
+                fab:typeface="roboto_bold"
+                />
+            <com.ekincare.util.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/custom_Upload_records_title_message"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_16"
+                android:lineSpacingExtra="@dimen/margin_2"
+                android:layout_marginBottom="@dimen/margin_10"
+                fab:typeface="roboto_regular"
+                />
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/Upload_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload"
+                android:paddingLeft="@dimen/margin_20"
+                android:paddingRight="@dimen/margin_20"
+                android:textSize="@dimen/textsize_18"
+                android:background="@drawable/custom_notification_button_bg"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/margin_5"
+                android:textAllCaps="true"
+                fab:typeface="roboto_regular"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

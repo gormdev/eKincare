@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/medicine_nested_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:background="@color/transparent"
+    fab:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/add_medication_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/appointment_view_document"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/margin_16"
+                android:layout_marginTop="@dimen/margin_40"
+                android:src="@drawable/add_medication_image" />
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/row_item_fragment_timeline_new_noasessment_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_24"
+                android:gravity="center"
+                android:padding="@dimen/margin_8"
+                android:text="@string/no_data_medication_message"
+                android:textColor="@color/card_second"
+                android:textSize="@dimen/textsize_16"
+                android:textStyle="bold"
+                fab:typeface="roboto_regular" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/view_medication_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/textview_today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_16"
+                android:paddingLeft="@dimen/margin_16"
+                android:paddingBottom="@dimen/margin_16"
+                android:paddingRight="@dimen/margin_8"
+                android:text="Today"
+                android:textColor="@color/title_textcolor_black_opacity_ninty"
+                android:textSize="@dimen/textsize_16"
+                fab:typeface="roboto_bold" />
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/textview_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/textview_today"
+                android:text="26th Aug"
+                android:layout_toRightOf="@id/textview_today"
+                android:textColor="@color/title_textcolor"
+                android:textSize="@dimen/textsize_13"
+                fab:typeface="roboto_medium" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_morning"
+                android:layout_width="match_parent"
+                android:layout_below="@id/textview_today"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/card_view_gap"
+                android:layout_marginRight="@dimen/margin_8"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:orientation="vertical"
+                android:visibility="visible"
+                fab:cardBackgroundColor="@color/white"
+                fab:cardCornerRadius="@dimen/margin_3"
+                fab:cardElevation="@dimen/margin_2">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <com.ekincare.util.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Morning"
+                        android:textColor="@color/title_textcolor_black_opacity_ninty"
+                        android:textSize="@dimen/textsize_18"
+                        android:layout_marginLeft="@dimen/margin_16"
+                        android:layout_marginTop="@dimen/margin_16"
+                        android:layout_marginBottom="@dimen/margin_16"
+                        fab:typeface="roboto_regular" />
+
+                    <ImageView style="@style/ImgSeperatorGray" />
+
+                    <ListView
+                        android:id="@+id/listview_morning_medication"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:divider="@color/transparent"
+                        android:dividerHeight="1dp" >
+                    </ListView>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_noon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card_morning"
+                android:layout_marginBottom="@dimen/card_view_gap"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/margin_8"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:visibility="visible"
+                fab:cardBackgroundColor="@color/white"
+                fab:cardCornerRadius="@dimen/margin_3"
+                fab:cardElevation="@dimen/margin_2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.ekincare.util.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Afternoon"
+                        android:textColor="@color/title_textcolor_black_opacity_ninty"
+                        android:textSize="@dimen/textsize_18"
+                        android:layout_marginLeft="@dimen/margin_16"
+                        android:layout_marginTop="@dimen/margin_16"
+                        android:layout_marginBottom="@dimen/margin_16"
+                        fab:typeface="roboto_regular" />
+
+                    <ImageView style="@style/ImgSeperatorGray" />
+
+                    <ListView
+                        android:id="@+id/listview_noon_medication"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:divider="@color/transparent"
+                        android:dividerHeight="1dp" >
+                    </ListView>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_evening"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card_noon"
+                android:layout_marginBottom="@dimen/card_view_gap"
+                android:orientation="vertical"
+                android:visibility="visible"
+                fab:cardBackgroundColor="@color/white"
+                android:layout_marginRight="@dimen/margin_8"
+                android:layout_marginLeft="@dimen/margin_8"
+                fab:cardCornerRadius="@dimen/margin_3"
+                fab:cardElevation="@dimen/margin_2">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.ekincare.util.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Night"
+                        android:textColor="@color/title_textcolor_black_opacity_ninty"
+                        android:textSize="@dimen/textsize_18"
+                        android:layout_marginLeft="@dimen/margin_16"
+                        android:layout_marginTop="@dimen/margin_16"
+                        android:layout_marginBottom="@dimen/margin_16"
+                        fab:typeface="roboto_regular" />
+
+                    <ImageView style="@style/ImgSeperatorGray" />
+
+                    <ListView
+                        android:id="@+id/listview_night_medication"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:divider="@color/transparent"
+                        android:dividerHeight="@dimen/margin_1" >
+                    </ListView>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/progress_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_300"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="vertical">
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+
+    </FrameLayout>
+</android.support.v4.widget.NestedScrollView>

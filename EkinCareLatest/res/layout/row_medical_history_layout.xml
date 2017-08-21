@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_medical_history"
+    fab:cardElevation="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="@color/white"
+    fab:cardCornerRadius="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/container_layout"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/assessmentlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="72dp"
+            android:layout_marginTop="@dimen/margin_16"
+            android:layout_marginRight="@dimen/margin_16"
+            android:layout_marginBottom="@dimen/margin_16"
+            android:orientation="vertical">
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/row_item_fragment_timeline_new_list_assessment_discription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Title"
+                android:textColor="@color/card_first"
+                android:textSize="@dimen/textsize_16"
+                fab:typeface="roboto_regular" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp">
+
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/row_item_fragment_timeline_new_list_assessment_date_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="subheader"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/textsize_12"
+                    fab:typeface="roboto_regular" />
+
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/row_item_fragment_timeline_new_list_assessment_doctor_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:maxLines="1"
+                    android:text="subheader"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/textsize_12"
+                    fab:typeface="roboto_regular" />
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/out_of_zone_view1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/out_of_zone_view_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_marginRight="@dimen/margin_5"
+                    android:text="Large Text"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/textsize_14"
+                    fab:typeface="roboto_regular" />
+
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/out_of_zone_view_value1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:text="Large Text"
+                    android:singleLine="true"
+                    android:textColor="@color/grey"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/textsize_14"
+                    fab:typeface="roboto_regular" />
+
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/out_of_zone_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:paddingTop="2dp"
+                android:orientation="horizontal">
+
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/out_of_zone_view_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_marginRight="@dimen/margin_5"
+                    android:text="Large Text"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/textsize_14"
+                    fab:typeface="roboto_regular"  />
+
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/out_of_zone_view_value2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:text="Large Text"
+                    android:singleLine="true"
+                    android:textColor="@color/grey"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/textsize_14"
+                    fab:typeface="roboto_regular" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/more_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/more"
+                    android:layout_width="@dimen/margin_25"
+                    android:layout_height="@dimen/margin_25"
+                    android:background="@drawable/more_circle"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:paddingRight="0dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_10"
+                    android:textStyle="bold" />
+
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/less"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center|left"
+                    android:text="more"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:paddingLeft="@dimen/margin_5"
+                    android:paddingRight="@dimen/margin_5"
+                    android:singleLine="true"
+                    android:textColor="@color/grey"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/textsize_14"
+                    fab:typeface="roboto_regular"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/row_item_fragment_timeline_list_assessment_type_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="top"
+            android:scaleType="fitXY"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/margin_16"
+            android:layout_marginLeft="@dimen/margin_16"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager_child"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+
+                />
+            <com.getbase.floatingactionbutton.FloatingActionsMenu
+                android:id="@+id/floating_medical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_6"
+                android:layout_gravity="bottom|right"
+                fab:fab_addButtonColorNormal="@color/color_medical_history"
+                fab:fab_addButtonColorPressed="@color/color_medicine"
+                fab:fab_addButtonPlusIconColor="@color/white"
+                fab:fab_labelStyle="@style/menu_labels_style"
+                android:visibility="gone">
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/family_menu_update_random_blood_glucose_button"
+                    android:layout_width="@dimen/margin_25"
+                    android:layout_height="@dimen/margin_25"
+                    fab:fab_colorNormal="@color/color_medical_history"
+                    fab:fab_colorPressed="@color/color_medicine"
+                    fab:fab_icon="@drawable/random_family_action_menu"
+                    fab:fab_title="@string/bg_family" />
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/family_menu_update_bp"
+                    android:layout_width="@dimen/margin_25"
+                    android:layout_height="@dimen/margin_25"
+                    fab:fab_colorNormal="@color/color_medical_history"
+                    fab:fab_colorPressed="@color/color_medicine"
+                    fab:fab_icon="@drawable/bp_family_action_menu"
+                    fab:fab_title="@string/bp_family" />
+
+
+
+            </com.getbase.floatingactionbutton.FloatingActionsMenu>
+            <com.getbase.floatingactionbutton.FloatingActionsMenu
+                android:id="@+id/floating_menu_document"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|right"
+                android:layout_margin="@dimen/margin_6"
+                fab:fab_addButtonColorNormal="@color/color_document"
+                fab:fab_addButtonColorPressed="@color/color_medicine"
+                fab:fab_addButtonPlusIconColor="@color/white"
+                fab:fab_labelStyle="@style/menu_labels_style"
+                android:visibility="gone">
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/family_menu_update_old_records_camera"
+                    android:layout_width="@dimen/margin_25"
+                    android:layout_height="@dimen/margin_25"
+                    fab:fab_colorNormal="@color/color_document"
+                    fab:fab_colorPressed="@color/color_medicine"
+                    fab:fab_icon="@drawable/ic_action_camera"
+                    fab:fab_title="Take a picture from camera" />
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/family_menu_update_old_records_gallery"
+                    android:layout_width="@dimen/margin_25"
+                    android:layout_height="@dimen/margin_25"
+                    fab:fab_colorNormal="@color/color_document"
+                    fab:fab_colorPressed="@color/color_medicine"
+                    fab:fab_icon="@drawable/ic_file_upload_white_24dp"
+                    fab:fab_title="Upload a file from gallery" />
+            </com.getbase.floatingactionbutton.FloatingActionsMenu>
+            <com.getbase.floatingactionbutton.FloatingActionsMenu
+                android:id="@+id/floating_menu_medication"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|right"
+                android:layout_margin="@dimen/margin_6"
+                fab:fab_addButtonColorNormal="@color/color_medicine"
+                fab:fab_addButtonColorPressed="@color/color_medical_history"
+                fab:fab_addButtonPlusIconColor="@color/white"
+                fab:fab_labelStyle="@style/menu_labels_style"
+                android:visibility="gone">
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/upload_medicine_precaution"
+                    android:layout_width="@dimen/margin_25"
+                    android:layout_height="@dimen/margin_25"
+                    fab:fab_colorNormal="@color/color_medicine"
+                    fab:fab_colorPressed="@color/color_medical_history"
+                    fab:fab_icon="@drawable/ic_file_upload_white_24dp"
+                    fab:fab_title="Upload medicine prescription" />
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/add_medicin_data"
+                    android:layout_width="@dimen/margin_25"
+                    android:layout_height="@dimen/margin_25"
+                    fab:fab_colorNormal="@color/color_medicine"
+                    fab:fab_colorPressed="@color/color_medical_history"
+                    fab:fab_icon="@drawable/ic_add_white_48dp"
+                    fab:fab_title="Add medicine" />
+            </com.getbase.floatingactionbutton.FloatingActionsMenu>
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_allergeis_refresh"
+                android:layout_width="@dimen/margin_25"
+                android:layout_height="@dimen/margin_25"
+                fab:fab_colorNormal="@color/color_medicine"
+                fab:fab_colorPressed="@color/color_medical_history"
+                fab:fab_icon="@drawable/ic_add_white_48dp"
+                fab:fab_title="Edit Profile"
+                android:layout_margin="@dimen/margin_6"
+                android:layout_gravity="bottom|right"
+                android:visibility="gone"
+                />
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_profile_edit"
+                android:layout_width="@dimen/margin_25"
+                android:layout_height="@dimen/margin_25"
+                fab:fab_colorNormal="@color/color_medicine"
+                fab:fab_colorPressed="@color/color_medical_history"
+                fab:fab_icon="@drawable/ic_mode_edit_white_48dp"
+                fab:fab_title="Edit Profile"
+                android:layout_margin="@dimen/margin_6"
+                android:layout_gravity="bottom|right"
+                android:visibility="visible"/>
+        </FrameLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_white"
+            android:elevation="6dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:tabIndicatorColor="?attr/colorPrimary" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/missing_hra_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/appointment_view_document"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_200"
+            android:layout_gravity="center"
+            android:src="@drawable/no_allergies_found" />
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/row_item_fragment_timeline_new_noasessment_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/appointment_view_document"
+            android:layout_margin="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_30"
+            android:gravity="center"
+            android:textColor="@color/card_first"
+            android:textSize="@dimen/textsize_16"
+            android:textStyle="bold"
+            style="@style/TvBlack16"
+            android:text="@string/hra_missing"
+            fab:typeface="roboto_medium"/>
+
+    </RelativeLayout>
+</FrameLayout>

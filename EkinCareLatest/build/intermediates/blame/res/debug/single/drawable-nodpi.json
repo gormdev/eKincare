@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_square_selected.9.png",
+        "source": "/Users/lionking/.android/build-cache/d35568e3a13e5a450d1ba1df8baffb98ccdf6721/output/res/drawable-nodpi/com_mixpanel_android_square_selected.9.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_close.png",
+        "source": "/Users/lionking/.android/build-cache/d35568e3a13e5a450d1ba1df8baffb98ccdf6721/output/res/drawable-nodpi/com_mixpanel_android_close.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_rounded_bottom.9.png",
+        "source": "/Users/lionking/.android/build-cache/d35568e3a13e5a450d1ba1df8baffb98ccdf6721/output/res/drawable-nodpi/com_mixpanel_android_rounded_bottom.9.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_rounded_top.9.png",
+        "source": "/Users/lionking/.android/build-cache/d35568e3a13e5a450d1ba1df8baffb98ccdf6721/output/res/drawable-nodpi/com_mixpanel_android_rounded_top.9.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_square.9.png",
+        "source": "/Users/lionking/.android/build-cache/d35568e3a13e5a450d1ba1df8baffb98ccdf6721/output/res/drawable-nodpi/com_mixpanel_android_square.9.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_rounded_top_selected.9.png",
+        "source": "/Users/lionking/.android/build-cache/d35568e3a13e5a450d1ba1df8baffb98ccdf6721/output/res/drawable-nodpi/com_mixpanel_android_rounded_top_selected.9.png"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/drawable-nodpi/com_mixpanel_android_rounded_bottom_selected.9.png",
+        "source": "/Users/lionking/.android/build-cache/d35568e3a13e5a450d1ba1df8baffb98ccdf6721/output/res/drawable-nodpi/com_mixpanel_android_rounded_bottom_selected.9.png"
+    }
+]

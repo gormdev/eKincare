@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/transition/main_exit.xml",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/transition/main_exit.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/transition/main_reenter.xml",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/transition/main_reenter.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/transition/family_list_exit.xml",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/transition/family_list_exit.xml"
+    },
+    {
+        "merged": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/res/merged/debug/transition/family_list_enter.xml",
+        "source": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/res/transition/family_list_enter.xml"
+    }
+]

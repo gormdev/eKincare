@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chat_box_enter_text_main_bg"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <com.wx.wheelview.widget.WheelView
+            android:id="@+id/wheelview_feet"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            />
+
+        <com.wx.wheelview.widget.WheelView
+            android:id="@+id/wheelview_inch"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/weel_height_floating"
+        android:layout_width="@dimen/margin_25"
+        android:layout_height="@dimen/margin_25"
+        fab:fab_colorNormal="@color/wizard_weel_floating"
+        fab:fab_colorPressed="@color/wizard_weel_floating"
+        fab:fab_icon="@drawable/tick_wizard"
+        android:layout_margin="@dimen/margin_6"
+        android:visibility="gone"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:layout_gravity="top|right"
+        />
+</FrameLayout>

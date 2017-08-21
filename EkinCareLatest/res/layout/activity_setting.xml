@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_height="wrap_content"
+        fab:layout_collapseMode="pin"
+        android:fitsSystemWindows="true"
+        android:background="@color/blue"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <TextView
+        style="@style/settingsTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_24"
+        android:paddingLeft="@dimen/margin_16"
+        android:textSize="@dimen/textsize_14"
+        android:text="App Notifications"
+        android:textStyle="bold"
+        />
+
+    <Switch
+        android:id="@+id/app_custom_notification"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:drawablePadding="@dimen/margin_8"
+        android:checked="false"
+        android:padding="@dimen/margin_15"
+        android:theme="@style/AppTheme"
+        android:text="Turn off all notifications"
+        android:background ="@drawable/border_bottom"
+        android:textColor="@color/black_semi_transparent" />
+
+
+
+    <TextView
+        style="@style/settingsTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16"
+        android:paddingLeft="@dimen/margin_16"
+        android:textSize="@dimen/textsize_14"
+        android:text="Water Consumption"
+        android:textStyle="bold"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_56"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Switch
+            android:id="@+id/hydrocare_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:drawablePadding="@dimen/margin_8"
+            android:padding="@dimen/margin_16"
+            android:theme="@style/AppTheme"
+            android:text="Track water consumption"
+            android:background ="@drawable/border_bottom"
+            android:textColor="@color/black_semi_transparent" />
+
+
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/hydrocare_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_56"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:drawablePadding="@dimen/margin_8"
+        android:padding="@dimen/margin_16"
+        android:theme="@style/AppTheme"
+        android:text="Remind me"
+        android:background ="@drawable/border_bottom"
+        android:textColor="@color/black_semi_transparent" />
+
+
+    <TextView
+        style="@style/settingsTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_15"
+        android:paddingLeft="@dimen/margin_15"
+        android:textSize="@dimen/textsize_14"
+        android:textStyle="bold"
+        android:text="@string/blood_sos" />
+
+    <Switch
+        android:id="@+id/bloodSOS_app"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_56"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:drawablePadding="@dimen/margin_8"
+        android:background ="@drawable/border_bottom"
+        android:padding="@dimen/margin_16"
+        android:theme="@style/AppTheme"
+        android:text="BloodSOS App"
+        android:textColor="@color/black_semi_transparent" />
+
+    <Switch
+        android:id="@+id/bloodSOS_notifications"
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_height="@dimen/margin_56"
+        android:background ="@drawable/border_bottom"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:drawablePadding="@dimen/margin_8"
+        android:padding="@dimen/margin_16"
+        android:theme="@style/AppTheme"
+        android:text="BloodSOS Notifications"
+        android:textColor="@color/black_semi_transparent" />
+
+
+    <TextView
+        android:id="@+id/dataUsage"
+        style="@style/settingsTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_15"
+        android:paddingLeft="@dimen/margin_15"
+        android:textSize="@dimen/textsize_14"
+        android:text="@string/dataUsage"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/wifiAlert"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_56"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:drawablePadding="@dimen/margin_8"
+        android:layout_marginRight="@dimen/margin_10"
+        android:background ="@drawable/border_bottom"
+        android:padding="@dimen/margin_16"
+        android:theme="@style/AppTheme"
+        android:text="@string/wifiOnlySetting"
+        android:textColor="@color/black_semi_transparent" />
+
+
+</LinearLayout>

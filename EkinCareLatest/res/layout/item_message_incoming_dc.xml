@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="@dimen/margin_230"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_margin="@dimen/margin_8"
+    android:background="@color/chat_box_solid"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    app:contentPadding="0dp">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/chat_box_solid"
+        android:backgroundTint="@color/card_background_first"
+        android:orientation="vertical">
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/textview_title"
+            android:textSize="@dimen/textsize_18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:maxLines="1"
+            android:background="@color/card_background_second"
+            android:textColor="@color/card_first"
+            android:duplicateParentState="true"
+            android:padding="@dimen/margin_8"
+            fab:typeface="roboto_regular" />
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/textview_phone"
+            android:textSize="@dimen/textsize_16"
+            android:layout_width="match_parent"
+            android:layout_gravity="left"
+            android:gravity="left|top"
+            android:padding="@dimen/margin_8"
+            android:layout_height="wrap_content"
+            android:textColor="@color/card_second"
+            fab:typeface="roboto_regular"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/margin_4">
+
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/textview_label"
+                android:textSize="@dimen/textsize_14"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_below="@id/divider"
+                android:layout_height="wrap_content"
+                android:text="Address: "
+                android:visibility="gone"
+                android:layout_marginLeft="@dimen/margin_4"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="@dimen/margin_8"
+                android:textColor="@color/card_first"
+                app:typeface="roboto_light" />
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/textview_address1"
+                android:textSize="@dimen/textsize_14"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/textview_label"
+                android:layout_below="@id/divider"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:paddingLeft="@dimen/margin_8"
+                android:paddingTop="@dimen/margin_4"
+                android:paddingBottom="@dimen/margin_4"
+                android:layout_height="wrap_content"
+                tools:text="aaaaaaa"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/card_second"
+                app:typeface="roboto_light" />
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/textview_address2"
+                android:textSize="@dimen/textsize_14"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/textview_label"
+                android:layout_below="@id/textview_address1"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:visibility="gone"
+                android:paddingLeft="@dimen/margin_8"
+                android:paddingTop="@dimen/margin_4"
+                android:paddingBottom="@dimen/margin_4"
+                android:layout_height="wrap_content"
+                tools:text="aaaaaaaa"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/card_second"
+                app:typeface="roboto_light" />
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/textview_address3"
+                android:textSize="@dimen/textsize_14"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/textview_address2"
+                android:layout_toRightOf="@id/textview_label"
+                android:layout_marginLeft="@dimen/margin_4"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/card_second"
+                app:typeface="roboto_light" />
+
+        </RelativeLayout>
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/textview_home_collection"
+            android:textSize="@dimen/textsize_12"
+            android:layout_width="match_parent"
+            android:layout_gravity="left|bottom"
+            android:gravity="left"
+            android:padding="@dimen/margin_8"
+            android:layout_height="wrap_content"
+            android:textColor="@color/card_second"
+            fab:typeface="roboto_light" />
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/textview_select_dc_item"
+            android:textSize="@dimen/textsize_14"
+            android:layout_width="match_parent"
+            android:layout_gravity="left|bottom"
+            android:gravity="right"
+            android:text="Select"
+            android:textAllCaps="true"
+            android:padding="@dimen/margin_8"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            fab:typeface="roboto_regular" />
+
+    </LinearLayout>
+</LinearLayout>

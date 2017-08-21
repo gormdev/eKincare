@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_16"
+    android:layout_marginLeft="@dimen/margin_16"
+    android:layout_marginTop="@dimen/margin_16">
+
+    <FrameLayout
+        android:id="@+id/view_group_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/margin_8">
+
+        <ImageView
+            android:id="@+id/image_view_avatar"
+            android:layout_width="@dimen/margin_30"
+            android:layout_height="@dimen/margin_30"
+            android:src="@drawable/icons_chat_logo" />
+    </FrameLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_2"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@+id/view_group_avatar"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="@dimen/cardview_default_elevation"
+        app:contentPadding="0dp">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/chat_box_solid"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin_16"
+                android:layout_marginTop="@dimen/margin_8"
+                android:background="@color/chat_box_solid">
+
+                <LinearLayout
+                    android:id="@+id/diseaseGroupRow1Father"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/hypertension_checkboxFather"
+                        style="@style/CheckBoxTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_marginRight="@dimen/margin_10"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/colorPrimary"
+                        android:text="@string/hypertension"
+                        android:textColor="@color/black_semi_transparent" />
+
+                    <CheckBox
+                        android:id="@+id/diabetes_checkboxFather"
+                        style="@style/CheckBoxTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/colorPrimary"
+                        android:text="@string/diabetes"
+                        android:textColor="@color/black_semi_transparent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/diseaseGroupRow2Father"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/diseaseGroupRow1Father"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cardio_disease_checkboxFather"
+                        style="@style/CheckBoxTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_marginRight="@dimen/margin_10"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/colorPrimary"
+                        android:text="@string/cardioDisease"
+                        android:textColor="@color/black_semi_transparent" />
+
+                    <CheckBox
+                        android:id="@+id/cancer_checkboxFather"
+                        style="@style/CheckBoxTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/colorPrimary"
+                        android:text="@string/cancer"
+                        android:textColor="@color/black_semi_transparent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/diseaseGroupRow3Father"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/diseaseGroupRow2Father"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <CheckBox
+                        android:id="@+id/bloodpressure_checkboxFather"
+                        style="@style/CheckBoxTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_marginRight="@dimen/margin_10"
+                        android:layout_weight="0.5"
+                        android:buttonTint="@color/colorPrimary"
+                        android:text="@string/blood_pressure"
+                        android:textColor="@color/black_semi_transparent" />
+
+                    <CheckBox
+                        android:id="@+id/none_checkboxFather"
+                        style="@style/CheckBoxTextStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_marginRight="@dimen/margin_10"
+                        android:layout_weight="0.5"
+                        android:buttonTint="@color/colorPrimary"
+                        android:text="@string/none"
+                        android:textColor="@color/black_semi_transparent" />
+                </LinearLayout>
+
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/doneButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/diseaseGroupRow3Father"
+                    android:layout_marginRight="@dimen/margin_8"
+                    android:padding="@dimen/margin_8"
+                    android:text="@string/done"
+                    fab:typeface="roboto_bold"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/textsize_18"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+
+
+

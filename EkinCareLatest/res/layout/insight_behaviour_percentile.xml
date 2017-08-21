@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_8"
+            android:visibility="visible"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_8"
+                android:gravity="center|left"
+                android:orientation="vertical">
+
+                <com.ekincare.util.RobotoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:padding="@dimen/margin_8"
+                    android:textColor="@color/card_first"
+                    android:layout_weight="0.5"
+                    android:text="@string/insight_behaviour_percentile"
+                    android:textSize="@dimen/font_24"
+                    fab:typeface="roboto_medium" />
+                <com.ekincare.util.RobotoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center"
+                    android:layout_weight="0.5"
+                    android:padding="@dimen/margin_8"
+                    android:textColor="@color/card_second"
+                    android:text="@string/insight_behaviour_percentile_description"
+                    android:textSize="@dimen/textsize_14"
+                    fab:typeface="roboto_regular" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_8"
+                android:gravity="center|left"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:orientation="horizontal">
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/insight_life_style_lable"
+                        android:layout_width="@dimen/margin_80"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/margin_8"
+                        android:textColor="@color/card_first"
+                        android:text="@string/insight_Life_style"
+                        android:textSize="@dimen/font_24"
+                        fab:typeface="roboto_regular" />
+                    <ProgressBar
+                        android:id="@+id/insight_life_style_progressbar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/margin_5"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:indeterminate="false"
+                        android:max="100"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:progressDrawable="@drawable/insight_progress_bar_bg"
+                         android:layout_weight="0.5"
+                        android:progress="1" />
+
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/insight_life_style_lable_value"
+                        android:layout_width="@dimen/margin_55"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/margin_8"
+                        android:textColor="@color/card_second"
+                        android:textSize="@dimen/textsize_14"
+                        fab:typeface="roboto_regular" />
+
+                </LinearLayout>
+                <View
+                    android:background="@color/cement_color"
+                    android:layout_height="@dimen/margin_1"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/margin_8"
+                    android:layout_marginRight="@dimen/margin_16"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_8"
+                android:gravity="center|left"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/insight_diet_lable"
+                        android:layout_width="@dimen/margin_80"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/margin_8"
+                        android:textColor="@color/card_first"
+                        android:text="@string/insight_diet"
+                        android:textSize="@dimen/font_24"
+                        fab:typeface="roboto_regular" />
+                    <ProgressBar
+                        android:id="@+id/insight_diet_progressbar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/margin_5"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:indeterminate="false"
+                        android:max="100"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:progressDrawable="@drawable/insight_progress_bar_bg"
+                        android:layout_weight="0.5"
+                        android:progress="1" />
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/insight_diet_lable_value"
+                        android:layout_width="@dimen/margin_55"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/margin_8"
+                        android:textColor="@color/card_second"
+                        android:textSize="@dimen/textsize_14"
+                        fab:typeface="roboto_regular" />
+
+                </LinearLayout>
+                <View
+                    android:background="@color/cement_color"
+                    android:layout_height="@dimen/margin_1"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/margin_8"
+                    android:layout_marginRight="@dimen/margin_16"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_8"
+                android:gravity="center|left"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/insight_stress_lable"
+                        android:layout_width="@dimen/margin_80"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/margin_8"
+                        android:textColor="@color/card_first"
+                        android:text="@string/insight_stress"
+                        android:textSize="@dimen/font_24"
+                        fab:typeface="roboto_regular" />
+                    <ProgressBar
+                        android:id="@+id/insight_stress_progressbar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/margin_5"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:indeterminate="false"
+                        android:max="100"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:progressDrawable="@drawable/insight_progress_bar_bg"
+                        android:layout_weight="0.5"
+                        android:progress="1" />
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/insight_stress_lable_value"
+                        android:layout_width="@dimen/margin_55"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/margin_8"
+                        android:textColor="@color/card_second"
+                        android:textSize="@dimen/textsize_14"
+                        fab:typeface="roboto_regular" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>

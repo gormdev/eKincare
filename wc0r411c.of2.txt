@@ -1,0 +1,38 @@
+﻿Merge remote-tracking branch 'origin/font_changes_and_other_changes' into font_changes_and_other_changes
+
+# Conflicts:
+#	EkinCareLatest/AndroidManifest.xml
+#	EkinCareLatest/proguard-rules.pro
+#	EkinCareLatest/res/layout/raw_assessment_new_test.xml
+#	EkinCareLatest/src/com/ekincare/ui/fragment/FragmentAssessmentNew.java
+#	EkinCareLatest/src/com/ekincare/ui/fragment/OverviewPagerItemFragment.java
+#	EkinCareLatest/src/com/oneclick/ekincare/helper/NetworkCaller.java
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch font_changes_and_other_changes
+# Your branch and 'origin/font_changes_and_other_changes' have diverged,
+# and have 16 and 3 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   EkinCareLatest/proguard-rules.pro
+#	modified:   EkinCareLatest/src/com/ekincare/ui/fragment/FragmentAssessmentNew.java
+#	modified:   EkinCareLatest/src/com/ekincare/ui/fragment/OverviewPagerItemFragment.java
+#	modified:   EkinCareLatest/src/com/oneclick/ekincare/helper/NetworkCaller.java
+#	modified:   PullToRefreh_library/PullToRefreh_library.iml
+#	modified:   PullToRefreshListView/PullToRefreshListView.iml
+#	modified:   SmoothProgressBar/SmoothProgressBar.iml
+#	modified:   cardview/cardview.iml
+#	modified:   google-play-services_lib/google-play-services_lib.iml
+#	modified:   sliding_menu_library/sliding_menu_library.iml
+#
+

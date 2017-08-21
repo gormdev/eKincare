@@ -1,0 +1,256 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentScrim="@color/blue"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:titleEnabled="false">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_300"
+                android:paddingBottom="@dimen/margin_65">
+
+                <RelativeLayout
+                    android:id="@+id/layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="?attr/actionBarSize"
+                    android:layout_marginLeft="@dimen/margin_48"
+                    android:layout_marginBottom="@dimen/margin_16"
+                    android:visibility="gone">
+
+                    <com.ekincare.util.RalewayTextViewMedium
+                        android:id="@+id/mTextNoData"
+                        style="@style/TvBlack22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fitsSystemWindows="true"
+                        android:paddingTop="@dimen/margin_8"
+                        android:gravity="left"
+                        android:textColor="@color/white"
+                        android:text="No Assessment Info Found"
+                        android:textSize="@dimen/margin_20"
+                        fab:ralewaytypeface="raleway_regular" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_graph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:layout_marginTop="?attr/actionBarSize"
+                    android:layout_marginBottom="@dimen/margin_16">
+
+                    <com.ekincare.util.RalewayTextViewMedium
+                        android:id="@+id/GraphLabelText"
+                        style="@style/TvBlack14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_8"
+                        android:padding="@dimen/margin_5"
+                        android:text="qqqq"
+                        android:textColor="@color/white"
+                        android:visibility="gone"
+                        fab:ralewaytypeface="raleway_medium" />
+
+                    <com.ekincare.util.RalewayTextViewMedium
+                        android:id="@+id/GraphTypeText"
+                        style="@style/TvBlack14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/GraphLabelText"
+                        android:padding="@dimen/margin_5"
+                        android:textStyle="bold"
+                        android:gravity="right"
+                        android:text="qqqq"
+                        android:visibility="gone"
+                        android:textColor="@color/white"
+                        fab:ralewaytypeface="raleway_medium" />
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/GraphData"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/GraphTypeText"
+                        android:layout_marginLeft="@dimen/margin_10"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:padding="@dimen/margin_5"
+                        android:textSize="@dimen/textsize_25"
+                        android:textStyle="bold"
+                        android:text="qqqq"
+                        android:visibility="gone"
+                        android:textColor="@color/white"
+                        fab:typeface="roboto_regular" />
+
+                    <com.ekincare.util.RalewayTextViewMedium
+                        android:id="@+id/GraphUnit"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/GraphTypeText"
+                        android:layout_marginTop="@dimen/margin_20"
+                        android:layout_toRightOf="@+id/GraphData"
+                        android:paddingLeft="@dimen/margin_5"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        android:textSize="@dimen/textsize_14"
+                        fab:ralewaytypeface="raleway_medium" />
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_chaild_weight_graph_insight"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        fab:cardBackgroundColor="@color/white"
+                        fab:cardCornerRadius="@dimen/margin_2"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_marginLeft="@dimen/margin_10"
+                        android:layout_marginRight="@dimen/margin_10"
+                        fab:cardElevation="@dimen/card_view_shadow_elvation"
+                        fab:cardPreventCornerOverlap="false" >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/margin_10"
+                            android:orientation="vertical">
+                            <com.github.mikephil.charting.charts.LineChart
+                                android:id="@+id/lineChart"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:layout_below="@+id/GraphData"
+                                />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                </RelativeLayout>
+
+            </FrameLayout>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:minHeight="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:behavior_overlapTop="@dimen/margin_65"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_8"
+                android:visibility="visible"
+                fab:cardBackgroundColor="@color/white"
+                fab:cardCornerRadius="0dp"
+                fab:cardElevation="@dimen/margin_2"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/labtestname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_margin="@dimen/margin_16"
+                        android:textColor="@color/card_first"
+                        android:textSize="@dimen/textsize_18"
+                        fab:typeface="roboto_regular" />
+
+                    <ImageView style="@style/ImgSeperatorGray" />
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_16"
+                        android:textColor="@color/card_second"
+                        android:textSize="@dimen/textsize_14"
+                        fab:typeface="roboto_light" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_8"
+                android:visibility="visible"
+                android:layout_below="@id/card_info"
+                fab:cardBackgroundColor="@color/white"
+                fab:cardCornerRadius="0dp"
+                fab:cardElevation="@dimen/margin_2" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/historyText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center"
+                        android:padding="@dimen/margin_16"
+                        android:text=""
+                        android:textColor="@color/card_first"
+                        android:textSize="@dimen/textsize_18"
+                        fab:typeface="roboto_regular" />
+
+                    <ImageView style="@style/ImgSeperatorGray" />
+
+                    <ListView
+                        android:id="@+id/mListHistory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:divider="@color/wizard_seperatore"
+                        android:dividerHeight="1dp" >
+                    </ListView>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

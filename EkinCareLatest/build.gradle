@@ -1,0 +1,174 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    compile fileTree(include: '*.jar', dir: 'libs')
+    compile files('libs/httpmime-4.3.6.jar')
+    compile files('libs/httpclient-4.2.1.jar')
+    compile files('libs/joda-time-1.5.2.jar')
+    compile files('libs/AF-Android-SDK.jar')
+    compile files('libs/AndroidUnusedResources1.6.2.jar')
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:recyclerview-v7:23.0.1'
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.google.android.gms:play-services:9.2.0'
+    compile 'com.google.android.gms:play-services-ads:9.2.0'
+    compile 'com.google.android.gms:play-services-auth:9.2.0'
+    compile 'com.google.android.gms:play-services-gcm:9.2.0'
+    compile 'com.google.android.gms:play-services-fitness:9.2.0'
+    compile 'com.google.android.gms:play-services-maps:9.2.0'
+    compile 'com.mixpanel.android:mixpanel-android:4.9.2'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'com.lsjwzh:materialloadingprogressbar:0.5.8-RELEASE'
+    compile 'com.android.support:design:23.0.1'
+    compile 'com.facebook.android:facebook-android-sdk:4.0.0'
+    compile 'com.robinhood.spark:spark:1.1.2'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.github.ganfra:material-spinner:1.1.1'
+    compile 'com.android.support:cardview-v7:24.2.0'
+    compile 'uk.co.samuelwall:material-tap-target-prompt:1.4.3'
+    compile 'com.wx.wheelview:wheelview:1.3.3'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'com.makeramen:roundedimageview:2.2.1'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'net.frakbot:jumpingbeans:1.3.0'
+    compile 'com.flaviofaria:kenburnsview:1.0.7'
+    compile 'com.razorpay:checkout:1.2.0'
+    compile project(':openCVLibrary310')
+    testCompile 'junit:junit:4.12'
+    androidTestCompile 'com.android.support:support-annotations:24.0.0'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    androidTestCompile 'com.android.support.test:rules:0.5'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    compile files('libs/android-saripaar-1.0.0.jar')
+    compile 'com.github.PhilJay:MPAndroidChart:v3.0.1'
+    compile('com.github.ozodrukh:CircularReveal:1.1.1@aar') {
+        transitive = true;
+    }
+}
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.2'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+repositories {
+    maven {
+        url 'http://dl.bintray.com/amulyakhare/maven'
+    }
+}
+repositories
+        { maven
+                {
+                    url "https://jitpack.io"
+                }
+        }
+dependencies {
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    compile 'com.jayway.android.robotium:robotium-solo:5.3.1'
+    compile 'junit:junit:4.12'
+    compile 'com.android.support.test:rules:0.5'
+    compile 'com.android.support.test.espresso:espresso-core:2.2.2'
+}
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '25.0.1'
+
+    useLibrary 'org.apache.http.legacy'
+
+    configurations {
+        //all*.exclude group: 'com.android.support', module: 'support-annotations'
+        all*.exclude group: 'com.android.support', module: 'support-v4'
+    }
+    configurations {
+        all*.exclude group: 'com.android.support', module: 'support-annotations'
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
+
+    defaultConfig {
+        applicationId "com.ekincare"
+        minSdkVersion 16
+        targetSdkVersion 23
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = false
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+
+    sourceSets {
+        main {
+
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['assets', 'src']
+            resources.srcDirs = ['assets', 'src']
+            aidl.srcDirs = ['assets', 'src']
+            renderscript.srcDirs = ['assets', 'src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+        androidTest.setRoot('src/test')
+        androidTest {
+            java.srcDirs = ['src/test/java']
+        }
+
+        // Move the tests to tests/java, tests/res, etc...
+        instrumentTest.setRoot('src/test')
+
+        // Move the build types to build-types/<type>
+        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
+        // This moves them out of them default location under src/<type>/... which would
+        // conflict with src/ being used by the main source set.
+        // Adding new build types or product flavors should be accompanied
+        // by a similar customization.
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+
+
+
+
+    buildTypes {
+        release {
+            shrinkResources false
+            minifyEnabled false//proguard is enabled if its true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+
+
+        }
+    }
+
+}

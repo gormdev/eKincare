@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <com.ekincare.util.RobotoTextView
+        android:id="@+id/header_first"
+        style="@style/TvBlack20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:layout_marginLeft="@dimen/margin_24"
+        android:layout_marginRight="@dimen/margin_24"
+        android:layout_marginTop="@dimen/margin_24"
+        android:text="Fasting Blood Glucose"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_20"
+        android:textStyle="bold"
+        fab:typeface="roboto_medium" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/floating_glucose"
+        android:layout_width="match_parent"
+        android:layout_below="@id/header_first"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_8"
+        android:layout_marginLeft="@dimen/margin_24"
+        android:layout_marginRight="@dimen/margin_24"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/glucose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="Glucose(mg/dL)"
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal|number"
+            android:maxLength="3"
+            android:maxLines="1"
+            android:textColor="@color/black_semi_transparent"
+            android:textCursorDrawable="@null"
+            android:textIsSelectable="false" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/floating_systolic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/floating_glucose"
+        android:layout_marginBottom="@dimen/margin_8"
+        android:layout_marginLeft="@dimen/margin_24"
+        android:layout_marginRight="@dimen/margin_24"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/systolic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="Systolic(mmHg)"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal|number"
+            android:maxLength="3"
+            android:maxLines="1"
+            android:textColor="@color/black_semi_transparent"
+            android:textCursorDrawable="@null"
+            android:textIsSelectable="false"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/floating_diastolic"
+        android:layout_width="match_parent"
+        android:layout_below="@id/floating_systolic"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_8"
+        android:layout_marginLeft="@dimen/margin_24"
+        android:layout_marginRight="@dimen/margin_24"
+        android:layout_gravity="center" >
+
+        <EditText
+            android:id="@+id/diastolic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="Diastolic(mmHg)"
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal|number"
+            android:maxLength="3"
+            android:maxLines="1"
+            android:textColor="@color/black_semi_transparent"
+            android:textCursorDrawable="@null"
+            android:textIsSelectable="false" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_52"
+        android:orientation="horizontal"
+        android:gravity="right|center_vertical"
+        android:paddingBottom="@dimen/margin_8"
+        android:layout_below="@id/floating_diastolic"
+        android:paddingRight="@dimen/margin_8"
+        android:paddingTop="@dimen/margin_8"
+        android:paddingLeft="@dimen/margin_24">
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_35"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/margin_8"
+            android:text="DISMISS"
+            android:padding="@dimen/margin_8"
+            android:textSize="@dimen/font_16"
+            android:textColor="@color/teal"
+            android:textAllCaps="true"
+            android:clickable="true"
+            fab:typeface="roboto_medium"
+            android:background="?attr/selectableItemBackground" />
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_35"
+            android:gravity="center"
+            android:padding="@dimen/margin_8"
+            android:textSize="@dimen/font_16"
+            android:text="SAVE"
+            android:layout_marginRight="@dimen/margin_8"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackground"
+            android:textAllCaps="true"
+            fab:typeface="roboto_medium"
+            android:textColor="@color/teal" />
+
+    </LinearLayout>
+
+</RelativeLayout>

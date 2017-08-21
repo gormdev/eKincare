@@ -1,0 +1,398 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container_login_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    >
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:minHeight="?attr/actionBarSize"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                    android:background="@color/white" >
+                </android.support.v7.widget.Toolbar>
+
+                <LinearLayout
+                    android:id="@+id/layout_login_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/toolbar"
+                    android:layout_marginTop="@dimen/margin_30"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/textview_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center|center_horizontal|left"
+                        android:text="@string/login_label_welcome_back"
+                        android:textColor="@color/card_first"
+                        android:visibility="visible"
+                        android:textSize="@dimen/textsize_30"
+                        android:layout_marginRight="@dimen/margin_24"
+                        android:layout_marginLeft="@dimen/margin_24"
+                        fab:typeface="roboto_regular" />
+
+
+
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/textview_dummy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|center_horizontal|left"
+                        android:text="@string/login_label_string2"
+                        android:textColor="@color/card_second"
+                        android:visibility="visible"
+                        android:textSize="@dimen/textsize_12"
+                        android:layout_marginRight="@dimen/margin_24"
+                        android:layout_marginLeft="@dimen/margin_24"
+                        fab:typeface="roboto_regular" />
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/floating_user_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:errorTextAppearance="@style/error_appearance_login"
+                        android:theme="@style/txt_login_style"
+                        android:layout_below="@id/textview_dummy"
+
+                        android:layout_marginTop="@dimen/margin_50"
+                        android:layout_marginRight="@dimen/margin_24"
+                        android:layout_marginLeft="@dimen/margin_24">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/edit_text_user_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Mobile number"
+                            android:inputType="textPhonetic|phone"
+                            android:maxLength="10"
+                            android:maxLines="1"
+                            android:textColor="@color/card_first"
+                            android:textColorHint="@color/card_first"
+                            android:textCursorDrawable="@null"
+                            android:textIsSelectable="false"
+                            android:textSize="@dimen/textsize_16" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/floating_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/margin_24"
+                        android:layout_marginLeft="@dimen/margin_24"
+                        app:errorTextAppearance="@style/error_appearance_login"
+                        android:theme="@style/txt_login_style"
+                        android:layout_marginBottom="@dimen/margin_8"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:layout_below="@id/floating_user_name">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/edit_text_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Password"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:maxLength="15"
+                            android:textColor="@color/card_first"
+                            android:textColorHint="@color/card_first"
+                            android:textCursorDrawable="@null"
+                            android:textIsSelectable="false"
+                            android:textSize="@dimen/textsize_16" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <com.ekincare.util.RalewayTextViewMedium
+                        android:id="@+id/forgotPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/floating_password"
+                        android:layout_marginLeft="@dimen/margin_24"
+                        android:paddingLeft="@dimen/margin_4"
+                        android:text="@string/forgotPassword"
+                        android:textColor="@color/themeColor"
+                        android:visibility="gone"
+                        android:textSize="@dimen/textsize_14"
+                        fab:ralewaytypeface="raleway_medium" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_password"
+                        android:layout_below="@id/forgotPassword"
+                        android:layout_marginRight="@dimen/margin_24"
+                        android:layout_marginLeft="@dimen/margin_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textsize_10"
+                        android:layout_marginTop="@dimen/margin_4"
+                        android:theme="@style/LoginCheckBox"
+                        android:textColor="@color/card_first"
+                        android:text="Login with OTP instead of password"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_otp_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/toolbar"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:visibility="gone">
+
+
+                    <com.ekincare.util.RobotoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center|center_horizontal"
+                        android:text="@string/validate_your_number"
+                        android:textColor="@color/card_second"
+                        android:visibility="visible"
+                        android:textSize="@dimen/textsize_20"
+                        fab:typeface="roboto_regular" />
+
+
+                    <ImageView
+                        android:layout_width="@dimen/margin_100"
+                        android:layout_below="@id/textview_label"
+                        android:layout_height="@dimen/margin_100"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_enter_otp"
+                        android:scaleType="fitXY"/>
+
+                    <com.ekincare.util.RobotoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center|center_horizontal"
+                        android:visibility="gone"
+                        android:text="@string/auto_detect_sms"
+                        android:textColor="@color/card_first"
+                        android:textSize="@dimen/textsize_16"
+                        fab:typeface="roboto_regular" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/margin_30">
+
+                        <com.ekincare.util.RalewayEditTextLight
+                            android:id="@+id/otp_value_enter"
+                            android:layout_width="@dimen/margin_150"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:imeActionLabel="Done"
+                            android:imeOptions="actionDone"
+                            android:inputType="phone"
+                            android:maxLength="6"
+                            android:textStyle="normal"
+                            android:textSize="@dimen/textsize_25"
+                            android:textColor="@color/card_first"
+                            fab:ralewaytypeface="raleway_bold"/>
+
+                        <View
+                            android:id="@+id/UnderLine"
+                            android:layout_width="@dimen/margin_150"
+                            android:layout_height="@dimen/margin_1"
+                            android:layout_below="@+id/otp_value_enter"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/card_second" />
+
+                    </RelativeLayout>
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/timer_for_otp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="@dimen/margin_16"
+                        android:layout_marginRight="@dimen/margin_16"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/card_second"
+                        android:textSize="@dimen/textsize_14"
+                        fab:typeface="roboto_regular" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:baselineAligned="true"
+                        android:layout_marginTop="@dimen/margin_16"
+                        android:layout_gravity="center_horizontal">
+
+                        <com.ekincare.util.RobotoTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:gravity="bottom"
+                            android:layout_marginRight="@dimen/margin_8"
+                            android:layout_gravity="bottom"
+                            android:text="@string/did_not_receive_otp"
+                            android:textColor="@color/card_second"
+                            android:textSize="@dimen/textsize_14"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/resend_otp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="bottom"
+                            android:layout_gravity="bottom"
+                            android:text="@string/resend"
+                            android:textSize="@dimen/textsize_14"
+                            android:visibility="visible"
+                            android:textColor="@color/card_first"
+                            android:textAllCaps="false"
+                            fab:typeface="roboto_bold" />
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/hide_sms_time_left"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_16"
+                        android:visibility="gone"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:orientation="horizontal">
+
+                        <com.ekincare.util.RobotoTextView
+                            android:id="@+id/resend_sms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:drawablePadding="@dimen/margin_8"
+                            android:gravity="center|left"
+                            android:layout_weight="1"
+                            android:text="@string/resend_sms"
+                            android:textColor="@color/card_second"
+                            android:textSize="@dimen/textsize_14"
+                            android:layout_marginRight="@dimen/margin_8"
+                            fab:typeface="roboto_regular" />
+
+                        <com.ekincare.util.RobotoTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:gravity="center|right"
+                            android:textColor="@color/card_second"
+                            android:textSize="@dimen/textsize_14"
+                            fab:typeface="roboto_regular" />
+
+                    </LinearLayout>
+
+
+                    <com.ekincare.util.RobotoTextView
+                        android:id="@+id/resend_otp_message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="@dimen/margin_16"
+                        android:layout_marginRight="@dimen/margin_16"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingLeft="@dimen/margin_25"
+                        android:paddingRight="@dimen/margin_25"
+                        android:text="@string/resend_otp_to_verify_number"
+                        android:textColor="@color/card_second"
+                        android:textSize="@dimen/textsize_14"
+                        android:visibility="gone"
+                        fab:typeface="roboto_regular" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </ScrollView>
+
+
+    <com.ekincare.util.RalewayTextViewMedium
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/margin_8"
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_marginBottom="@dimen/margin_40"
+
+        android:layout_alignParentBottom="true"
+        android:text="Do not have account? Register now"
+        android:textColor="@color/card_second"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:textSize="@dimen/textsize_14"
+        fab:ralewaytypeface="raleway_medium" />
+
+    <com.ekincare.util.RalewayTextViewMedium
+        android:id="@+id/termsAndCondints"
+        android:padding="@dimen/margin_8"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="By clicking SignUp, I agree to the Terms and Conditions"
+        android:textSize="@dimen/textsize_12"
+        android:textColor="@color/card_second"
+        android:background="?attr/selectableItemBackground"
+        fab:ralewaytypeface="raleway_medium"
+        android:layout_above="@id/registerButton"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/loginButton"
+        style="@style/loginButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/termsAndCondints"
+        android:background="@drawable/rounded_rectangle_shape_blue_button"
+        android:layout_marginLeft="@dimen/margin_24"
+        android:layout_marginRight="@dimen/margin_24"
+        android:layout_marginTop="@dimen/margin_24"
+        android:text="LOGIN"
+        android:padding="@dimen/margin_10"
+        android:textAllCaps="true"
+        android:textSize="@dimen/textsize_12"
+        android:textColor="@color/white"
+        fab:ralewaytypeface="raleway_bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+
+
+    <LinearLayout
+        android:id="@+id/fragment_assessment_new_header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ececec"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/fragment_assessment_new_lab_test_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:padding="@dimen/margin_16"
+            android:text=""
+            android:textColor="@color/card_first"
+            android:textSize="@dimen/textsize_18"
+            fab:typeface="roboto_regular" />
+
+        <ImageView
+            android:id="@+id/seperator"
+            style="@style/ImgSeperatorGray"
+            android:layout_height="@dimen/margin_1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/fragment_assessment_new_linear_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_assessment_new_header_layout"
+        android:background="#f3f3f3"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_16">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="true"
+            android:orientation="horizontal">
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/fragment_assessment_new_test_component_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:text="asd"
+                android:textColor="@color/card_second"
+                android:textSize="@dimen/textsize_16"
+                fab:typeface="roboto_regular" />
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/fragment_assessment_new_result_value_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="33"
+                android:textSize="@dimen/textsize_22"
+                android:visibility="visible"
+                fab:typeface="roboto_regular" />
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/fragment_assessment_new_result_unit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingLeft="@dimen/margin_5"
+                android:text="sss"
+                android:textSize="@dimen/textsize_14"
+                android:visibility="visible"
+                fab:typeface="roboto_regular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_assessment_rl_range"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="true"
+            android:orientation="horizontal">
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/fragment_assessment_ideal_range_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="left|bottom"
+                android:maxLength="21"
+                android:maxLines="1"
+                android:text="Ideal Range : "
+                android:textColor="@color/card_second"
+                android:textSize="@dimen/textsize_14"
+                fab:typeface="roboto_regular" />
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/fragment_assessment_ideal_range_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:paddingLeft="@dimen/margin_5"
+                android:paddingTop="@dimen/margin_10"
+                android:text="eee"
+                android:textColor="@color/card_second"
+                android:textSize="@dimen/textsize_14"
+                android:visibility="visible"
+                fab:typeface="roboto_regular" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/divider"
+        style="@style/ImgSeperatorGray"
+        android:layout_below="@id/fragment_assessment_new_linear_card"
+        android:layout_height="@dimen/margin_1"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"/>
+
+
+</RelativeLayout>

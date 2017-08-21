@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:padding="0dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+
+
+    <com.lsjwzh.widget.materialloadingprogressbar.CircleProgressBar
+        android:id="@+id/progressWithArrow"
+        app:mlpb_progress_stoke_width="@dimen/margin_3"
+        android:layout_margin="@dimen/margin_10"
+        app:mlpb_progress_color="#566da9"
+        android:layout_width="@dimen/margin_35"
+        android:layout_height="@dimen/margin_35" />
+
+
+</LinearLayout>

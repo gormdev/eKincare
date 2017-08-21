@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_8"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            >
+            <ImageView
+                android:id="@+id/insight_health_status_image"
+                android:layout_width="@dimen/margin_35"
+                android:layout_height="@dimen/margin_35"
+                android:layout_marginTop="@dimen/margin_5"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginRight="@dimen/margin_10"
+                android:layout_gravity="center|right" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_8"
+                android:paddingLeft="@dimen/margin_8"
+                android:paddingRight="@dimen/margin_8"
+                android:paddingBottom="@dimen/margin_4"
+                android:orientation="horizontal">
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/insight_health_tag_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center|left"
+                    android:text="Blood PResuree"
+                    android:textSize="@dimen/textsize_16"
+                    android:textColor="@color/card_first"
+                    fab:typeface="roboto_regular" />
+
+
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/insight_health_risk_percentage"
+                    android:textSize="@dimen/textsize_16"
+                    android:text="74%"
+                    android:layout_width="@dimen/margin_100"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:layout_toRightOf="@+id/icon"
+                    android:gravity="center|left"
+                    android:textColor="@color/card_first"
+                    fab:typeface="roboto_regular" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_8"
+                android:paddingRight="@dimen/margin_8"
+                android:paddingBottom="@dimen/margin_4"
+                android:orientation="horizontal">
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/insight_health_type_behaviour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center|left"
+                    android:text="dbnczbcn"
+                    android:textSize="@dimen/textsize_14"
+                    fab:typeface="roboto_regular" />
+
+
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/insight_health_type_leveles"
+                    android:textSize="@dimen/textsize_14"
+                    android:text="dbnczbcn"
+                    android:layout_width="@dimen/margin_100"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:layout_toRightOf="@+id/icon"
+                    android:gravity="center|left"
+                    android:textColor="@color/card_second"
+                    fab:typeface="roboto_regular" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:id="@+id/devider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1"
+        android:background="@color/chart_border_lines"
+        android:layout_marginRight="@dimen/margin_16"
+        android:layout_marginLeft="@dimen/margin_40">
+
+    </View>
+
+</LinearLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/weight_layout"
+    fab:cardElevation="@dimen/cardview_default_elevation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_8"
+    android:layout_marginRight="@dimen/margin_8"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    fab:cardCornerRadius="0dp">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/margin_8"
+        android:paddingBottom="@dimen/margin_8"
+        android:paddingLeft="@dimen/margin_16"
+        android:paddingRight="@dimen/margin_16"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|right"
+
+            android:orientation="horizontal">
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/fragment_immunization_text_name"
+                android:textSize="@dimen/textsize_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:singleLine="true"
+                android:text="Name"
+                fab:typeface="roboto_regular" />
+
+            <ImageView
+                android:id="@+id/fragment_immunization_img_info"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_width="@dimen/margin_30"
+                android:layout_height="@dimen/margin_30"
+                android:layout_marginBottom="@dimen/margin_2"
+                android:scaleType="fitXY"
+                android:padding="@dimen/margin_2"
+                android:src="@drawable/ic_info_outline_white_24px"
+                android:tint="#a7a7a7"
+                android:clickable="true"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_4"
+            android:layout_marginBottom="@dimen/margin_4"
+            android:gravity="center|left"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/fragment_immunization_img_update_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/update" />
+
+                <ImageView
+                    android:id="@+id/fragment_immunization_img_update_1lable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/progress_bg" />
+
+                <ImageView
+                    android:id="@+id/fragment_immunization_img_update_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/update" />
+
+                <ImageView
+                    android:id="@+id/fragment_immunization_img_update_2lable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/progress_bg" />
+
+                <ImageView
+                    android:id="@+id/fragment_immunization_img_update_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/update" />
+
+                <ImageView
+                    android:id="@+id/fragment_immunization_img_update_3lable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/progress_bg" />
+
+                <ImageView
+                    android:id="@+id/fragment_immunization_img_update_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/update" />
+
+                <ImageView
+                    android:id="@+id/fragment_immunization_img_update_4lable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/progress_bg" />
+
+                <ImageView
+                    android:id="@+id/fragment_immunization_img_update_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/update" />
+
+                <ImageView
+                    android:id="@+id/fragment_immunization_img_update_5lable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/progress_bg" />
+
+                <ImageView
+                    android:id="@+id/fragment_immunization_img_update_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/update" />
+            </LinearLayout>
+
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/fragment_immunization_text_outof"
+                android:textSize="@dimen/textsize_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/card_first"
+                android:layout_marginTop="@dimen/margin_4"
+                android:layout_marginBottom="@dimen/margin_4"
+                fab:typeface="roboto_regular" />
+        </LinearLayout>
+
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/fragment_immunization_text_time"
+            style="@style/TvBlack14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_1"
+            android:text="Time"
+            android:textColor="@color/themeColor"
+            fab:typeface="roboto_regular" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

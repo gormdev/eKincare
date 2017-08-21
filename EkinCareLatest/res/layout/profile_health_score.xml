@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_8"
+        android:visibility="visible"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/margin_8"
+            android:gravity="center|left"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.ekincare.util.RobotoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:padding="@dimen/margin_8"
+                    android:textColor="@color/card_first"
+                    android:layout_weight="0.5"
+                    android:text="@string/insight_personal_health_score"
+                    android:textSize="@dimen/font_24"
+                    fab:typeface="roboto_medium" />
+                <ImageView
+                    android:id="@+id/image_health_score_info"
+                    android:layout_width="@dimen/margin_40"
+                    android:layout_height="@dimen/margin_40"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="fitXY"
+                    android:padding="@dimen/margin_8"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_marginRight="@dimen/margin_8"
+                    android:src="@drawable/ic_info_black_24dp" />
+
+            </LinearLayout>
+
+
+            <com.ekincare.util.RobotoTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_weight="0.5"
+                android:padding="@dimen/margin_8"
+                android:visibility="gone"
+                android:textColor="@color/card_second"
+                android:text="@string/insight_personal_health_score_message"
+                android:textSize="@dimen/textsize_14"
+                fab:typeface="roboto_regular" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingTop="@dimen/margin_8"
+            android:gravity="center|left"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/margin_12"
+            android:paddingRight="@dimen/margin_12">
+
+            <FrameLayout
+                android:id="@+id/text_origional_hs_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2196F3"
+                android:background="@drawable/well_ness_score_bar"
+                android:paddingTop="@dimen/margin_3"
+                >
+
+                <TextView
+                    android:id="@+id/text_original_hs_seek"
+                    android:layout_width="@dimen/margin_24"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_10"
+                    android:layout_marginBottom="@dimen/margin_10"
+                    android:padding="@dimen/margin_3"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                   />
+            </FrameLayout>
+
+            <SeekBar
+                android:id="@+id/seekbar_origional_hs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/transparent"
+                android:thumb="@color/transparent"
+                android:visibility="invisible"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_optimal_hs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/transparent"
+                android:thumb="@color/transparent"
+                android:visibility="invisible"/>
+
+            <com.ekincare.ui.custom.CustomSeekBar
+                android:id="@+id/seekBar0"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_25"
+                android:max="100"
+                android:layout_below="@id/text_origional_hs_container"
+                android:progressDrawable="@android:color/transparent"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_8"
+                android:paddingRight="@dimen/margin_8"
+                android:layout_below="@+id/seekBar0"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:textColor="@color/card_second"
+                    android:gravity="left"
+                    android:textSize="@dimen/textsize_14"
+                    android:text="0"/>
+                <TextView
+                    android:id="@+id/progress_limit_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:textColor="@color/card_second"
+                    android:gravity="right"
+                    android:textSize="@dimen/textsize_14"
+                    />
+            </LinearLayout>
+            <FrameLayout
+                android:layout_below="@id/seekBar0"
+                android:id="@+id/optimal_hs_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#a7a7a7"
+                android:background="@drawable/ic_optimum_bar"
+                android:paddingBottom="@dimen/margin_3"
+                android:paddingLeft="@dimen/margin_10">
+
+                <TextView
+                    android:id="@+id/text_view_optimal_hs"
+                    android:layout_width="@dimen/margin_24"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_10"
+                    android:gravity="center"
+                    android:padding="@dimen/margin_3"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:textColor="@color/white"
+                    android:layout_gravity="right"
+                    />
+
+            </FrameLayout>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_8"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/ll_weight_growth_lables"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:orientation="horizontal">
+
+                    <com.ekincare.util.RobotoTextView
+                        fab:typeface="roboto_regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="@dimen/margin_5"
+                        android:text="Wellness Score"
+                        android:textColor="@color/card_first"
+                        android:textSize="@dimen/textsize_10" />
+
+                    <ImageView
+                        android:layout_width="@dimen/margin_5"
+                        android:layout_height="@dimen/margin_5"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/margin_5"
+                        android:background="@color/colorPrimary" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_8"
+                    android:orientation="horizontal"
+                    android:gravity="center|left">
+
+                    <com.ekincare.util.RobotoTextView
+                        fab:typeface="roboto_regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="@dimen/margin_3"
+                        android:text="Optimum wellness score"
+                        android:textColor="@color/card_first"
+                        android:textSize="@dimen/textsize_10" />
+
+                    <ImageView
+                        android:layout_width="@dimen/margin_5"
+                        android:layout_height="@dimen/margin_5"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/margin_5"
+                        android:background="#a7a7a7" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:layout_marginTop="@dimen/margin_5"
+                android:gravity="left"
+
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center|left">
+
+                    <com.ekincare.util.RobotoTextView
+                        fab:typeface="roboto_regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="@dimen/margin_5"
+                        android:text="High Risks"
+                        android:textColor="@color/card_first"
+                        android:textSize="@dimen/textsize_10" />
+
+                    <ImageView
+                        android:layout_width="@dimen/margin_5"
+                        android:layout_height="@dimen/margin_5"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/margin_5"
+                        android:background="@color/progress_first" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_8"
+                    android:orientation="horizontal"
+                    android:gravity="center|left">
+
+                    <com.ekincare.util.RobotoTextView
+                        fab:typeface="roboto_regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="@dimen/margin_5"
+                        android:text="Medium risk"
+                        android:textColor="@color/card_first"
+                        android:textSize="@dimen/textsize_10" />
+
+                    <ImageView
+                        android:layout_width="@dimen/margin_5"
+                        android:layout_height="@dimen/margin_5"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/margin_5"
+                        android:background="@color/progress_second" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_8"
+                    android:orientation="horizontal"
+                    android:gravity="center|left">
+
+                    <com.ekincare.util.RobotoTextView
+                        fab:typeface="roboto_regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="@dimen/margin_5"
+                        android:text="Normal"
+                        android:textColor="@color/card_first"
+                        android:textSize="@dimen/textsize_10" />
+
+                    <ImageView
+                        android:layout_width="@dimen/margin_5"
+                        android:layout_height="@dimen/margin_5"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/margin_5"
+                        android:background="@color/progress_three" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

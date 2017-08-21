@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/view_group_avatar_incoming_text"
+    card_view:cardCornerRadius="3dp"
+    android:elevation="@dimen/cardview_default_elevation"
+    android:layout_marginLeft="@dimen/margin_16"
+    android:layout_marginRight="@dimen/margin_16"
+    android:layout_marginTop="@dimen/margin_8"
+    android:layout_marginBottom="@dimen/margin_8"
+    card_view:contentPadding="0dp">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:padding="@dimen/margin_16"
+            tools:text="Title"
+            android:textAllCaps="true"
+            android:textColor="@color/card_first"
+            android:background="#ececec"
+            android:textSize="@dimen/textsize_18" />
+
+        <View
+            android:id="@+id/divider_for_med"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:visibility="gone"
+            android:background="@color/chat_box_border"/>
+
+        <LinearLayout
+            android:id="@+id/layout_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#f3f3f3"
+            android:padding="@dimen/margin_8"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listview_message_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:divider="#e2e2e2"
+                android:dividerHeight="0dp"
+                android:scrollbars="none"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider_for_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2196f3"
+            android:layout_marginRight="@dimen/margin_8"
+            android:layout_marginLeft="@dimen/margin_8"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#f3f3f3"
+            android:padding="@dimen/margin_8"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textview_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:padding="@dimen/margin_8"
+                android:gravity="left"
+                android:text="Total :"
+                android:textAllCaps="true"
+                android:textColor="@color/card_first"
+                android:textSize="@dimen/textsize_16" />
+
+            <TextView
+                android:id="@+id/textview_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_16"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:text=""
+                android:padding="@dimen/margin_8"
+                android:textAllCaps="true"
+                android:textColor="@color/card_first"
+                android:textSize="@dimen/textsize_16" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+

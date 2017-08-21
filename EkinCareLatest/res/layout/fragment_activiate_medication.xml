@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/transparent"
+        android:layout_margin="@dimen/margin_8"
+        android:layout_alignParentBottom="true">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/button_activate_medication"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin_8"
+            android:padding="@dimen/margin_8"
+            android:text="@string/text_activate_medication"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_16"
+            app:typeface="roboto_regular"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/button_add_medication"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:background="@color/green"
+            android:layout_margin="@dimen/margin_8"
+            android:gravity="center"
+            android:padding="@dimen/margin_8"
+            android:text="@string/text_add_more_medication"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_16"
+            app:typeface="roboto_regular"/>
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/floating_doctor_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_12"
+        app:errorTextAppearance="@style/error_appearance">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/edit_text_doctor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prescriber/Doctor Name"
+            android:imeOptions="actionNext"
+            android:inputType="text|textCapWords"
+            android:maxLength="40"
+            android:maxLines="1"
+            android:textColor="@color/card_second"
+            android:textColorHint="@color/card_second"
+            android:textCursorDrawable="@null"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/textsize_14" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/floating_reson_for_medication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/floating_doctor_name"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"
+        app:errorTextAppearance="@style/error_appearance">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/edit_text_reson_for_medication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Reason for taking medication(Diagnosis)"
+            android:imeOptions="actionNext"
+            android:inputType="text|textCapWords"
+            android:maxLines="1"
+            android:textColor="@color/card_second"
+            android:textColorHint="@color/card_second"
+            android:textCursorDrawable="@null"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/textsize_14" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/floating_medication_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/floating_reson_for_medication"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"
+        android:layout_marginBottom="@dimen/margin_16"
+        app:errorTextAppearance="@style/error_appearance">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/edit_text_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Medication Start Date"
+            android:imeOptions="actionNone"
+            android:inputType="date|datetime"
+            android:maxLength="40"
+            android:maxLines="1"
+            android:textColor="@color/card_second"
+            android:textColorHint="@color/card_second"
+            android:textCursorDrawable="@null"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/textsize_14" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_above="@id/button_container"
+        android:layout_below="@id/floating_medication_date"/>
+
+</RelativeLayout>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/chat_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:overScrollMode="ifContentScrolls"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:visibility="gone"
+                android:scrollbars="vertical" />
+
+            <LinearLayout
+                android:id="@+id/chat_loading_continer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/message_general_image_view_avatar"
+                    android:layout_width="@dimen/margin_150"
+                    android:layout_height="@dimen/margin_150"
+                    android:src="@drawable/icons_chat_logo"
+                    android:layout_marginBottom="@dimen/margin_10"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fetching previous messages..."
+                    android:textColor="@color/card_second"
+                    android:textSize="@dimen/textsize_14"/>
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/rounded_chat_light_grey_bg"
+        android:paddingTop="5dp"
+        android:visibility="gone">
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/shadow"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/image_view_mic"
+            android:layout_width="@dimen/margin_35"
+            android:layout_height="@dimen/margin_35"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/margin_8"
+            android:layout_marginTop="@dimen/margin_8"
+            android:adjustViewBounds="true"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:padding="@dimen/margin_8"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_mic_24px"
+            android:tint="@color/colorPrimary"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/snap_abort_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_8"
+            android:layout_marginTop="@dimen/margin_8"
+            android:layout_toRightOf="@+id/image_view_mic">
+
+            <ImageView
+                android:id="@+id/image_view_snap"
+                android:layout_width="@dimen/margin_40"
+                android:layout_height="@dimen/margin_40"
+                android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="@dimen/margin_8"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_help_outline_white_24px"
+                android:tint="@color/colorPrimary" />
+
+
+            <ImageView
+                android:id="@+id/image_view_abort"
+                android:layout_width="@dimen/margin_40"
+                android:layout_height="@dimen/margin_40"
+                android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="@dimen/margin_8"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_abort_icon"
+                android:visibility="gone"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_4"
+            android:layout_toLeftOf="@+id/send_container"
+            android:layout_toRightOf="@+id/snap_abort_container">
+
+            <EditText
+                android:id="@+id/edit_text_entry_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_chat_bg"
+                android:gravity="left"
+                android:hint="Enter message..."
+                android:imeOptions="actionDone"
+                android:maxLines="3"
+                android:paddingBottom="@dimen/margin_12"
+                android:paddingLeft="@dimen/margin_8"
+                android:paddingRight="@dimen/margin_4"
+                android:paddingTop="@dimen/margin_12"
+                android:textColor="@color/text_navy"
+                android:textColorHint="@color/text_navy_transparent_50"
+                android:textSize="@dimen/textsize_14"
+
+                />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/auto_complet_search_text"
+                style="@style/TvBlack14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_chat_bg"
+                android:focusable="false"
+                android:hint="Search specialities..."
+                android:imeOptions="actionSearch"
+                android:paddingBottom="@dimen/margin_12"
+                android:paddingLeft="@dimen/margin_4"
+                android:paddingTop="@dimen/margin_12"
+                android:singleLine="true"
+                android:textColor="@color/light_black"
+                android:textColorHint="@color/light_gray"
+                android:visibility="gone"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/send_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/margin_8"
+            android:layout_marginTop="@dimen/margin_8">
+
+            <ImageView
+                android:id="@+id/image_view_send"
+                android:layout_width="@dimen/margin_40"
+                android:layout_height="@dimen/margin_40"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_send_chat_message_24px"
+                android:tint="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/image_view_done"
+                android:layout_width="@dimen/margin_40"
+                android:layout_height="@dimen/margin_40"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="8dp"
+                android:visibility="gone"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_done_white_24dp"
+                android:tint="@color/colorPrimary" />
+
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/expandableContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:id="@+id/expandable"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="#f7f7f7"></FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

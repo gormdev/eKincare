@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Volumes/Work/Upwork/2017.04/PortApp/android-new/EkinCareLatest/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rES/values-es-rES.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "/Users/lionking/.android/build-cache/5d6e611d9fd2e2690db1a385f0a78cc7af06fd7a/output/res/values-es-rES/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 185,
+                        "endColumn": 61,
+                        "endOffset": 242
+                    }
+                }
+            }
+        ]
+    }
+]

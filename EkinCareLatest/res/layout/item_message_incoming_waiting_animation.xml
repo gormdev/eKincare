@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="8dp">
+
+    <FrameLayout
+        android:id="@+id/view_group_avatar_incoming_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentLeft="true"
+        >
+        <ImageView
+            android:id="@+id/image_view_incoming_text_avatar"
+            android:layout_width="@dimen/margin_30"
+            android:layout_height="@dimen/margin_30"
+            android:src="@drawable/icons_chat_logo"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/view_group_incoming_text_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/view_group_avatar_incoming_text"
+        android:background="@drawable/rounded_rectangle_shape_blue"
+        android:padding="@dimen/margin_8"
+        android:layout_marginRight="@dimen/margin_16">
+
+        <TextView
+            android:id="@+id/text_view_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:visibility="visible"
+            android:textAlignment="center"/>
+    </FrameLayout>
+
+
+</RelativeLayout>

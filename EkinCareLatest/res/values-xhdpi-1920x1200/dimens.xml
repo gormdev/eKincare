@@ -1,0 +1,103 @@
+<resources>
+
+    <dimen name="text_size_minor">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+
+    <dimen name="fab_size">25dp</dimen>
+    <dimen name="fab_right_margin">6dp</dimen>
+
+    <dimen name="toolbar_elevation">16dp</dimen>
+
+    <dimen name="family_member_list_app_bar_height">400dp</dimen>
+    <dimen name="family_member_list_item_image_size">45dp</dimen>
+    <dimen name="family_member_list_item_height">72dp</dimen>
+    <dimen name="family_member_list_item_margin">16dp</dimen>
+
+
+    <dimen name="card_view_shadow_elvation">2dp</dimen>
+    <dimen name="card_view_gap">8dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_icon_size">24dp</dimen>
+    <dimen name="fab_plus_icon_size">14dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+    <dimen name="fab_stroke_width">0.5dp</dimen>
+
+    <dimen name="app_bar_height">56dp</dimen>
+
+
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_17">17dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_45">45dp</dimen>
+    <dimen name="margin_48">48dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_52">52dp</dimen>
+    <dimen name="margin_55">55dp</dimen>
+    <dimen name="margin_56">56dp</dimen>
+    <dimen name="margin_70">70dp</dimen>
+    <dimen name="margin_65">65dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="margin_110">110dp</dimen>
+    <dimen name="margin_120">120dp</dimen>
+    <dimen name="margin_130">130dp</dimen>
+    <dimen name="margin_140">140dp</dimen>
+    <dimen name="margin_150">150dp</dimen>
+    <dimen name="margin_170">170dp</dimen>
+    <dimen name="margin_200">200dp</dimen>
+    <dimen name="margin_250">250dp</dimen>
+    <dimen name="margin_300">300dp</dimen>
+    <dimen name="margin_350">350dp</dimen>
+
+    <dimen name="textsize_20">20sp</dimen>
+    <dimen name="textsize_25">25sp</dimen>
+    <dimen name="textsize_30">30sp</dimen>
+    <dimen name="textsize_18">18sp</dimen>
+    <dimen name="textsize_22">22sp</dimen>
+    <dimen name="textsize_15">15sp</dimen>
+    <dimen name="textsize_14">14sp</dimen>
+    <dimen name="textsize_12">12sp</dimen>
+    <dimen name="textsize_13">13sp</dimen>
+    <dimen name="textsize_16">16sp</dimen>
+    <dimen name="textsize_45">45sp</dimen>
+    <dimen name="textsize_10">10sp</dimen>
+    <dimen name="textsize_8">8sp</dimen>
+
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_actions_spacing">16dp</dimen>
+    <dimen name="fab_labels_margin">8dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <!-- ScanPadding must be half of polygonViewCircleWidth -->
+
+    <dimen name="font_16">14.0sp</dimen>
+    <dimen name="font_18">16.0sp</dimen>
+    <dimen name="font_20">18.0sp</dimen>
+    <dimen name="font_24">16.0sp</dimen>
+
+    <dimen name="bloood_sos_dialog_purpos_text_size">14sp</dimen>
+
+</resources>

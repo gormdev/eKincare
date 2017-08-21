@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="compressedHeightandWidth">1024</integer>
+
+    <integer name="int_5">10</integer>
+    <integer name="int_10">20</integer>
+    <integer name="int_120">120</integer>
+    <integer name="int_200">400</integer>
+    <integer name="int_dashbooard_profile_textsize">50</integer>
+    <integer name="int_family_member_list_circle_size">40</integer>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/seperator"
+        style="@style/ImgSeperatorGray"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"
+        android:layout_height="@dimen/margin_1" />
+
+    <LinearLayout
+        android:id="@+id/ll_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seperator"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_16"
+        android:paddingRight="@dimen/margin_16"
+        android:paddingTop="@dimen/margin_16">
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/header_text_black"
+            style="@style/TvBlack16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="WEIGHT"
+            fab:typeface="roboto_regular" />
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/header_value"
+            style="@style/TvBlack16"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="value"
+            fab:typeface="roboto_regular" />
+    </LinearLayout>
+
+    <com.ekincare.util.RobotoTextView
+        android:id="@+id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_header"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:gravity="left"
+        android:paddingLeft="@dimen/margin_16"
+        android:paddingRight="@dimen/margin_16"
+        android:singleLine="true"
+        android:text="ddd"
+        android:textColor="@color/light_gray"
+        android:textSize="@dimen/textsize_14"
+        fab:typeface="roboto_light" />
+</RelativeLayout>

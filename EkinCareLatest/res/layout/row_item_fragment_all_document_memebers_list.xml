@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_container"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:clickable="true"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/margin_16"
+    android:paddingRight="@dimen/margin_16"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/row_item_fragment_all_document_members_list_image"
+        android:layout_width="@dimen/margin_40"
+        android:layout_height="@dimen/margin_40"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_image_black_48dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="56dp"
+        android:gravity="center"
+        android:layout_centerVertical="true">
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/row_item_fragment_all_document_members_list_name_text"
+            style="@style/TvBlack16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:singleLine="true"
+            card_view:typeface="roboto_regular" />
+
+        <com.ekincare.util.RobotoTextView
+            android:id="@+id/row_item_fragment_all_document_members_list_date_text"
+            style="@style/TvBlack14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:singleLine="true"
+            android:textColor="@color/light_gray"
+            fab:typeface="roboto_light" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

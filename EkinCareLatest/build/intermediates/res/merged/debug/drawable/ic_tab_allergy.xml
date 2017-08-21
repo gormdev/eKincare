@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When selected -->
+    <item android:drawable="@drawable/ic_allergy_blue_24px"
+        android:state_selected="false" />
+    <!-- When not selected-->
+</selector>

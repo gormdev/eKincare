@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center|top"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <com.ekincare.util.RobotoTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"
+        android:textColor="@color/card_first"
+        android:textSize="@dimen/textsize_22"
+        android:text="@string/what_your_waist_size"
+        android:gravity="center|left"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/margin_30"
+        fab:typeface="roboto_regular" />
+    <com.ekincare.util.RobotoTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"
+        android:textColor="@color/card_second"
+        android:textSize="@dimen/textsize_16"
+        android:visibility="gone"
+        android:text="@string/height_weight_recommended"
+        android:gravity="center|left"
+        fab:typeface="roboto_regular" />
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/wizerd_waist_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:gravity="center"
+        android:focusableInTouchMode="true"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:layout_marginRight="@dimen/margin_16"
+            android:layout_marginTop="@dimen/margin_30"
+            android:orientation="horizontal"
+            >
+            <com.ekincare.util.RobotoTextView
+                android:id="@+id/waist_wizard_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="@dimen/margin_10"
+                android:paddingTop="@dimen/margin_8"
+                android:textColor="@color/card_first"
+                android:textSize="@dimen/textsize_25"
+                fab:typeface="roboto_bold" />
+            <com.ekincare.util.RalewayTextViewMedium
+                android:id="@+id/waist_wizard_value_dimension"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_8"
+                android:paddingLeft="@dimen/margin_8"
+                android:gravity="bottom"
+                android:textColor="@color/card_second"
+                android:textSize="@dimen/textsize_14"
+                card_view:ralewaytypeface="raleway_regular" />
+        </LinearLayout>
+        <View
+            android:id="@+id/weight_wizard_value_underline"
+            android:layout_width="@dimen/margin_100"
+            android:layout_height="@dimen/margin_1"
+            android:layout_below="@+id/weight_wizard_value"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:background="@color/colorPrimary" />
+    </LinearLayout>
+
+    <com.ekincare.util.RobotoTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"
+        android:textColor="@color/card_first"
+        android:textSize="@dimen/textsize_22"
+        android:text="@string/what_your_blood_group"
+        android:gravity="center|left"
+        android:layout_marginTop="@dimen/margin_30"
+        fab:typeface="roboto_regular" />
+    <android.support.v7.widget.CardView
+        android:id="@+id/bloodgroup_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/margin_10"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        card_view:cardElevation="0dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:background="@color/white"
+            android:focusableInTouchMode="true" >
+
+
+
+            <LinearLayout
+                android:id="@+id/bloodgrouplayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtSavesTime"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginRight="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_15"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1" >
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/txtbloodgroupA"
+                    android:layout_width="@dimen/margin_60"
+                    android:layout_height="@dimen/margin_60"
+                    android:gravity="center"
+                    android:hint="A +"
+                    android:layout_margin="@dimen/margin_5"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberSigned"
+                    android:singleLine="true"
+                    fab:typeface="roboto_bold" />
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/txtbloodgroupB"
+                    android:layout_width="@dimen/margin_60"
+                    android:layout_height="@dimen/margin_60"
+                    android:gravity="center"
+                    android:hint="B +"
+                    android:layout_margin="@dimen/margin_5"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberSigned"
+                    android:singleLine="true"
+                    fab:typeface="roboto_bold" />
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/txtbloodgroupAB"
+                    android:layout_width="@dimen/margin_60"
+                    android:layout_height="@dimen/margin_60"
+                    android:gravity="center"
+                    android:hint="AB +"
+                    android:layout_margin="@dimen/margin_5"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberSigned"
+                    android:singleLine="true"
+                    fab:typeface="roboto_bold"  />
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/txtbloodgroupO"
+                    android:layout_width="@dimen/margin_60"
+                    android:layout_height="@dimen/margin_60"
+                    android:gravity="center"
+                    android:hint="O +"
+                    android:layout_margin="@dimen/margin_5"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberSigned"
+                    android:singleLine="true"
+                    fab:typeface="roboto_bold"  />
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/vitals_ll_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bloodgrouplayout"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginRight="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_15"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/margin_10"
+                android:weightSum="1" >
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/txtbloodgroupA_"
+                    android:layout_width="@dimen/margin_60"
+                    android:layout_height="@dimen/margin_60"
+                    android:gravity="center"
+                    android:hint="A -"
+                    android:layout_margin="@dimen/margin_5"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberSigned"
+                    android:singleLine="true"
+                    fab:typeface="roboto_bold"  />
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/txtbloodgroupB_"
+                    android:layout_width="@dimen/margin_60"
+                    android:layout_height="@dimen/margin_60"
+                    android:gravity="center"
+                    android:hint="B -"
+                    android:layout_margin="@dimen/margin_5"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberSigned"
+                    android:singleLine="true"
+                    fab:typeface="roboto_bold"  />
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/txtbloodgroupAB_"
+                    android:layout_width="@dimen/margin_60"
+                    android:layout_height="@dimen/margin_60"
+                    android:gravity="center"
+                    android:hint="AB -"
+                    android:layout_margin="@dimen/margin_5"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberSigned"
+                    android:singleLine="true"
+                    fab:typeface="roboto_bold"  />
+                <com.ekincare.util.RobotoTextView
+                    android:id="@+id/txtbloodgroupO_"
+                    android:layout_width="@dimen/margin_60"
+                    android:layout_height="@dimen/margin_60"
+                    android:gravity="center"
+                    android:hint="O -"
+                    android:layout_margin="@dimen/margin_5"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberSigned"
+                    android:singleLine="true"
+                    fab:typeface="roboto_bold"  />
+
+
+
+
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+</LinearLayout>
